@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { AppHeader, AppContent, AppFooter } from './components/layout'
 import { Breadcrumbs } from './components/library'
-import { SectionHero } from './components/sections'
+import { SectionHero, SectionIntro, SectionHistory } from './components/sections'
 
 class App extends Component {
   render() {
@@ -12,6 +12,8 @@ class App extends Component {
         <AppContent>
             <Breadcrumbs />
             <SectionHero />
+            <SectionIntro />
+            <SectionHistory />
         </AppContent>
 
         <AppFooter />

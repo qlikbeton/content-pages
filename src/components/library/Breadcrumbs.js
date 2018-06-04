@@ -5,6 +5,6 @@ const Breadcrumbs = props => (
   <div className="Breadcrumbs">
     <a>Breadcrumbs</a>
   </div>
-)
+);
 
 export default Breadcrumbs;

@@ -1,0 +1,32 @@
+/* Section-Intro */
+/* ---------------------------------------- */
+    
+  @import '../../assets/less/variables.less';
+  @import '../../assets/less/mixins.less';
+
+/* ---------------------------------------- */
+    
+  .Section-Intro {
+    background-color: @color-gray-light;
+
+    .Intro-left {
+      padding: 4rem;
+      position: relative;
+
+      &:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 50%;
+        bottom: 0;
+        .gradient-vertical;
+      }
+    }
+
+    .Intro-right {
+
+    }
+  }
+
+/* ---------------------------------------- */

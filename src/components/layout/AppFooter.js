@@ -5,6 +5,6 @@ const AppFooter = props => (
   <QlikFooter
     toggleDisplayAboutSectionLinks={() => console.log('footer')}
     toggleDisplayMoreSectionLinks={() => console.log('footer')} />
-)
+);
 
 export default AppFooter;

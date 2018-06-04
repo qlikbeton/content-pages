@@ -1,15 +1,19 @@
-/* Section */
+/* Grid */
 /* ---------------------------------------- */
     
   @import '../../assets/less/variables.less';
 
 /* ---------------------------------------- */
     
-  .Section {
-    
-    &.has-padding-vertical {
-      padding-top: 4rem;
-      padding-bottom: 4rem;
+  .Grid {
+    display: flex;
+
+    &.has-vcenter { align-items: center; }
+
+    .Grid-col {
+      &:nth-child(1) {
+        flex: 0 0 40rem;
+      }
     }
   }
 

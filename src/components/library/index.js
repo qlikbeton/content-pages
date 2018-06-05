@@ -4,6 +4,9 @@ import Image from './Image';
 import Heading from './Heading';
 import Text from './Text';
 import Feature from './Feature';
+import Card, { Cards } from './Card';
+import Person from './Person';
+import Button from './Button';
 
 export {
     Breadcrumbs,
@@ -12,5 +15,9 @@ export {
     Image,
     Heading,
     Text,
-    Feature
+    Feature,
+    Card,
+    Cards,
+    Person,
+    Button
 };

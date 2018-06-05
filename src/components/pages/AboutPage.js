@@ -1,7 +1,15 @@
 import React from 'react';
 import Page from './';
 import { Breadcrumbs } from '../library';
-import { SectionHero, SectionIntro, SectionHistory } from '../sections';
+import {
+  SectionHero,
+  SectionIntro,
+  SectionHistory,
+  SectionBenefits,
+  SectionBranding,
+  SectionTeam,
+  SectionCTA
+} from '../sections';
 
 const AboutPage = props => (
   <Page name="About">
@@ -9,6 +17,10 @@ const AboutPage = props => (
     <SectionHero />
     <SectionIntro />
     <SectionHistory />
+    <SectionBenefits />
+    <SectionBranding />
+    <SectionTeam />
+    <SectionCTA />
   </Page>
 );
 

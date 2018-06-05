@@ -1,30 +1,35 @@
-/* Grid */
+/* Person */
 /* ---------------------------------------- */
     
   @import '../../assets/less/variables.less';
 
 /* ---------------------------------------- */
     
-  .Grid {
+  .Person {
     display: flex;
-    margin: 1.4rem -1.4rem 0;
+    align-items: center;
+    padding: 0 1rem;
 
-    &.has-vcenter { align-items: center; }
+    .Person-image {
 
-    .Grid-col {
-      margin: 1.4rem;
+    }
+
+    .Person-info {
+      padding-left: 2rem;
+
+      .Heading {
+        text-transform: none;
+      }
     }
   }
 
-  .Grid {
+  .Person {
     @media (max-width: 1024px) {
       flex-direction: column;
-      margin-left: 0;
-      margin-right: 0;
 
-      .Grid-col {
-        margin-left: 0;
-        margin-right: 0;
+      .Person-info {
+        padding-left: 0;
+        padding-top: 1rem;
       }
     }
   }

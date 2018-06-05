@@ -6,7 +6,7 @@ import './SectionIntro.css';
 import img from '../../assets/img/img-intro.jpg';
 
 const SectionIntro = props => (
-  <Section name="Intro">
+  <Section name="Intro" background="gray">
     <div className="Intro-left">
       <Image src={img} />
     </div>

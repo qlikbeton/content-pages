@@ -6,11 +6,13 @@ const Section = props => {
   const styles = {};
   const classNames = ['Section'];
 
-  if(props.name) classNames.push(`Section-${props.name}`);
-  if(props.paddingH) classNames.push('has-padding-horizontal');
-  if(props.paddingV) classNames.push('has-padding-vertical');
-  if(props.cover) classNames.push('has-cover');
-  if(props.cover) styles.backgroundImage = `url(${props.cover})`;
+  if(props.name)      classNames.push(`Section-${props.name}`);
+  if(props.paddingH)  classNames.push('has-padding-horizontal');
+  if(props.paddingV)  classNames.push('has-padding-vertical');
+  if(props.center)    classNames.push('is-centered');
+  if(props.background)classNames.push(`has-background-${props.background}`);
+  if(props.cover)     classNames.push('has-cover');
+  if(props.cover)     styles.backgroundImage = `url(${props.cover})`;
 
   return (
     <section className={classNames.join(' ')} style={styles}>

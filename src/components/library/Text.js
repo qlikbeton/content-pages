@@ -8,6 +8,7 @@ const Text = props => {
   if(props.center) classNames.push('has-text-center');
   if(props.subtitle) classNames.push('is-subtitle');
   if(props.bold) classNames.push('is-bold');
+  if(props.light) classNames.push('is-light');
 
   return (
     <div className={classNames.join(' ')}>

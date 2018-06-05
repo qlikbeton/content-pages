@@ -2,10 +2,24 @@
 /* ---------------------------------------- */
     
   @import '../../assets/less/variables.less';
+  @import '../../assets/less/mixins.less';
 
 /* ---------------------------------------- */
     
   .Section {
+    padding: 3rem 0;
+
+    &.is-centered {
+      text-align: center;
+    }
+
+    &.has-background-gray {
+      background-color: @color-gray-light;
+    }
+
+    &.has-background-gradient {
+      .gradient-horizontal;
+    }
     
     &.has-padding-vertical {
       padding-top: 6rem;
@@ -17,6 +31,10 @@
       background-size: cover;
       background-position: center center;
       color: @color-white;
+
+      .Heading {
+        color: @color-white;
+      }
     }
   }
 

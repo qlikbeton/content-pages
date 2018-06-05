@@ -2,15 +2,71 @@
 /* ---------------------------------------- */
     
   @import '../../assets/less/variables.less';
+  @import '../../assets/less/mixins.less';
 
 /* ---------------------------------------- */
     
   .Image {
     position: relative;
+    display: inline-block;
     
     img {
       max-width: 100%;
       display: block;
+    }
+
+    &.has-accent {
+      margin-right: 2rem;
+
+      &:before {
+        content: "";
+        position: absolute;
+        top: 5%;
+        left: 0;
+        bottom: 5%;
+        right: 0;
+        display: block;
+        .gradient-vertical;
+      }
+
+      img {
+        position: relative;
+        padding-left: 2rem;
+      }
+
+      &.has-accent-right {
+        margin-right: 0;
+        margin-left: 2rem;
+
+        img {
+          padding-left: 0;
+          padding-right: 2rem;
+        }
+      }
+    }
+  }
+
+  .Image {
+    @media (max-width: 1024px) {
+      &.has-accent {
+        margin: 0;
+
+        &:before {
+          content: none;
+        }
+
+        img {
+          padding: 0;
+        }
+
+        &.has-accent-right {
+          margin: 0;
+
+          img {
+            padding: 0;
+          }
+        }
+      }
     }
   }
 

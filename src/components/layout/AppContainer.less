@@ -8,8 +8,17 @@
   .App-container {
 
     &.has-width-fixed {
-      max-width: 100rem;
+      max-width: 68rem;
       margin: 0 auto;
+    }
+  }
+
+  .App-container {
+    &,
+    &.has-width-fixed {
+      @media (max-width: 1024px) {
+        max-width: 100%;
+      }
     }
   }
 

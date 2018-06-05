@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
+import { Switch, Route } from 'react-router-dom';
 import { AppHeader, AppContent, AppFooter } from './components/layout'
-import { Breadcrumbs } from './components/library'
-import { SectionHero, SectionIntro, SectionHistory } from './components/sections'
+import { Pages } from './components/pages'
 
 class App extends Component {
   render() {
@@ -10,10 +10,10 @@ class App extends Component {
         <AppHeader />
 
         <AppContent>
-            <Breadcrumbs />
-            <SectionHero />
-            <SectionIntro />
-            <SectionHistory />
+          <Switch>
+            <Route path="/" exact component={Pages.Home} />
+            <Route path="/about"  component={Pages.About} />
+          </Switch>
         </AppContent>
 
         <AppFooter />

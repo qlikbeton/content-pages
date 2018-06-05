@@ -3,6 +3,7 @@ import { Grid, GridCol } from './Grid';
 import Image from './Image';
 import Heading from './Heading';
 import Text from './Text';
+import Feature from './Feature';
 
 export {
     Breadcrumbs,
@@ -10,5 +11,6 @@ export {
     GridCol,
     Image,
     Heading,
-    Text
+    Text,
+    Feature
 };

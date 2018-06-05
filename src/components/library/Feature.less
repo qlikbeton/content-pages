@@ -1,0 +1,56 @@
+/* Feature */
+/* ---------------------------------------- */
+    
+  @import '../../assets/less/variables.less';
+
+/* ---------------------------------------- */
+    
+  .Feature {
+    display: flex;
+    align-items: center;
+    padding: 2rem 0;
+
+    .Image {
+      flex: 0 0 30%;
+    }
+
+    .Feature-content {
+      padding-left: 10rem;
+    }
+
+    &.is-inversed {
+      .Image {
+        order: 2;
+      }
+
+      .Feature-content {
+        order: 1;
+        padding-left: 0;
+        padding-right: 10rem;
+        text-align: right;
+      }
+    }
+  }
+  
+  .Feature {
+    @media (max-width: 1024px) {
+      flex-direction: column;
+
+      .Feature-content {
+        padding: 0;
+      }
+
+      &.is-inversed {
+        .Image {
+          order: 1;
+        }
+
+        .Feature-content {
+          padding: 0;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+/* ---------------------------------------- */

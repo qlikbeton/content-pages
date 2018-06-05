@@ -5,6 +5,9 @@ const Text = props => {
   const classNames = ['Text'];
 
   if(props.noSpacing) classNames.push('has-no-spacing');
+  if(props.center) classNames.push('has-text-center');
+  if(props.subtitle) classNames.push('is-subtitle');
+  if(props.bold) classNames.push('is-bold');
 
   return (
     <div className={classNames.join(' ')}>

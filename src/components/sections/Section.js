@@ -1,18 +1,23 @@
 import React from 'react';
-import { AppContainer } from '../layout';
+import { AppContainer, AppWrapper } from '../layout';
 import './Section.css';
 
 const Section = props => {
+  const styles = {};
   const classNames = ['Section'];
 
   if(props.name) classNames.push(`Section-${props.name}`);
-  if(props.hPadding) classNames.push('has-padding-horizontal');
-  if(props.vPadding) classNames.push('has-padding-vertical');
+  if(props.paddingH) classNames.push('has-padding-horizontal');
+  if(props.paddingV) classNames.push('has-padding-vertical');
+  if(props.cover) classNames.push('has-cover');
+  if(props.cover) styles.backgroundImage = `url(${props.cover})`;
 
   return (
-    <section className={classNames.join(' ')}>
+    <section className={classNames.join(' ')} style={styles}>
       <AppContainer hasWidthFixed={props.container}>
-        {props.children}
+        <AppWrapper hasWidthFixed={props.wrapper}>
+          {props.children}
+        </AppWrapper>
       </AppContainer>
     </section>
   );

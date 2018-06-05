@@ -1,11 +1,12 @@
 import React from 'react';
 import Section from './';
-import { Heading } from '../library';
+import { Heading, Text } from '../library';
+import coverImg from '../../assets/img/hero-bg.jpg';
 
 const SectionHero = props => (
-  <Section name="Hero" container vPadding>
+  <Section name="Hero" container wrapper paddingV cover={coverImg}>
     <Heading h1 title="Hero Section" />
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar. In pulvinar eros ut lacus rhoncus, ac porttitor metus malesuada. Donec quis venenatis nulla. Integer mattis orci at placerat porttitor.</p>
+    <Text noSpacing>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue.</Text>
   </Section>
 );
 

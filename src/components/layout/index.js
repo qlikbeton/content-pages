@@ -1,6 +1,14 @@
 import AppHeader from './AppHeader';
 import AppContent from './AppContent';
-import AppContainer from './AppContainer';
 import AppFooter from './AppFooter';
 
-export { AppHeader, AppContent, AppContainer, AppFooter };
+import AppContainer from './AppContainer';
+import AppWrapper from './AppWrapper';
+
+export {
+  AppHeader,
+  AppContent,
+  AppFooter,
+  AppContainer,
+  AppWrapper
+};

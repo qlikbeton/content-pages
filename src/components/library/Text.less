@@ -1,10 +1,6 @@
 /* Text */
 /* ---------------------------------------- */
     
-  @import '../../assets/less/variables.less';
-
-/* ---------------------------------------- */
-    
   .Text {
     p {
       line-height: 160%;
@@ -22,8 +18,12 @@
     }
 
     &.is-subtitle {
-      font-size: @font-size-md;
+      font-size: 1.7rem;
       font-weight: bold;
+
+      &.is-regular {
+        font-weight: 400;
+      }
     }
 
     &.is-light {

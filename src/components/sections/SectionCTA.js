@@ -1,10 +1,15 @@
 import React from 'react';
-import Section from './';
+import Section, { SectionContent } from './';
 import { Button } from '../library';
+import { Gradient } from '../styles';
 
 const SectionCTA = props => (
-  <Section name="CTA" center background="gradient">
-    <Button label="Call To Action" />
+  <Section name="CTA" center minimal>
+    <Gradient type="horizontal">
+      <SectionContent>
+        <Button label="Call To Action" />
+      </SectionContent>
+    </Gradient>
   </Section>
 );
 

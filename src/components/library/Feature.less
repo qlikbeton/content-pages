@@ -1,39 +1,52 @@
 /* Feature */
 /* ---------------------------------------- */
     
-  @import '../../assets/less/variables.less';
-
-/* ---------------------------------------- */
-    
   .Feature {
     display: flex;
     align-items: center;
     padding: 2rem 0;
+    position: relative;
 
-    .Image {
-      flex: 0 0 30%;
+    .Feature-symbol {
+      position: absolute;
+      top: -6rem;
+      right: -18rem;
+      font-size: 20rem;
+      font-weight: bold;
+      color: #ef3030;
+      opacity: .2;
+      user-select: none;
+    }
+
+    .Feature-image {
+      flex: 0 0 40%;
     }
 
     .Feature-content {
-      padding-left: 10rem;
+      padding-left: 6rem;
     }
 
     &.is-inversed {
-      .Image {
+      .Feature-symbol {
+        right: auto;
+        left: -18rem;
+      }
+
+      .Feature-image {
         order: 2;
       }
 
       .Feature-content {
         order: 1;
         padding-left: 0;
-        padding-right: 10rem;
+        padding-right: 6rem;
         text-align: right;
       }
     }
   }
   
-  .Feature {
-    @media (max-width: 1024px) {
+  @media (max-width: 1024px) {
+    .Feature {
       flex-direction: column;
 
       .Feature-content {
@@ -41,7 +54,7 @@
       }
 
       &.is-inversed {
-        .Image {
+        .Feature-image {
           order: 1;
         }
 

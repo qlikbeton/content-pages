@@ -1,9 +1,14 @@
 import React from 'react';
+import { Gradient } from '../styles';
 import './Breadcrumbs.css';
 
 const Breadcrumbs = props => (
   <div className="Breadcrumbs">
-    <a>Breadcrumbs</a>
+    <Gradient type="horizontal">
+      <div className="Breadcrumbs-content">
+        <a>Breadcrumbs</a>
+      </div>
+    </Gradient>
   </div>
 );
 

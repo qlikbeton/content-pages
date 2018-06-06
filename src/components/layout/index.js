@@ -1,14 +1,9 @@
-import AppHeader from './AppHeader';
-import AppContent from './AppContent';
-import AppFooter from './AppFooter';
-
-import AppContainer from './AppContainer';
-import AppWrapper from './AppWrapper';
+import PageHeader from './PageHeader';
+import PageContent from './PageContent';
+import PageFooter from './PageFooter';
 
 export {
-  AppHeader,
-  AppContent,
-  AppFooter,
-  AppContainer,
-  AppWrapper
+  PageHeader,
+  PageContent,
+  PageFooter
 };

@@ -1,11 +1,6 @@
 /* Image */
 /* ---------------------------------------- */
     
-  @import '../../assets/less/variables.less';
-  @import '../../assets/less/mixins.less';
-
-/* ---------------------------------------- */
-    
   .Image {
     position: relative;
     display: inline-block;
@@ -26,7 +21,6 @@
         bottom: 5%;
         right: 0;
         display: block;
-        .gradient-vertical;
       }
 
       img {
@@ -46,8 +40,8 @@
     }
   }
 
-  .Image {
-    @media (max-width: 1024px) {
+  @media (max-width: 1024px) {
+    .Image {
       &.has-accent {
         margin: 0;
 

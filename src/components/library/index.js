@@ -7,6 +7,7 @@ import Feature from './Feature';
 import Card, { Cards } from './Card';
 import Person from './Person';
 import Button from './Button';
+import Intro from './Intro';
 
 export {
     Breadcrumbs,
@@ -19,5 +20,6 @@ export {
     Card,
     Cards,
     Person,
-    Button
+    Button,
+    Intro
 };

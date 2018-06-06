@@ -1,46 +1,81 @@
 /* Section */
 /* ---------------------------------------- */
     
-  @import '../../assets/less/variables.less';
-  @import '../../assets/less/mixins.less';
-
-/* ---------------------------------------- */
-    
   .Section {
-    padding: 3rem 0;
+    .Section-content {
+      padding: 6rem 0;
+    }
+
+    .Section-container {
+      &.has-width-fixed {
+        max-width: 68rem;
+        margin: 0 auto;
+      }
+    }
+
+    .Section-wrapper {
+      &.has-width-fixed {
+        max-width: 40rem;
+      }
+    }
+  }
+
+/* Modifiers */
+/* ---------------------------------------- */
+
+  .Section {
+    &.is-minimal {
+      .Section-content {
+        padding: 3rem 0;
+      }
+    }
 
     &.is-centered {
       text-align: center;
     }
-
+  
     &.has-background-gray {
-      background-color: @color-gray-light;
+      background-color: #f5f5f5;
     }
-
-    &.has-background-gradient {
-      .gradient-horizontal;
-    }
-    
-    &.has-padding-vertical {
-      padding-top: 6rem;
-      padding-bottom: 6rem;
+    .Section-content {
+      &.has-background-gray {
+        background-color: #f5f5f5;
+      }
     }
 
     &.has-cover {
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center center;
-      color: @color-white;
+      color: #fff;
 
       .Heading {
-        color: @color-white;
+        color: #fff;
       }
     }
   }
 
-  .Section {
-    @media (max-width: 1024px) {
+/* Responsiveness */
+/* ---------------------------------------- */
+
+  @media (max-width: 1024px) {
+    .Section {
       text-align: center;
+
+      .Section-container {
+        &,
+        &.has-width-fixed {
+          max-width: 100%;
+        }
+      }
+
+      .Section-wrapper {
+        &,
+        &.has-width-fixed {
+          max-width: 100%;
+          padding: 0 2rem;
+        }
+      }
     }
   }
 

@@ -11,6 +11,8 @@ import {
   SectionCTA
 } from '../sections';
 
+import { teamMembers } from '../../data';
+
 const AboutPage = props => (
   <Page name="About">
     <Breadcrumbs />
@@ -19,7 +21,7 @@ const AboutPage = props => (
     <SectionHistory />
     <SectionBenefits />
     <SectionBranding />
-    <SectionTeam />
+    <SectionTeam list={teamMembers} />
     <SectionCTA />
   </Page>
 );

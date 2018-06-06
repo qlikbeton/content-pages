@@ -1,5 +1,39 @@
-/* Mixins */
-/* --------------------------------------------- */
+/* Gradient */
+/* ---------------------------------------- */
+    
+  .Gradient {
+    &.is-horizontal:not(.is-before):not(.is-after) {
+      .gradient-horizontal;
+    }
+
+    &.is-horizontal.is-before {
+      & > :before {
+        .gradient-horizontal;
+      }
+    }
+
+    &.is-horizontal.is-after {
+      & > :after {
+        .gradient-horizontal;
+      }
+    }
+
+    &.is-vertical:not(.is-before):not(.is-after) {
+      .gradient-vertical;
+    }
+
+    &.is-vertical.is-before {
+      & > :before {
+        .gradient-vertical;
+      }
+    }
+
+    &.is-vertical.is-after {
+      & > :after {
+        .gradient-vertical;
+      }
+    }
+  }
 
   .gradient-horizontal {
     background: rgb(242,48,81); /* Old browsers */
@@ -17,4 +51,4 @@
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f23051', endColorstr='#fe6a39',GradientType=0 ); /* IE6-9 */
   }
 
-/* --------------------------------------------- */
+/* ---------------------------------------- */

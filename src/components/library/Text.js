@@ -9,6 +9,7 @@ const Text = props => {
   if(props.subtitle) classNames.push('is-subtitle');
   if(props.bold) classNames.push('is-bold');
   if(props.light) classNames.push('is-light');
+  if(props.regular) classNames.push('is-regular');
 
   return (
     <div className={classNames.join(' ')}>

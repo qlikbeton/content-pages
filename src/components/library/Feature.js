@@ -9,7 +9,10 @@ const Feature = props => {
 
   return (
     <div className={classNames.join(' ')}>
-      <Image src={props.image} accent accentRight={props.inversed} />
+      {props.symbol && <div className="Feature-symbol">{props.symbol}</div> }
+      <div className="Feature-image">
+        <Image src={props.image} accent accentRight={props.inversed} />
+      </div>
       <div className="Feature-content">
         {props.children}
       </div>

@@ -16,7 +16,7 @@ import { teamMembers } from '../../data';
 const AboutPage = props => (
   <Page name="About">
     <Breadcrumbs />
-    <SectionHero />
+    <SectionHero name="aboutHero" />
     <SectionIntro />
     <SectionHistory />
     <SectionBenefits />

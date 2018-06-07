@@ -6,7 +6,7 @@ import img from '../../assets/img/img-feature.jpg';
 const SectionHistory = props => (
   <Section name="History">
     <SectionContent container>
-      <Heading h1 title="History Section" accent />
+      <Heading h2 title="History Section" accent />
       <Text center subtitle>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue.</Text>
 
       <Feature image={img}>

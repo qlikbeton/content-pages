@@ -11,7 +11,7 @@ import {
 const ProjectPage = props => (
   <Page name="Project">
     <Breadcrumbs />
-    <SectionHero />
+    <SectionHero name="projectHero" cta="Call To Action" />
     <SectionIntro />
     <SectionStages />
     <SectionCTA />

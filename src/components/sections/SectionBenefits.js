@@ -5,7 +5,7 @@ import { Grid, GridCol, Heading, Text, Card } from '../library';
 const SectionBenefits = props => (
   <Section name="Benefits" background="gray">
     <SectionContent container>
-      <Heading h1 accent title="Benefits Section" />
+      <Heading h2 accent title="Benefits Section" />
 
       <Card>
         <Text center subtitle>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Text>

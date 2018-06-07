@@ -1,21 +1,29 @@
 /* Section */
 /* ---------------------------------------- */
+
+    @section-container-width: 74rem;
+    @section-wrapper-width: 40rem;
+
+/* ---------------------------------------- */
     
   .Section {
+    position: relative;
+    
     .Section-content {
       padding: 6rem 0;
+      overflow: hidden;
     }
 
     .Section-container {
       &.has-width-fixed {
-        max-width: 68rem;
+        max-width: @section-container-width;
         margin: 0 auto;
       }
     }
 
     .Section-wrapper {
       &.has-width-fixed {
-        max-width: 40rem;
+        max-width: @section-wrapper-width;
       }
     }
   }
@@ -32,6 +40,10 @@
 
     &.is-centered {
       text-align: center;
+
+      .Section-wrapper {
+        margin: 0 auto;
+      }
     }
   
     &.has-background-gray {

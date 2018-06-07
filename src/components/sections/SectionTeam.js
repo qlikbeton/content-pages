@@ -5,7 +5,7 @@ import { Person, Cards, Card, Heading, Text } from '../library';
 const SectionTeam = props => (
   <Section name="Team">
     <SectionContent container>
-      <Heading h1 accent title="Team Section" />
+      <Heading h2 accent title="Team Section" />
       <Text center subtitle>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Text>
 
       {props.list && 

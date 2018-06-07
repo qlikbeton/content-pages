@@ -1,24 +1,32 @@
 import React, { Component } from 'react';
+import { ConfigProvider } from '@qlibbeton/config';
+import { configFile } from './data';
 import { Switch, Route } from 'react-router-dom';
 import { PageHeader, PageContent, PageFooter } from './components/layout'
 import { Pages } from './components/pages'
 
 class App extends Component {
+  state = {
+    config: { ...configFile }
+  }
+
   render() {
     return (
-      <div className="App">
-        <PageHeader />
+      <ConfigProvider config={this.state.config}>
+        <div className="App">
+          <PageHeader />
 
-        <PageContent>
-          <Switch>
-            <Route path="/" exact   component={Pages.Home} />
-            <Route path="/about"    component={Pages.About} />
-            <Route path="/project"  component={Pages.Project} />
-          </Switch>
-        </PageContent>
+          <PageContent>
+            <Switch>
+              <Route path="/" exact   component={Pages.Home} />
+              <Route path="/about"    component={Pages.About} />
+              <Route path="/project"  component={Pages.Project} />
+            </Switch>
+          </PageContent>
 
-        <PageFooter />
-      </div>
+          <PageFooter />
+        </div>
+      </ConfigProvider>
     );
   }
 }

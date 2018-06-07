@@ -12,7 +12,7 @@ const Person = props => {
       </div>
 
       <div className="Person-info">
-        <Heading h1 title={props.name} />
+        <Heading h2 title={props.name} />
         <Text noSpacing bold>{props.title}</Text>
         <Text noSpacing>{props.children}</Text>
       </div>

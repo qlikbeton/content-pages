@@ -1,0 +1,47 @@
+/* ImageBackground */
+/* ---------------------------------------- */
+    
+  .Image-background {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-bottom: 95%;
+    position: relative;
+
+    &.is-half {
+      padding-bottom: 43.5%;
+    }
+
+    .Image {
+      display: none;
+    }
+
+    .Image-background-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      background-color: rgba(2,59,76,.4);
+      text-align: center;
+      padding: 0 2rem;
+      overflow: hidden;
+
+      * {
+        margin: 0;
+      }
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .Image-background {
+
+    }
+  }
+
+/* ---------------------------------------- */

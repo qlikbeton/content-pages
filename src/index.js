@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom';
 import configureStore from './store/configureStore';
-import registerServiceWorker from './registerServiceWorker';
 import App from './App';
 import './assets/less/globals.css';
 
@@ -21,5 +20,3 @@ ReactDOM.render(
         </BrowserRouter>
     </Provider>,
     document.getElementById('qlikbeton'));
-
-registerServiceWorker();

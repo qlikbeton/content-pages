@@ -1,6 +1,6 @@
 import React from 'react';
 import Section, { SectionContent } from './';
-import { Heading, Text, Feature } from '../library';
+import { Heading, Text, Feature, Gallery, Cards, Card, Button } from '../library';
 import img from '../../assets/img/img-feature.jpg';
 
 const SectionStages = props => (
@@ -11,8 +11,14 @@ const SectionStages = props => (
 
       <Feature image={img} symbol="01" inversed>
         <Heading h2 title="Lorem ipsum dolor sit amet, consectetur adipiscing elit" />
-        <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar. In pulvinar eros ut lacus rhoncus, ac porttitor metus malesuada. Donec quis venenatis nulla. Integer mattis orci at placerat porttitor.</Text>      
+        <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar. In pulvinar eros ut lacus rhoncus, ac porttitor metus malesuada. Donec quis venenatis nulla. Integer mattis orci at placerat porttitor.</Text>
       </Feature>
+
+      <Gallery />
+
+      <Card center>
+        <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar.</Text>
+      </Card>
     </SectionContent>
 
     <SectionContent container background="gray">
@@ -34,6 +40,13 @@ const SectionStages = props => (
         <Heading h2 title="Lorem ipsum dolor sit amet, consectetur adipiscing elit" />
         <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue.</Text>      
       </Feature>
+
+      <Card center>
+        <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar.</Text>
+        <Button label="Call To Action" primary />
+      </Card>
+
+      <Gallery />
     </SectionContent>
 
     <SectionContent container>

@@ -6,6 +6,7 @@ const Heading = props => {
   const classNames = ['Heading'];
 
   if(props.accent) classNames.push('has-accent');
+  if(props.inherit) classNames.push('has-inherit');
 
   const HeadingElement = (
     <div className={classNames.join(' ')}>

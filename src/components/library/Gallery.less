@@ -1,0 +1,42 @@
+/* Gallery */
+/* ---------------------------------------- */
+    
+  .Gallery {
+    display: flex;
+    margin: 1.4rem -1.4rem;
+
+    & > .Gallery-col {
+      flex: 1 1 50%;
+      display: flex;
+      flex-flow: column nowrap;
+      margin: 1.4rem;
+
+      & > .Gallery-col {
+        flex: 1 1 50%;
+
+        &:first-child {
+          margin-bottom: 2.8rem;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .Gallery {
+      margin-left: 0;
+      margin-right: 0;
+      flex-direction: column;
+
+      & > .Gallery-col {
+        margin: 0 0 1rem 0;
+
+        & > .Gallery-col {
+          &:first-child {
+            margin-bottom: 1rem;
+          }
+        }
+      }
+    }
+  }
+
+/* ---------------------------------------- */

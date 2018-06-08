@@ -1,7 +1,7 @@
 import React from 'react';
 import { withConfig } from '../config';
 import Section, { SectionContent } from './';
-import { Heading, Text, Button, Grid, GridCol } from '../library';
+import { Heading, Text, Button } from '../library';
 import coverImg from '../../assets/img/bg-hero.jpg';
 
 const SectionHero = ({ config, ...props }) => (

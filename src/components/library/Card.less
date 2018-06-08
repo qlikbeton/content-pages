@@ -15,11 +15,99 @@
     }
   }
 
+/* ---------------------------------------- */
+
+  .Card.Card-Step {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 3rem 6rem;
+
+    .Step-number {
+      font-size: 5.4rem;
+      flex: 0 0 10rem;
+      position: relative;
+      margin-right: 6rem;
+
+      .Step-number-container {
+        &:before {
+          content: "";
+          display: block;
+          width: .3rem;
+          height: 4rem;
+          position: absolute;
+          right: 0;
+          top: 50%;
+          margin-top: -2rem;
+        }
+      }
+    }
+
+    .Step-text {
+      font-size: .9em;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .Card.Card-Step {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+
+      .Step-number {
+        font-size: 4rem;
+        flex: 0 0 auto;
+        position: relative;
+        margin-right: 0;
+        padding-bottom: 1rem;
+        margin-bottom: 1rem;
+
+        .Step-number-container {
+          &:before {
+            width: 3rem;
+            height: .3rem;
+            right: auto;
+            left: 50%;
+            top: auto;
+            bottom: 0;
+            margin: 0 0 0 -1.5rem;
+          }
+        }
+      }
+
+      .Step-text {
+        font-size: 1em;
+      }
+    }
+  }
+
+/* ---------------------------------------- */
+
   .Cards {
     padding-bottom: 2.8rem;
 
+    &.has-2-cols {
+      display: flex;
+      flex-flow: row wrap;
+      margin: 0 -1.4rem;
+
+      & > .Card {
+        flex: 1 1 calc(~"50% - "2.8rem);
+        margin: 1.4rem;
+      }
+    }
+
     .Card {
       margin-bottom: 2.8rem;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .Cards {
+      &.has-2-cols {
+        flex-direction: column;
+      }
     }
   }
 

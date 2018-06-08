@@ -5,6 +5,7 @@ import {
   SectionHero,
   SectionIntro,
   SectionStages,
+  SectionAdvantages,
   SectionCTA
 } from '../sections';
 
@@ -14,6 +15,7 @@ const ProjectPage = props => (
     <SectionHero name="projectHero" cta="Call To Action" />
     <SectionIntro />
     <SectionStages />
+    <SectionAdvantages />
     <SectionCTA />
   </Page>
 );

@@ -5,11 +5,13 @@ import ImageBackground from './ImageBackground';
 import Heading from './Heading';
 import Text from './Text';
 import Feature from './Feature';
-import Card, { Cards } from './Card';
+import Card, { Cards, CardStep } from './Card';
 import Person from './Person';
 import Button from './Button';
 import Intro from './Intro';
 import Gallery from './Gallery';
+import Branding from './Branding';
+import Info from './Info';
 
 export {
     Breadcrumbs,
@@ -22,8 +24,11 @@ export {
     Feature,
     Card,
     Cards,
+    CardStep,
     Person,
     Button,
     Intro,
-    Gallery
+    Gallery,
+    Branding,
+    Info
 };

@@ -6,6 +6,7 @@ const Feature = props => {
   const classNames = ['Feature'];
 
   if(props.inversed) classNames.push('is-inversed');
+  if(props.full) classNames.push('is-full');
 
   return (
     <div className={classNames.join(' ')}>

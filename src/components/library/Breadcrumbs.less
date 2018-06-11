@@ -5,9 +5,26 @@
     
     .Breadcrumbs-content {
       padding: 1rem 3rem;
+      display: flex;
 
-      a {
+      a,
+      span {
         color: #fff;
+        display: block;
+        margin: 0 1rem;
+
+        &:first-child {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .Breadcrumbs {
+      .Breadcrumbs-content {
+        padding-left: 2rem;
+        padding-right: 2rem;
       }
     }
   }

@@ -9,14 +9,32 @@ import {
   SectionCTA
 } from '../sections';
 
+import { coverImg, introProjectImg } from '../../data';
+
 const ProjectPage = props => (
   <Page name="Project">
-    <Breadcrumbs />
-    <SectionHero name="projectHero" cta="Call To Action" />
-    <SectionIntro />
+    <Breadcrumbs nav={[
+      { label: 'Qlickbeton', to: '/' },
+      { label: 'Projects', to: '/projects' },
+      { label: 'Foundation' }
+    ]}/>
+
+    <SectionHero
+      name="projectHero"
+      cover={coverImg}
+      cta={{ key: 'cta', 'to': '/' }} />
+
+    <SectionIntro
+      name="projectIntro"
+      image={introProjectImg} />
+
     <SectionStages />
+
     <SectionAdvantages />
-    <SectionCTA />
+
+    <SectionCTA
+      name="projectCTA"
+      to="/about" />
   </Page>
 );
 

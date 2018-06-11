@@ -16,7 +16,7 @@ const Gallery = props => {
         </div>
         <div className="Gallery-col">
           <ImageBackground src={img01} half>
-            <Heading h1 title="DIY indice: 2/10" inherit />
+            <Heading h1 title="DIY indice: 2/10" inherit capitalize />
           </ImageBackground>
         </div>
       </div>

@@ -1,16 +1,17 @@
 import React from 'react';
+import { withConfig } from '../config';
 import Section, { SectionContent } from './';
 import { Button } from '../library';
 import { Gradient } from '../styles';
 
-const SectionCTA = props => (
+const SectionCTA = ({ config, ...props }) => (
   <Section name="CTA" center minimal>
     <Gradient type="horizontal">
       <SectionContent>
-        <Button label="Call To Action" />
+        <Button label={config.translate(props.name)('cta')} to={props.to} />
       </SectionContent>
     </Gradient>
   </Section>
 );
 
-export default SectionCTA;
+export default withConfig(SectionCTA);

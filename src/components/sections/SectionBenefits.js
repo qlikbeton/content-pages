@@ -1,28 +1,29 @@
 import React from 'react';
+import { withConfig } from '../config';
 import Section, { SectionContent } from './';
 import { Grid, GridCol, Heading, Text, Card } from '../library';
 
-const SectionBenefits = props => (
+const SectionBenefits = ({ config, ...props }) => (
   <Section name="Benefits" background="gray">
     <SectionContent container>
-      <Heading h2 accent title="Benefits Section" />
+      <Heading h2 accent title={config.translate(props.name)('title')} />
 
       <Card>
-        <Text center subtitle>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Text>
-        <Text center>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar.</Text>
+        <Text center subtitle>{config.translate(props.name)('firstCardFirstRow')}</Text>
+        <Text center>{config.translate(props.name)('firstCardSecondRow')}</Text>
       </Card>
 
       <Grid>
         <GridCol>
           <Card>
-            <Text center light>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar.</Text>
-            <Text center>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue.</Text>
+            <Text center light>{config.translate(props.name)('secondCardFirstRow')}</Text>
+            <Text center>{config.translate(props.name)('secondCardSecondRow')}</Text>
           </Card>
         </GridCol>
 
         <GridCol>
           <Card>
-            <Text center>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar.</Text>
+            <Text center>{config.translate(props.name)('thirdCardFirstRow')}</Text>
           </Card>
         </GridCol>
       </Grid>
@@ -30,4 +31,4 @@ const SectionBenefits = props => (
   </Section>
 );
 
-export default SectionBenefits;
+export default withConfig(SectionBenefits);

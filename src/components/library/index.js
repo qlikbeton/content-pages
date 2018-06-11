@@ -8,10 +8,10 @@ import Feature from './Feature';
 import Card, { Cards, CardStep } from './Card';
 import Person from './Person';
 import Button from './Button';
-import Intro from './Intro';
 import Gallery from './Gallery';
 import Branding from './Branding';
-import Info from './Info';
+import Info, { InfoCol } from './Info';
+import List, { ListItem } from './List';
 
 export {
     Breadcrumbs,
@@ -27,8 +27,10 @@ export {
     CardStep,
     Person,
     Button,
-    Intro,
     Gallery,
     Branding,
-    Info
+    Info,
+    InfoCol,
+    List,
+    ListItem
 };

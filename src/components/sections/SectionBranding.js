@@ -1,15 +1,15 @@
 import React from 'react';
+import { withConfig } from '../config';
 import Section, { SectionContent } from './';
 import { Heading, Text } from '../library';
-import coverImg from '../../assets/img/bg-hero.jpg';
 
-const SectionBranding = props => (
-  <Section name="Branding" center cover={coverImg}>
+const SectionBranding = ({ config, ...props }) => (
+  <Section name="Branding" center cover={props.cover}>
     <SectionContent container wrapper>
-      <Heading h2 accent title="Branding Section" />
-      <Text noSpacing center>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Text>
+      <Heading h2 accent title={config.translate(props.name)('title')} />
+      <Text noSpacing center>{config.translate(props.name)('text')}</Text>
     </SectionContent>
   </Section>
 );
 
-export default SectionBranding;
+export default withConfig(SectionBranding);

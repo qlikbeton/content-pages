@@ -1,7 +1,8 @@
 import React from 'react';
 import Section, { SectionContent } from './';
-import { Heading, Text, Feature, Gallery, Branding, Cards, Card, CardStep, Button, Info } from '../library';
+import { Heading, Text, Feature, List, ListItem, Gallery, Branding, Cards, Card, CardStep, Button, Info, InfoCol } from '../library';
 import img from '../../assets/img/img-feature.jpg';
+import coverImg from '../../assets/img/bg-hero.jpg';
 
 const SectionStages = props => (
   <React.Fragment>
@@ -42,20 +43,60 @@ const SectionStages = props => (
           </CardStep>
         </Cards>
 
-        {/*<Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue.</Text>
-        <Button label="Call To Action" primary />*/}
+        <Info vcenter>
+          <InfoCol cols={8}>
+            <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar.</Text>
+          </InfoCol>
+          <InfoCol cols={4}>
+            <Button label="Call To Action" to="/" primary small />
+          </InfoCol>
+        </Info>
 
-        <Branding />
+        <Branding cover={coverImg} title="Branding Section">
+          <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Text>
+          <br /><br />
+          <Heading h2 title="Materials" inherit capitalize />
+          <List>
+            <ListItem>
+              <div className="List-item-image"></div>
+              <div className="List-item-title">Pelleteuse</div>
+            </ListItem>
+            <ListItem>
+              <div className="List-item-image"></div>
+              <div className="List-item-title">Pelle</div>
+            </ListItem>
+            <ListItem>
+              <div className="List-item-image"></div>
+              <div className="List-item-title">Fil</div>
+            </ListItem>
+            <ListItem>
+              <div className="List-item-image"></div>
+              <div className="List-item-title">Fil a plomb</div>
+            </ListItem>
+            <ListItem>
+              <div className="List-item-image"></div>
+              <div className="List-item-title">Dameuse</div>
+            </ListItem>
+            <ListItem>
+              <div className="List-item-image"></div>
+              <div className="List-item-title">Niveau</div>
+            </ListItem>
+          </List>
+        </Branding>
 
         <Card center>
-          <Heading h3 title="Cest quoi?" />
+          <Heading h2 title="Cest quoi?" capitalize />
           <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar.</Text>
         </Card>
 
-        {/*<Info>
-          <Heading h3 title="Le Qlik" />
-          <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue.</Text>
-        </Info>*/}
+        <Info>
+          <InfoCol cols={4}>
+            <Heading h2 title="Le Qlik" capitalize />
+          </InfoCol>
+          <InfoCol cols={8}>
+            <Text noSpacing>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue.</Text>
+          </InfoCol>
+        </Info>
       </SectionContent>
     </Section>
 
@@ -81,10 +122,38 @@ const SectionStages = props => (
           </Card>
         </Cards>
 
-        <Branding />
+        <Branding cover={coverImg} title="Branding Section">
+          <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Text>
+          <br /><br />
+          <Heading h2 title="Materials" inherit capitalize />
+          <List>
+            <ListItem>
+              <div className="List-item-image"></div>
+              <div className="List-item-title">Pelleteuse</div>
+            </ListItem>
+            <ListItem>
+              <div className="List-item-image"></div>
+              <div className="List-item-title">Pelle</div>
+            </ListItem>
+            <ListItem>
+              <div className="List-item-image"></div>
+              <div className="List-item-title">Fil</div>
+            </ListItem>
+            <ListItem>
+              <div className="List-item-image"></div>
+              <div className="List-item-title">Fil a plomb</div>
+            </ListItem>
+          </List>
+        </Branding>
 
-        {/*<Heading h3 title="Le Qlik" />
-        <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue.</Text>*/}
+        <Info>
+          <InfoCol cols={4}>
+            <Heading h2 title="Le Qlik" capitalize />
+          </InfoCol>
+          <InfoCol cols={8}>
+            <Text noSpacing>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue.</Text>
+          </InfoCol>
+        </Info>
       </SectionContent>
     </Section>
 
@@ -97,7 +166,7 @@ const SectionStages = props => (
 
         <Card center>
           <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar.</Text>
-          <Button label="Call To Action" primary />
+          <Button label="Call To Action" to="/" primary small />
         </Card>
 
         <Gallery />
@@ -123,9 +192,38 @@ const SectionStages = props => (
           </CardStep>
         </Cards>
 
-        <Branding />
+        <Branding cover={coverImg} title="Branding Section">
+          <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Text>
+          <Heading h1 title="DIY indice: 7/10" inherit spacing capitalize />
+          <Heading h2 title="Materials" inherit capitalize />
+          <List>
+            <ListItem>
+              <div className="List-item-image"></div>
+              <div className="List-item-title">Pelleteuse</div>
+            </ListItem>
+            <ListItem>
+              <div className="List-item-image"></div>
+              <div className="List-item-title">Pelle</div>
+            </ListItem>
+            <ListItem>
+              <div className="List-item-image"></div>
+              <div className="List-item-title">Fil</div>
+            </ListItem>
+            <ListItem>
+              <div className="List-item-image"></div>
+              <div className="List-item-title">Fil a plomb</div>
+            </ListItem>
+          </List>
+        </Branding>
 
-        {/*<Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue.</Text>*/}
+        <Info>
+          <InfoCol cols={4}>
+            <Heading h2 title="Lorem ipsum dolor sit amet" capitalize />
+          </InfoCol>
+          <InfoCol cols={8}>
+            <Text noSpacing>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue.</Text>
+          </InfoCol>
+        </Info>
       </SectionContent>
     </Section>
   </React.Fragment>

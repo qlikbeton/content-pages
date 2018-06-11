@@ -1,0 +1,43 @@
+/* List */
+/* ---------------------------------------- */
+    
+  .List {
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+
+    .List-item {
+      text-align: center;
+      flex: 0 1 10rem;
+
+      .List-item-image {
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+        background-color: #efefef;
+        margin: 0 auto;
+      }
+
+      .List-item-title {
+        margin-top: 2rem;
+      }
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .List {
+      flex-wrap: wrap;
+
+      .List-item {
+        flex: 0 0 50%;
+        margin: 1rem 0;
+
+        .List-item-image {
+          width: 6rem;
+          height: 6rem;
+        }
+      }
+    }
+  }
+
+/* ---------------------------------------- */

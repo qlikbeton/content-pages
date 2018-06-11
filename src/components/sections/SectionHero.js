@@ -2,14 +2,13 @@ import React from 'react';
 import { withConfig } from '../config';
 import Section, { SectionContent } from './';
 import { Heading, Text, Button } from '../library';
-import coverImg from '../../assets/img/bg-hero.jpg';
 
 const SectionHero = ({ config, ...props }) => (
-  <Section name="Hero" cover={coverImg}>
+  <Section name="Hero" cover={props.cover}>
     <SectionContent container wrapper>
       <Heading h1 title={config.translate(props.name)('title')} />
       <Text noSpacing>{config.translate(props.name)('text')}</Text>
-      {/*<Button primary label={props.cta} />*/}
+      {props.cta && <Button primary label={config.translate(props.name)(props.cta.key)} to={props.cta.to} />}
     </SectionContent>
   </Section>
 );

@@ -1,23 +1,21 @@
 import React from 'react';
+import { withConfig } from '../config';
 import Section, { SectionContent } from './';
 import { Heading, Text, Feature } from '../library';
-import img from '../../assets/img/img-feature.jpg';
 
-const SectionHistory = props => (
+const SectionHistory = ({ config, ...props }) => (
   <Section name="History">
     <SectionContent container>
-      <Heading h2 title="History Section" accent />
-      <Text center subtitle>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue.</Text>
+      <Heading h2 title={config.translate(props.name)('title')} accent />
+      <Text center subtitle>{config.translate(props.name)('subtitle')}</Text>
 
-      <Feature image={img}>
-        <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar. In pulvinar eros ut lacus rhoncus, ac porttitor metus malesuada. Donec quis venenatis nulla. Integer mattis orci at placerat porttitor.</Text>      
-      </Feature>
-
-      <Feature image={img} inversed>
-        <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar. In pulvinar eros ut lacus rhoncus, ac porttitor metus malesuada. Donec quis venenatis nulla. Integer mattis orci at placerat porttitor.</Text>      
-      </Feature>
+      {props.rows && props.rows.map((row, idx) => (
+        <Feature image={row.image} key={idx} inversed={idx % 2 === 1}>
+          <Text>{config.translate(props.name)(row.key)}</Text>
+        </Feature>
+      ))}
     </SectionContent>
   </Section>
 );
 
-export default SectionHistory;
+export default withConfig(SectionHistory);

@@ -3,12 +3,34 @@
     
   .Info {
     display: flex;
-    align-items: center;
+    margin: 2.8rem 0;
+
+    &.has-vcenter { align-items: center; }
+
+    .Info-col {
+      &.has-4-cols {
+        flex: 1 1 25%;
+      }
+
+      &.has-8-cols {
+        flex: 1 1 75%;
+      }
+
+      &:last-child {
+        text-align: right;
+      }
+    }
   }
 
   @media (max-width: 1024px) {
     .Info {
-      
+      flex-direction: column;
+
+      .Info-col {
+        &:last-child {
+          text-align: center;
+        }
+      }
     }
   }
 

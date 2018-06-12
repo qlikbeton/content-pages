@@ -18,9 +18,11 @@ class App extends Component {
 
           <PageContent>
             <Switch>
-              <Route path="/" exact   component={Pages.Home} />
-              <Route path="/about"    component={Pages.About} />
-              <Route path="/project"  component={Pages.Project} />
+              <Route path="/" exact     component={Pages.Home} />
+              <Route path="/about"      component={Pages.About} />
+              <Route path="/project"    component={Pages.Project} />
+              <Route path="/contact"    component={Pages.Contact} />
+              <Route path="/locations"  component={Pages.Locations} />
             </Switch>
           </PageContent>
 

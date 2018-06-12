@@ -13,11 +13,11 @@ import {
 
 import { teamMembers, historyRows, coverImg, introImg } from '../../data';
 
-const AboutPage = props => (
+const LocationsPage = props => (
   <Page name="About">
     <Breadcrumbs nav={[
       { label: 'Qlikbeton', to: '/' },
-      { label: 'About Us' }
+      { label: 'Locations' }
     ]}/>
 
     <SectionHero
@@ -28,25 +28,10 @@ const AboutPage = props => (
       name="aboutIntro"
       image={introImg} />
 
-    <SectionHistory
-      name="aboutHistory"
-      rows={historyRows} />
-
-    <SectionBenefits
-      name="aboutBenefits" />
-
-    <SectionBranding
-      name="aboutBranding"
-      cover={coverImg} />
-
-    <SectionTeam
-      name="aboutTeam"
-      list={teamMembers} />
-
     <SectionCTA
       name="aboutCTA"
       to="/project" />
   </Page>
 );
 
-export default AboutPage;
+export default LocationsPage;

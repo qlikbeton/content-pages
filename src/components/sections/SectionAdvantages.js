@@ -1,16 +1,28 @@
 import React from 'react';
+import { withConfig } from '../config';
 import Section, { SectionContent } from './';
 import { Heading, Text, Gallery } from '../library';
+import galleryImg from '../../assets/img/img-gallery.jpg';
 
-const SectionAdvantages = props => (
+const SectionAdvantages = ({ config, ...props }) => (
   <Section name="Advantages" center background="gray">
     <SectionContent container>
-      <Heading h2 title="Advantages Section" accent />
-      <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar. In pulvinar eros ut lacus rhoncus, ac porttitor metus malesuada. Donec quis venenatis nulla. Integer mattis orci at placerat porttitor.</Text>
+      <Heading h2 title={config.translate(props.name)('title')} accent />
+      <Text>{config.translate(props.name)('text')}</Text>
 
-      <Gallery />
+      <Gallery images={{
+          first: {
+            image: galleryImg
+          },
+          second: {
+            image: galleryImg
+          },
+          third: {
+            image: galleryImg
+          }
+        }} />
     </SectionContent>
   </Section>
 );
 
-export default SectionAdvantages;
+export default withConfig(SectionAdvantages);

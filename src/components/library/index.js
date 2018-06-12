@@ -5,11 +5,12 @@ import ImageBackground from './ImageBackground';
 import Heading from './Heading';
 import Text from './Text';
 import Feature from './Feature';
-import Card, { Cards, CardStep } from './Card';
+import Card, { Cards, CardStep, CardCol } from './Card';
 import Person from './Person';
 import Button from './Button';
 import Gallery from './Gallery';
 import Branding from './Branding';
+import Icon from './Icon';
 import Info, { InfoCol } from './Info';
 import List, { ListItem } from './List';
 
@@ -25,10 +26,12 @@ export {
     Card,
     Cards,
     CardStep,
+    CardCol,
     Person,
     Button,
     Gallery,
     Branding,
+    Icon,
     Info,
     InfoCol,
     List,

@@ -92,9 +92,15 @@
       flex-flow: row wrap;
       margin: -2.8rem -1.4rem 0;
 
-      & > .Card {
+      & > .Card-col {
         flex: 1 1 calc(~"50% - "2.8rem);
-        margin: 2.8rem 1.4rem 0;
+        margin: 0 1.4rem;
+        padding: 1.4rem 0;
+
+        .Card {
+          margin: 1.4rem 0;
+          height: 100%;
+        }
       }
     }
 
@@ -107,6 +113,10 @@
     .Cards {
       &.has-2-cols {
         flex-direction: column;
+
+        & > .Card-col {
+          padding: 0;
+        }
       }
     }
   }

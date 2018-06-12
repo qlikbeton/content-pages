@@ -14,7 +14,7 @@ import { coverImg, introProjectImg } from '../../data';
 const ProjectPage = props => (
   <Page name="Project">
     <Breadcrumbs nav={[
-      { label: 'Qlickbeton', to: '/' },
+      { label: 'Qlikbeton', to: '/' },
       { label: 'Projects', to: '/projects' },
       { label: 'Foundation' }
     ]}/>
@@ -28,9 +28,11 @@ const ProjectPage = props => (
       name="projectIntro"
       image={introProjectImg} />
 
-    <SectionStages />
+    <SectionStages
+      name="projectStages" />
 
-    <SectionAdvantages />
+    <SectionAdvantages
+      name="projectAdvantages" />
 
     <SectionCTA
       name="projectCTA"

@@ -8,6 +8,7 @@ const Heading = props => {
   if(props.accent) classNames.push('has-accent');
   if(props.inherit) classNames.push('has-inherit');
   if(props.spacing) classNames.push('has-spacing');
+  if(props.spacingTop) classNames.push('has-spacing-top');
   if(props.capitalize) classNames.push('is-capitalize');
 
   const HeadingElement = (

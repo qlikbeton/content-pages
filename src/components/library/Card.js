@@ -40,9 +40,16 @@ const Cards = props => {
   );
 }
 
+const CardCol = props => (
+  <div className="Card-col">
+    {props.children}
+  </div>
+);
+
 export default Card;
 
 export {
   Cards,
-  CardStep
+  CardStep,
+  CardCol
 };

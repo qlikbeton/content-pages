@@ -13,6 +13,7 @@ import Branding from './Branding';
 import Icon from './Icon';
 import Info, { InfoCol } from './Info';
 import List, { ListItem } from './List';
+import Form, { FormRow, FormFooter, FormInput, FormTextarea } from './Form';
 
 export {
     Breadcrumbs,
@@ -35,5 +36,10 @@ export {
     Info,
     InfoCol,
     List,
-    ListItem
+    ListItem,
+    Form,
+    FormRow,
+    FormFooter,
+    FormInput,
+    FormTextarea
 };

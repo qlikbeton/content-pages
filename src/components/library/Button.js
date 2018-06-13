@@ -9,6 +9,7 @@ const Button = props => {
   if(props.primary) classNames.push('is-primary');
   if(props.small) classNames.push('is-small');
   if(props.icon) classNames.push('has-icon');
+  if(props.wide) classNames.push('is-wide');
 
   const ButtonContent = (
     <React.Fragment>
@@ -24,6 +25,9 @@ const Button = props => {
 
       {props.onClick &&
         <a onClick={props.onClick}>{ButtonContent}</a>}
+
+      {props.submit &&
+        <button type="submit">{ButtonContent}</button>}
     </div>
   );
 }

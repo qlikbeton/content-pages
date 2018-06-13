@@ -3,30 +3,33 @@ import Page from './';
 import { Breadcrumbs } from '../library';
 import {
   SectionHero,
-  SectionIntro,
-  SectionHistory,
-  SectionBenefits,
-  SectionBranding,
-  SectionTeam,
+  SectionContactDetails,
+  SectionContactForm,
   SectionCTA
 } from '../sections';
 
-import { teamMembers, historyRows, coverImg, introImg } from '../../data';
+import { coverImg } from '../../data';
 
 const ContactPage = props => (
-  <Page name="About">
+  <Page name="Contact">
     <Breadcrumbs nav={[
       { label: 'Qlikbeton', to: '/' },
       { label: 'Contact' }
     ]}/>
 
     <SectionHero
-      name="aboutHero"
+      name="contactHero"
       cover={coverImg} />
+
+    <SectionContactDetails
+      name="contactDetails" />
+
+    <SectionContactForm 
+      name="contactForm" />
       
     <SectionCTA
-      name="aboutCTA"
-      to="/project" />
+      name="contactCTA"
+      to="/" />
   </Page>
 );
 

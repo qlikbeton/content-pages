@@ -8,6 +8,8 @@ import SectionTeam from './SectionTeam';
 import SectionCTA from './SectionCTA';
 import SectionStages from './SectionStages';
 import SectionAdvantages from './SectionAdvantages';
+import SectionContactDetails from './SectionContactDetails';
+import SectionContactForm from './SectionContactForm';
 
 export default Section;
 
@@ -24,5 +26,7 @@ export {
     SectionTeam,
     SectionCTA,
     SectionStages,
-    SectionAdvantages
+    SectionAdvantages,
+    SectionContactDetails,
+    SectionContactForm
 };

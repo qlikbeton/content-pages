@@ -2,7 +2,8 @@
 /* ---------------------------------------- */
     
   .Button {
-    a {
+    a,
+    button {
       display: inline-block;
       padding: 1.4rem 2rem 1.2rem;
       background-color: #fff;
@@ -10,6 +11,8 @@
       font-weight: bold;
       text-transform: uppercase;
       transform: scale(1);
+      border: 0;
+      cursor: pointer;
 
       // &:hover {
       //   box-shadow: 0 1px 15px 0 rgba(0,0,0,.2);
@@ -22,7 +25,8 @@
     }
 
     &.is-primary {
-      a {
+      a,
+      button {
         color: #fff;
         background: rgb(242,48,81); /* Old browsers */
         background: -moz-linear-gradient(left, rgba(242,48,81,1) 0%, rgba(254,106,57,1) 100%); /* FF3.6-15 */
@@ -32,16 +36,10 @@
       }
     }
 
-    &.is-small {
-      a {
-        font-size: .8em;
-        font-weight: normal;
-      }
-    }
-
     &.has-icon {
 
-      a {
+      a,
+      button {
         position: relative;
 
         .Button-label {
@@ -55,6 +53,36 @@
           height: 100%;
           display: flex;
           align-items: center;
+
+          .Icon {
+            height: .9rem;
+          }
+        }
+      }
+    }
+
+    &.is-small {
+      a,
+      button {
+        padding: 1.8rem 2rem 1.6rem;
+        font-size: .8em;
+        font-weight: normal;
+      }
+    }
+
+    &.is-wide {
+      a,
+      button {
+        padding-left: 4rem;
+        padding-right: 4rem;
+      }
+
+      &.has-icon {
+        a,
+        button {
+          .Button-icon {
+            right: 4rem;
+          }
         }
       }
     }

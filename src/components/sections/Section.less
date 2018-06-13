@@ -67,6 +67,35 @@
     }
   }
 
+
+/* Responsiveness */
+/* ---------------------------------------- */
+
+  @media (max-width: 1024px) {
+    .Section {
+      text-align: center;
+
+      .Section-content {
+        padding: 3rem 0;
+      }
+
+      .Section-container {
+        &,
+        &.has-width-fixed {
+          max-width: 100%;
+        }
+      }
+
+      .Section-wrapper {
+        &,
+        &.has-width-fixed {
+          max-width: 100%;
+          padding: 0 2rem;
+        }
+      }
+    }
+  }
+
 /* Single */
 /* ---------------------------------------- */
 
@@ -145,31 +174,74 @@
     }
   }
 
-/* Responsiveness */
-/* ---------------------------------------- */
+  .Section.Section-ContactDetails {
+    .Contact-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: #023b4c;
 
-  @media (max-width: 1024px) {
-    .Section {
-      text-align: center;
-
-      .Section-content {
-        padding: 3rem 0;
-      }
-
-      .Section-container {
-        &,
-        &.has-width-fixed {
-          max-width: 100%;
-        }
-      }
-
-      .Section-wrapper {
-        &,
-        &.has-width-fixed {
-          max-width: 100%;
+      & > div {
+        &:nth-child(2) {
           padding: 0 2rem;
+          border: 1px solid #c5c5c5;
+          border-top: 0;
+          border-bottom: 0;
+        }
+
+        &._row {
+          display: flex;
         }
       }
+
+      ._contact-title {
+        font-size: .9em;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+
+      ._contact-opening {
+        font-size: .9em;
+      }
+
+      ._contact-phone {
+        text-align: center;
+        padding: 0 4rem;
+
+        ._contact-phone-no {
+          font-weight: bold;
+          font-size: 1.5em;
+          letter-spacing: .3rem;
+        }
+
+        ._contact-phone-desc {
+          position: relative;
+
+          span {
+            font-size: .8em;
+            background-color: #fff;
+            position: relative;
+            z-index: 1;
+            padding: 0 .4rem;
+          }
+
+          &:after {
+            content: "";
+            width: 98%;
+            height: 1px;
+            position: absolute;
+            left: 0;
+            bottom: .6em;
+            background-color: #023b4c;
+          }
+        }
+      }
+    }
+  }
+
+  .Section.Section-ContactForm {
+    .Card {
+      padding: 6rem 4rem;
     }
   }
 

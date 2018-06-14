@@ -1,7 +1,7 @@
 import React from 'react';
 import { withConfig } from '../config';
 import Section, { SectionContent } from './';
-import { Text, Image, Heading, Button, Icon } from '../library';
+import { Button, Icon } from '../library';
 
 const SectionContactDetails = ({ config, ...props }) => (
   <Section name="ContactDetails">
@@ -9,11 +9,11 @@ const SectionContactDetails = ({ config, ...props }) => (
       <div className="Contact-row">
         <div className="_row">
           <div>
-            <Icon name="download" />
+            <Icon name="headset" size="large" />
           </div>
-          <div>
-            <div className="_contact-title">Contact us</div>
-            <div className="_contact-opening">MON - FRI (9:00-17:00)</div>
+          <div className="_contact-schedule">
+            <div className="_contact-title">{config.translate(props.name)('contactUs')}</div>
+            <div className="_contact-opening">{config.translate(props.name)('opening')}</div>
           </div>
         </div>
 
@@ -22,13 +22,18 @@ const SectionContactDetails = ({ config, ...props }) => (
             <Icon name="phone" />
           </div>
           <div className="_contact-phone">
-            <div className="_contact-phone-no">0800-14-245</div>
-            <div className="_contact-phone-desc"><span>Appel gratuit</span></div>
+            <div className="_contact-phone-no">{config.translate(props.name)('phoneNumber')}</div>
+            <div className="_contact-phone-desc"><span>{config.translate(props.name)('freeCall')}</span></div>
           </div>
         </div>
 
         <div>
-          <Button label="Appeler Maintenant" icon="chat" onClick={() => console.log('click')} primary small />
+          <Button primary small
+            label={config.translate(props.name)('callSupport')}
+            icon="chat"
+            iconSize="regular"
+            iconPosition="left"
+            onClick={() => console.log('click')} />
         </div>
       </div>
     </SectionContent>

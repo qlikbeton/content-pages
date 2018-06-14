@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import { Icon } from './';
 import './Button.css';
@@ -8,13 +9,14 @@ const Button = props => {
 
   if(props.primary) classNames.push('is-primary');
   if(props.small) classNames.push('is-small');
-  if(props.icon) classNames.push('has-icon');
+  if(props.link) classNames.push('is-link');
+  if(props.icon) classNames.push('has-icon', `has-icon-position-${props.iconPosition}`, `has-icon-size-${props.iconSize}`);
   if(props.wide) classNames.push('is-wide');
 
   const ButtonContent = (
     <React.Fragment>
       <span className="Button-label">{props.label}</span>
-      {props.icon && <span className="Button-icon"><Icon name={props.icon} /></span>}
+      {props.icon && <span className="Button-icon"><Icon name={props.icon} size={props.iconSize} /></span>}
     </React.Fragment>
   );
 
@@ -31,5 +33,15 @@ const Button = props => {
     </div>
   );
 }
+
+Button.propTypes = {
+  iconSize: PropTypes.string,
+  iconPosition: PropTypes.string
+};
+
+Button.defaultProps = {
+  iconSize: 'small',
+  iconPosition: 'right'
+};
 
 export default Button;

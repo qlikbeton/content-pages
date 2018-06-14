@@ -3,7 +3,7 @@ import './Form.css';
 
 const Form = props => (
   <div className="Form">
-    <form>{props.children}</form>
+    <form {...props}>{props.children}</form>
   </div>
 );
 
@@ -19,18 +19,26 @@ const FormFooter = props => (
   </div>
 );
 
-const FormInput = props => (
-  <div className="Form-field Form-input">
-    <label>{props.label}</label>
-    <input {...props} />
+const FormField = props => (
+  <div className={`Form-field Form-${props.name} ${props.hasError ? 'has-error' : ''}`}>
+    <label>
+      <div>{props.label}</div>
+      {props.addon && <div>{props.addon}</div>}
+    </label>
+    {props.children}
   </div>
 );
 
-const FormTextarea = props => (
-  <div className="Form-field Form-textarea">
-    <label>{props.label}</label>
+const FormInput = ({ addon, hasError, ...props }) => (
+  <FormField name="Input" {...props} hasError={hasError} addon={addon}>
+    <input {...props} />
+  </FormField>
+);
+
+const FormTextarea = ({ addon, hasError, ...props }) => (
+  <FormField name="Textarea" {...props} hasError={hasError} addon={addon}>
     <textarea {...props} />
-  </div>
+  </FormField>
 );
 
 export default Form;

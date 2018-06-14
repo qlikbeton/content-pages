@@ -22,6 +22,24 @@
       // &:active {
       //   transform: scale(1.02);
       // }
+
+      &:hover {
+        background: #ef3030;
+        color: #fff;
+      }
+    }
+
+    &.is-link {
+      a {
+        padding: 0;
+        text-transform: none;
+        font-size: .8em;
+
+        &:hover {
+          background: transparent;
+          color: #ef3030;
+        }
+      }
     }
 
     &.is-primary {
@@ -33,6 +51,11 @@
         background: -webkit-linear-gradient(left, rgba(242,48,81,1) 0%,rgba(254,106,57,1) 100%); /* Chrome10-25,Safari5.1-6 */
         background: linear-gradient(to right, rgba(242,48,81,1) 0%,rgba(254,106,57,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f23051', endColorstr='#fe6a39',GradientType=1 ); /* IE6-9 */
+
+        &:hover {
+          transition: none;
+          background: #ef3030;
+        }
       }
     }
 
@@ -42,47 +65,69 @@
       button {
         position: relative;
 
-        .Button-label {
-          padding-right: 2rem;
-        }
-
         .Button-icon {
           position: absolute;
-          right: 2rem;
           top: 0;
           height: 100%;
           display: flex;
           align-items: center;
-
-          .Icon {
-            height: .9rem;
-          }
         }
+      }
+
+      &.has-icon-position-left { a, button { .Button-icon { left: 2rem; }}}
+      &.has-icon-position-right { a, button { .Button-icon { right: 2rem; }}}
+
+      &.has-icon-position-left {
+        &.has-icon-size-small {
+          a, button { .Button-label { padding-left: 2rem; }}
+        }
+        &.has-icon-size-regular {
+          a, button { .Button-label { padding-left: 3rem; }}
+        }
+      }
+
+      &.has-icon-position-right {
+        &.has-icon-size-small {
+          a, button { .Button-label { padding-right: 2rem; }}
+        }
+        &.has-icon-size-regular {
+          a, button { .Button-label { padding-right: 3rem; }}
+        }
+      }
+
+      &.is-link {
+        &.has-icon-position-left a .Button-icon { top: -.1rem; left: .2rem; }
+        &.has-icon-position-right a .Button-icon { top: -.1rem; right: .2rem; }
       }
     }
 
     &.is-small {
       a,
       button {
-        padding: 1.8rem 2rem 1.6rem;
+        padding: 1.6rem 2rem 1.4rem;
         font-size: .8em;
         font-weight: normal;
       }
     }
 
-    &.is-wide {
-      a,
-      button {
-        padding-left: 4rem;
-        padding-right: 4rem;
-      }
-
-      &.has-icon {
+    @media (min-width: 1024px) {
+      &.is-wide {
         a,
         button {
-          .Button-icon {
-            right: 4rem;
+          padding-left: 4rem;
+          padding-right: 4rem;
+        }
+
+        &.has-icon {
+          a,
+          button {
+            .Button-icon {
+              right: 4rem;
+            }
           }
+
+          &.has-icon-position-left { a, button { .Button-icon { left: 4rem; }}}
+          &.has-icon-position-right { a, button { .Button-icon { right: 4rem; }}}
         }
       }
     }

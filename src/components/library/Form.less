@@ -4,8 +4,12 @@
   .Form {
 
     label {
-      display: block;
+      display: flex;
       margin-bottom: .6rem;
+
+      & > div:first-child {
+        flex-grow: 1;
+      }
     }
 
     .Form-row {
@@ -40,6 +44,14 @@
         padding: 1rem 1rem .8rem;
         font-size: .8em;
       }
+
+      &.has-error {
+        input,
+        textarea {
+          border-color: #ef3030;
+          box-shadow: 0 0 1px 0 #ef3030;
+        }
+      }
     }
 
     .Form-input {
@@ -53,7 +65,21 @@
 
   @media (max-width: 1024px) {
     .Form {
-      
+      text-align: left;
+
+      .Form-row {
+        flex-direction: column;
+        margin: 0;
+
+        & > div {
+          margin-left: 0;
+          margin-right: 0;
+        }
+      }
+
+      .Form-footer {
+        margin-top: 2rem;
+      }
     }
   }
 

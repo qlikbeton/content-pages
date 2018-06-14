@@ -23,6 +23,7 @@ const SectionContent = props => {
   const classNames = ['Section-content'];
 
   if(props.background) classNames.push(`has-background-${props.background}`);
+  if(props.fullHeight) classNames.push('is-full-height');
 
   return (
     <div className={classNames.join(' ')}>

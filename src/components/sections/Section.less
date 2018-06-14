@@ -54,6 +54,12 @@
         background-color: #f5f5f5;
       }
     }
+    
+    .Section-content {
+      &.is-full-height {
+        padding: 20rem 0;
+      }
+    }
 
     &.has-cover {
       background-repeat: no-repeat;
@@ -76,7 +82,7 @@
       text-align: center;
 
       .Section-content {
-        padding: 3rem 0;
+        padding: 4rem 0;
       }
 
       .Section-container {
@@ -183,7 +189,7 @@
 
       & > div {
         &:nth-child(2) {
-          padding: 0 2rem;
+          padding: 0 4rem;
           border: 1px solid #c5c5c5;
           border-top: 0;
           border-bottom: 0;
@@ -191,22 +197,27 @@
 
         &._row {
           display: flex;
+          align-items: center;
         }
       }
 
-      ._contact-title {
-        font-size: .9em;
-        text-transform: uppercase;
-        font-weight: bold;
-      }
+      ._contact-schedule {
+        padding: 0 0 0 1.4rem;
 
-      ._contact-opening {
-        font-size: .9em;
+        ._contact-title {
+          font-size: .9em;
+          text-transform: uppercase;
+          font-weight: bold;
+        }
+
+        ._contact-opening {
+          font-size: .9em;
+        }
       }
 
       ._contact-phone {
         text-align: center;
-        padding: 0 4rem;
+        padding: 0 0 0 1.4rem;
 
         ._contact-phone-no {
           font-weight: bold;
@@ -237,11 +248,37 @@
         }
       }
     }
+
+    @media (max-width: 1024px) {
+      .Contact-row {
+        flex-direction: column;
+        text-align: left;
+
+        & > div {
+          &:nth-child(2) {
+            padding: 2rem 0;
+            border: 0;
+          }
+        }
+      }
+    }
   }
 
   .Section.Section-ContactForm {
-    .Card {
-      padding: 6rem 4rem;
+    @media (min-width: 1024px) {
+      .Card {
+        padding: 6rem 4rem;
+      }
+    }
+  }
+
+  .Section.Section-ComingSoon {
+    h1 {
+      font-size: 6rem;
+      font-weight: 900;
+      background: -webkit-linear-gradient(left, rgba(242,48,81,1) 0%, rgba(254,106,57,1) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
   }
 

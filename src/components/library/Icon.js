@@ -1,16 +1,19 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './Icon.css';
 
-import arrowRightSVG from '../../assets/img/arrow-right-white.svg';
-import chatSVG from '../../assets/img/btn-chat.svg';
-import downloadSVG from '../../assets/img/download-red.svg';
-import phoneSVG from '../../assets/img/tel-blue.svg';
+import arrowRightSVG from '../../assets/img/icons/icon-arrow-right.svg';
+import chatSVG from '../../assets/img/icons/icon-chat.svg';
+import downloadSVG from '../../assets/img/icons/icon-download.svg';
+import phoneSVG from '../../assets/img/icons/icon-phone.svg';
+import headsetSVG from '../../assets/img/icons/icon-headset.svg';
 
 const icons = {
   'arrow-right': arrowRightSVG,
   'chat': chatSVG,
   'download': downloadSVG,
-  'phone': phoneSVG
+  'phone': phoneSVG,
+  'headset': headsetSVG
 };
 
 const SpecificIcon = props => {
@@ -20,9 +23,17 @@ const SpecificIcon = props => {
 };
 
 const Icon = props => (
-  <div className="Icon">
+  <div className={`Icon is-${props.size}`}>
     <SpecificIcon name={props.name} />
   </div>
 );
+
+Icon.propTypes = {
+  size: PropTypes.string
+};
+
+Icon.defaultProps = {
+  size: 'regular'
+};
 
 export default Icon;

@@ -4,39 +4,32 @@ import { Breadcrumbs } from '../library';
 import {
   SectionHero,
   SectionIntro,
-  SectionHistory,
-  SectionBenefits,
-  SectionBranding,
-  SectionTeam,
+  SectionLocations,
   SectionCTA
 } from '../sections';
 
-import { teamMembers, historyRows, coverImg, introImg } from '../../data';
+import { coverImg, introImg } from '../../data';
 
 const LocationsPage = props => (
-  <Page name="About">
+  <Page name="Locations">
     <Breadcrumbs nav={[
       { label: 'Qlikbeton', to: '/' },
       { label: 'Locations' }
     ]}/>
 
     <SectionHero
-      name="aboutHero"
+      name="locationsHero"
       cover={coverImg} />
 
     <SectionIntro
-      name="aboutIntro"
+      name="locationsIntro"
       image={introImg} />
 
-    <div>
-      <iframe
-        style={{ border: '0', margin: '0', padding: '0', display: 'block' }}
-        src="https://www.google.com/maps/d/embed?mid=17W4lPpFkEidAq5v9JRFJSIrVNibI_nGr" width="100%" height="800"></iframe>
-    </div>
+    <SectionLocations />
 
     <SectionCTA
-      name="aboutCTA"
-      to="/project" />
+      name="locationsCTA"
+      to="/" />
   </Page>
 );
 

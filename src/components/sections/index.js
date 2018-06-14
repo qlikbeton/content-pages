@@ -10,6 +10,8 @@ import SectionStages from './SectionStages';
 import SectionAdvantages from './SectionAdvantages';
 import SectionContactDetails from './SectionContactDetails';
 import SectionContactForm from './SectionContactForm';
+import SectionLocations from './SectionLocations';
+import SectionComingSoon from './SectionComingSoon';
 
 export default Section;
 
@@ -28,5 +30,7 @@ export {
     SectionStages,
     SectionAdvantages,
     SectionContactDetails,
-    SectionContactForm
+    SectionContactForm,
+    SectionLocations,
+    SectionComingSoon
 };

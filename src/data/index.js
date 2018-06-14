@@ -24,6 +24,14 @@ const translationsFr = {
     contact: 'Contact'
   },
 
+  homeComingSoon: {
+    title: 'Coming Soon',
+    subtitle: 'La page Lorem ipsum dolor sit amet, consectetur.',
+    text: 'La page Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar.',
+    placeholder: 'Your Email',
+    submit: 'Notify Me'
+  },
+
   aboutHero: {
     title: 'Qui sommes nous?',
     text: 'Découvrez sur cette page l\'historie et la mission de Qlikbeton.be, et faites connaissance avec toute l\'équipe!'
@@ -202,6 +210,52 @@ const translationsFr = {
   projectAdvantages: {
     title: 'Advantages Section',
     text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar. In pulvinar eros ut lacus rhoncus, ac porttitor metus malesuada. Donec quis venenatis nulla. Integer mattis orci at placerat porttitor.'
+  },
+
+  contactHero: {
+    title: 'Qui sommes nous?',
+    text: 'Découvrez sur cette page l\'historie et la mission de Qlikbeton.be, et faites connaissance avec toute l\'équipe!'
+  },
+
+  contactDetails: {
+    contactUs: 'Contact Us',
+    opening: 'MON - FRI (9:00-17:00)',
+    phoneNumber: '0800-14-245',
+    freeCall: 'Appel gratuit',
+    callSupport: 'Appeler Maintenant'
+  },
+
+  contactForm: {
+    title: 'Contact Us',
+    formName: 'First / Last Name',
+    placeholderName: 'Your First / Last Name',
+    formEmail: 'Email',
+    placeholderEmail: 'Your Email',
+    formSubject: 'Subject',
+    placeholderSubject: 'Your Subject',
+    formMessage: 'Message',
+    attachFile: 'Attach file',
+    placeholderMessage: 'Your Message',
+    formSubmit: 'Send Message'
+  },
+
+  contactCTA: {
+    cta: 'Call To Action'
+  },
+
+  locationsHero: {
+    title: 'Concrete Foundation',
+    text: 'Découvrez sur cette page l\'historie et la mission de Qlikbeton.be, et faites connaissance avec toute l\'équipe!',
+    cta: 'Call To Action En'
+  },
+
+  locationsIntro: {
+    title: 'Intro Section',
+    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar. In pulvinar eros ut lacus rhoncus, ac porttitor metus malesuada. Donec quis venenatis nulla. Integer mattis orci at placerat porttitor.'
+  },
+
+  locationsCTA: {
+    cta: 'Call To Action'
   }
 };
 
@@ -214,6 +268,14 @@ const translationsEn = {
     calculator: 'Calc',
     faq: 'FAQ',
     contact: 'Contact'
+  },
+
+  homeComingSoon: {
+    title: 'Coming Soon',
+    subtitle: 'La page Lorem ipsum dolor sit amet, consectetur.',
+    text: 'La page Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar.',
+    placeholder: 'Your Email',
+    submit: 'Notify Me'
   },
 
   aboutHero: {
@@ -393,6 +455,52 @@ const translationsEn = {
   },
 
   projectCTA: {
+    cta: 'Call To Action'
+  },
+
+  contactHero: {
+    title: 'Qui sommes nous?',
+    text: 'Découvrez sur cette page l\'historie et la mission\n\n de Qlikbeton.be, et faites connaissance avec toute l\'équipe!'
+  },
+
+  contactDetails: {
+    contactUs: 'Contact Us',
+    opening: 'MON - FRI (9:00-17:00)',
+    phoneNumber: '0800-14-245',
+    freeCall: 'Appel gratuit',
+    callSupport: 'Appeler Maintenant'
+  },
+
+  contactForm: {
+    title: 'Contact Us',
+    formName: 'First / Last Name',
+    placeholderName: 'Your First / Last Name',
+    formEmail: 'Email',
+    placeholderEmail: 'Your Email',
+    formSubject: 'Subject',
+    placeholderSubject: 'Your Subject',
+    formMessage: 'Message',
+    attachFile: 'Attach file',
+    placeholderMessage: 'Your Message',
+    formSubmit: 'Send Message'
+  },
+
+  contactCTA: {
+    cta: 'Call To Action'
+  },
+
+  locationsHero: {
+    title: 'Concrete Foundation',
+    text: 'Découvrez sur cette page l\'historie et la mission de Qlikbeton.be, et faites connaissance avec toute l\'équipe!',
+    cta: 'Call To Action En'
+  },
+
+  locationsIntro: {
+    title: 'Intro Section',
+    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar. In pulvinar eros ut lacus rhoncus, ac porttitor metus malesuada. Donec quis venenatis nulla. Integer mattis orci at placerat porttitor.'
+  },
+
+  locationsCTA: {
     cta: 'Call To Action'
   }
 };

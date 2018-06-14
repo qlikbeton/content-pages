@@ -4,6 +4,7 @@ import AboutPage from './AboutPage';
 import ProjectPage from './ProjectPage';
 import ContactPage from './ContactPage';
 import LocationsPage from './LocationsPage';
+import TermsPage from './TermsPage';
 
 export default Page;
 
@@ -12,5 +13,6 @@ export const Pages = {
   About: AboutPage,
   Project: ProjectPage,
   Contact: ContactPage,
-  Locations: LocationsPage
+  Locations: LocationsPage,
+  Terms: TermsPage
 };

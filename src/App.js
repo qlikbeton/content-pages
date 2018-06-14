@@ -23,7 +23,7 @@ class App extends Component {
               <Route path="/project"    component={Pages.Project} />
               <Route path="/contact"    component={Pages.Contact} />
               <Route path="/locations"  component={Pages.Locations} />
-              <Route path="/terms"  component={Pages.Terms} />
+              <Route path="/terms"      component={Pages.Terms} />
             </Switch>
           </PageContent>
 

@@ -12,6 +12,7 @@ import SectionContactDetails from './SectionContactDetails';
 import SectionContactForm from './SectionContactForm';
 import SectionLocations from './SectionLocations';
 import SectionComingSoon from './SectionComingSoon';
+import SectionArticle from './SectionArticle';
 
 export default Section;
 
@@ -32,5 +33,6 @@ export {
     SectionContactDetails,
     SectionContactForm,
     SectionLocations,
-    SectionComingSoon
+    SectionComingSoon,
+    SectionArticle
 };

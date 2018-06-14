@@ -1,15 +1,26 @@
 import React from 'react';
 import Page from './';
-import SectionArticle from '../sections/SectionArticle';
-import {SectionHero,SectionCTA} from '../sections';
-
-
+import { Breadcrumbs } from '../library';
+import { SectionHero, SectionArticle, SectionCTA } from '../sections';
+import { coverImg } from '../../data';
 
 const TermsPage = props => (
   <Page name="Terms">
-    <SectionHero name="aboutHero"/>
-    <SectionArticle/>
-    <SectionCTA/>
+    <Breadcrumbs nav={[
+      { label: 'Qlikbeton', to: '/' },
+      { label: 'Terms' }
+    ]} />
+
+    <SectionHero
+      name="termsHero"
+      cover={coverImg} />
+
+    <SectionArticle
+      name="termsArticle" />
+
+    <SectionCTA
+      name="termsCTA"
+      to="/" />
   </Page>
 );
 

@@ -11,6 +11,7 @@ const Text = props => {
   if(props.bold) classNames.push('is-bold');
   if(props.light) classNames.push('is-light');
   if(props.regular) classNames.push('is-regular');
+  if(props.wrapper) classNames.push('has-wrapper');
 
   return (
     <div className={classNames.join(' ')}>

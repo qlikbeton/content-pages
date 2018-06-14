@@ -4,6 +4,7 @@ import Image from './Image';
 import ImageBackground from './ImageBackground';
 import Heading from './Heading';
 import Text from './Text';
+import RichText from './RichText';
 import Feature from './Feature';
 import Card, { Cards, CardStep, CardCol } from './Card';
 import Person from './Person';
@@ -14,6 +15,7 @@ import Icon from './Icon';
 import Info, { InfoCol } from './Info';
 import List, { ListItem } from './List';
 import Form, { FormRow, FormFooter, FormInput, FormTextarea } from './Form';
+import SubscribeForm from './SubscribeForm';
 
 export {
     Breadcrumbs,
@@ -23,6 +25,7 @@ export {
     ImageBackground,
     Heading,
     Text,
+    RichText,
     Feature,
     Card,
     Cards,
@@ -41,5 +44,6 @@ export {
     FormRow,
     FormFooter,
     FormInput,
-    FormTextarea
+    FormTextarea,
+    SubscribeForm
 };

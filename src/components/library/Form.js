@@ -20,23 +20,25 @@ const FormFooter = props => (
 );
 
 const FormField = props => (
-  <div className={`Form-field Form-${props.name} ${props.hasError ? 'has-error' : ''}`}>
-    <label>
-      <div>{props.label}</div>
-      {props.addon && <div>{props.addon}</div>}
-    </label>
+  <div className={`Form-field Form-${props.className} ${props.hasError ? 'has-error' : ''}`}>
+    {(props.label || props.addon) &&
+      <label>
+        {props.label && <div>{props.label}</div>}
+        {props.addon && <div>{props.addon}</div>}
+      </label>
+    }
     {props.children}
   </div>
 );
 
 const FormInput = ({ addon, hasError, ...props }) => (
-  <FormField name="Input" {...props} hasError={hasError} addon={addon}>
+  <FormField className="input" {...props} hasError={hasError} addon={addon}>
     <input {...props} />
   </FormField>
 );
 
 const FormTextarea = ({ addon, hasError, ...props }) => (
-  <FormField name="Textarea" {...props} hasError={hasError} addon={addon}>
+  <FormField className="textarea" {...props} hasError={hasError} addon={addon}>
     <textarea {...props} />
   </FormField>
 );

@@ -57,7 +57,7 @@
     
     .Section-content {
       &.is-full-height {
-        padding: 20rem 0;
+        padding: 14rem 0;
       }
     }
 
@@ -83,6 +83,11 @@
 
       .Section-content {
         padding: 4rem 0;
+
+
+        &.is-full-height {
+          padding: 4rem 0;
+        }
       }
 
       .Section-container {
@@ -265,7 +270,7 @@
   }
 
   .Section.Section-ContactForm {
-    @media (min-width: 1024px) {
+    @media (min-width: 1025px) {
       .Card {
         padding: 6rem 4rem;
       }
@@ -279,6 +284,13 @@
       background: -webkit-linear-gradient(left, rgba(242,48,81,1) 0%, rgba(254,106,57,1) 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
+    }
+
+    @media (max-width: 1024px) {
+      h1 {
+        font-size: 4rem;
+        line-height: 100%;
+      }
     }
   }
 

@@ -1,5 +1,14 @@
 # Qlikbeton React
 
+## Available Pages Routes
+
+/<br>
+/about<br>
+/project<br>
+/contact<br>
+/locations<br>
+/terms
+
 ## Available Scripts
 
 In the project directory, you can run:

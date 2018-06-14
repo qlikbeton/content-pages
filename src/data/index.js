@@ -27,7 +27,7 @@ const translationsFr = {
   homeComingSoon: {
     title: 'Coming Soon',
     subtitle: 'La page Lorem ipsum dolor sit amet, consectetur.',
-    text: 'La page Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar.',
+    text: 'La page Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue.',
     placeholder: 'Your Email',
     submit: 'Notify Me'
   },
@@ -256,6 +256,19 @@ const translationsFr = {
 
   locationsCTA: {
     cta: 'Call To Action'
+  },
+
+  termsHero: {
+    title: 'Concrete Foundation',
+    text: 'Découvrez sur cette page l\'historie et la mission de Qlikbeton.be, et faites connaissance avec toute l\'équipe!'
+  },
+
+  termsArticle: {
+    text: '<h2>Article 1 - General</h2><p>Lorem ipsum dolor sit amet, <b>consectetur adipiscing elit</b>. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar. In pulvinar eros ut lacus rhoncus, ac porttitor metus malesuada. Donec quis venenatis nulla. Integer mattis orci at placerat porttitor.</p><p>Lorem ipsum dolor sit amet, <b>consectetur adipiscing elit</b>. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar. In pulvinar eros ut lacus rhoncus, ac porttitor metus malesuada. Donec quis venenatis nulla. Integer mattis orci at placerat porttitor.</p><h2>Article 2 - General</h2><p>Lorem ipsum dolor sit amet, <b>consectetur adipiscing elit</b>. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar. In pulvinar eros ut lacus rhoncus, ac porttitor metus malesuada. Donec quis venenatis nulla. Integer mattis orci at placerat porttitor.</p><p>Lorem ipsum dolor sit amet, <b>consectetur adipiscing elit</b>. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar. In pulvinar eros ut lacus rhoncus, ac porttitor metus malesuada. Donec quis venenatis nulla. Integer mattis orci at placerat porttitor.</p>'
+  },
+
+  termsCTA: {
+    cta: 'Call To Action'
   }
 };
 
@@ -273,7 +286,7 @@ const translationsEn = {
   homeComingSoon: {
     title: 'Coming Soon',
     subtitle: 'La page Lorem ipsum dolor sit amet, consectetur.',
-    text: 'La page Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar.',
+    text: 'La page Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue.',
     placeholder: 'Your Email',
     submit: 'Notify Me'
   },
@@ -501,6 +514,19 @@ const translationsEn = {
   },
 
   locationsCTA: {
+    cta: 'Call To Action'
+  },
+
+  termsHero: {
+    title: 'Concrete Foundation',
+    text: 'Découvrez sur cette page l\'historie et la mission de Qlikbeton.be, et faites connaissance avec toute l\'équipe!'
+  },
+
+  termsArticle: {
+    text: '<h2>Article 1 - General</h2><p>Lorem ipsum dolor sit amet, <b>consectetur adipiscing elit</b>. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar. In pulvinar eros ut lacus rhoncus, ac porttitor metus malesuada. Donec quis venenatis nulla. Integer mattis orci at placerat porttitor.</p><p>Lorem ipsum dolor sit amet, <b>consectetur adipiscing elit</b>. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar. In pulvinar eros ut lacus rhoncus, ac porttitor metus malesuada. Donec quis venenatis nulla. Integer mattis orci at placerat porttitor.</p><h2>Article 2 - General</h2><p>Lorem ipsum dolor sit amet, <b>consectetur adipiscing elit</b>. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar. In pulvinar eros ut lacus rhoncus, ac porttitor metus malesuada. Donec quis venenatis nulla. Integer mattis orci at placerat porttitor.</p><p>Lorem ipsum dolor sit amet, <b>consectetur adipiscing elit</b>. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar. In pulvinar eros ut lacus rhoncus, ac porttitor metus malesuada. Donec quis venenatis nulla. Integer mattis orci at placerat porttitor.</p>'
+  },
+
+  termsCTA: {
     cta: 'Call To Action'
   }
 };

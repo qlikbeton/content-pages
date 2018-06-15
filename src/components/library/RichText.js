@@ -8,8 +8,19 @@ const RichText = props => {
     }
   }
 
+  const classNames = ['Text Rich-text'];
+
+  if(props.noSpacing) classNames.push('has-no-spacing');
+  if(props.spacingBottom) classNames.push('has-spacing-bottom');
+  if(props.center) classNames.push('has-text-center');
+  if(props.subtitle) classNames.push('is-subtitle');
+  if(props.bold) classNames.push('is-bold');
+  if(props.light) classNames.push('is-light');
+  if(props.regular) classNames.push('is-regular');
+  if(props.wrapper) classNames.push('has-wrapper');
+
   return (
-    <div className="Text Rich-text">
+    <div className={classNames.join(' ')}>
       <div dangerouslySetInnerHTML={createMarkup()}></div>
     </div>
   );

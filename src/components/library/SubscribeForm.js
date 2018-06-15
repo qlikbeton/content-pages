@@ -4,7 +4,7 @@ import './SubscribeForm.css';
 
 const SubscribeForm = props => (
   <div className="Subscribe-form">
-    <Form>
+    <Form onSubmit={props.onSubmit}>
         <FormInput name={props.input} placeholder={props.placeholder} />
         <Button submit label={props.submit} primary small />
     </Form>

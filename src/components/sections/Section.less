@@ -157,6 +157,7 @@
 
       .Intro-right {
         padding-left: 3rem;
+        padding-right: 3rem;
 
         .Section-wrapper {
           &.has-width-fixed {
@@ -193,10 +194,20 @@
   // Hack for Project Page Section Intro
   .Page-Project {
     .Section.Section-Intro {
+      @media (min-width: 1025px) {
+        .Intro {
+          .Intro-right {
+            padding-left: 0;
+            margin-left: -4rem;
+          }
+        }
+      }
+
       @media (max-width: 1024px) {
         .Intro {
           .Intro-right {
             padding-top: 0;
+            margin-top: -4rem;
           }
         }
       }

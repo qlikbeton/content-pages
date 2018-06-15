@@ -2,12 +2,17 @@
 
 ## Available Pages Routes
 
-/<br>
-/about<br>
-/project<br>
-/contact<br>
-/locations<br>
-/terms
+*  /about
+*  /project
+*  /contact
+*  /locations
+*  /terms
+
+## Installation Instructions
+
+1.  `npm install`
+2.  npm install registry=http://5.196.72.106:4873 @qlibbeton/header
+3.  npm install registry=http://5.196.72.106:4873 @qlibbeton/footer
 
 ## Available Scripts
 

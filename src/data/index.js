@@ -45,8 +45,8 @@ const translationsFr = {
 
   homeComingSoon: {
     title: 'Coming Soon',
-    subtitle: 'La page Lorem ipsum dolor sit amet, consectetur.',
-    text: 'La page Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue.',
+    subtitle: 'La page que vous demandez arrive bientôt.',
+    text: 'Nous mettons tout en oeuvre pour vous fournir prochainement un contenu de qualité. Cette page sera donc disponible rapidement.',
     placeholder: 'Your Email',
     submit: 'Notify Me'
   },
@@ -117,7 +117,7 @@ const translationsFr = {
   projectIntro: {
     title: 'Votre fondation, solide comme le béton',
     text: `
-    <p>Maison, garage, annexe, abri ou remise de jardin, terrasse, clôtures de jardin… Vous comptez vous lancer dans un projet de construction ? Le coulage de votre fondation figure forcément tout en haut de votre liste de priorités !</p> 
+    <p>Maison, garage, annexe, abri ou remise de jardin, terrasse, clôtures de jardin… Vous comptez vous lancer dans un projet de construction ? Le coulage de votre fondation figure forcément tout en haut de votre liste de priorités !</p>
 <p>Pourquoi ? Tout simplement parce que c’est la qualité de cette fondation qui garantira la <b>résistance</b> et la <b>durabilité</b> de votre bâtiment. Pas question donc de sauter cette étape.</p>
 <p>Et comme couler une dalle en béton… ne coule pas nécessairement de source, on vous explique ici comment faire !</p>
     `
@@ -319,8 +319,8 @@ const translationsNl = {
 
   homeComingSoon: {
     title: 'Coming Soon',
-    subtitle: 'La page Lorem ipsum dolor sit amet, consectetur.',
-    text: 'La page Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue.',
+    subtitle: 'Deze pagina komt binnenkort!',
+    text: 'We doen er alles aan, om u in nabije toekomst, u van een hoogwaarde inhoud te voorzien.<br>Deze zal binnenkort beschikbaar zijn.',
     placeholder: 'Your Email',
     submit: 'Notify Me'
   },
@@ -391,7 +391,7 @@ const translationsNl = {
     projectIntro: {
         title: 'Uw fundering, stevig als beton',
         text: `
-    <p>Huis, garage, bijgebouw, schuurtje of tuinhuisje, terras, tuinhek ... Bent u van plan om een bouwproject te starten? Uw fundering gieten staat dan helemaal bovenaan uw lijst met prioriteiten.</p> 
+    <p>Huis, garage, bijgebouw, schuurtje of tuinhuisje, terras, tuinhek ... Bent u van plan om een bouwproject te starten? Uw fundering gieten staat dan helemaal bovenaan uw lijst met prioriteiten.</p>
 <p>Waarom? Simpelweg omdat de kwaliteit van uw fundering de <b>sterkte</b> en <b>duurzaamheid</b> van uw gebouw garandeert. Er is dus geen denken aan om deze stap over te slaan.</p>
 <p>En omdat een betonplaat gieten niets is wat zomaar voor de hand ligt, leggen we u hier uit hoe het moet.</p>
     `

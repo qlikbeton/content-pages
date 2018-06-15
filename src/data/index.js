@@ -52,55 +52,55 @@ const translationsFr = {
   },
 
   aboutHero: {
-    title: 'Qui sommes nous?',
-    text: '<p>Découvrez sur cette page l\'historie et la mission de Qlikbeton.be, et faites connaissance avec toute l\'équipe!</p>'
+    title: 'Qui sommes nous ?',
+    text: '<p>Découvrez sur cette page l\'histoire et la mission de Qlikbeton.be, et faites connaissance avec toute l\'équipe !</p>'
   },
 
   aboutIntro: {
-    title: 'Intro Section',
-    text: '<p>Découvrez sur cette page l\'historie et la mission de Qlikbeton.be, et faites connaissance avec toute l\'équipe!</p>'
+    title: 'Notre mission',
+    text: '<p>Que vous soyiez particulier ou professionnel, vous pouvez désormais commander votre béton en ligne sur Qlikbeton ! Vous pouvez donc vous faire livrer du béton directement sur votre chantier partout en Belgique !</p>'
   },
 
   aboutHistory: {
-    title: 'History Section',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue.',
-    firstRow: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar. In pulvinar eros ut lacus rhoncus, ac porttitor metus malesuada. Donec quis venenatis nulla. Integer mattis orci at placerat porttitor.',
-    secondRow: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar. In pulvinar eros ut lacus rhoncus, ac porttitor metus malesuada. Donec quis venenatis nulla. Integer mattis orci at placerat porttitor.'
+    title: 'Historique',
+    subtitle: 'Qlikbeton est une start-up née en janvier 2017 suite à une rencontre entre des professionnels du web et des professionnels du bâtiment.',
+    firstRow: '<p>Suite à cette collaboration la commande de béton prend une nouvelle dimension. Qlikbeton est une plateforme belge de vente de béton en ligne qui regroupe différentes centrales à béton sur la même plateforme. Cela vous permet de placer votre commande rapidement et facilement, en 5 étapes, ou que vous soyez, en payant de manière sécurisée. Tout cela à des prix variables en fonction des heures de livraison !</p>',
+    secondRow: '<p>Après une première version test, une V2 est mise en ligne au mois d’octobre 2017, proposant plus de fonctionnalités. En avril 2018, la V3 est lancée. Grâce à cette version, il est encore plus facile de commander son béton en ligne. La plateforme compte désormais 9 partenaires couvrant une grande partie de la Belgique avec plus de 30 centrales à béton au total !</p>'
   },
 
   aboutBenefits: {
-    title: 'Benefits Section',
-    firstCardFirstRow: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    firstCardSecondRow: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar.',
-    secondCardFirstRow: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar.',
-    secondCardSecondRow: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue.',
-    thirdCardFirstRow: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar.'
+    title: 'Pourquoi commander sur Qlikbeton ?',
+    firstCardFirstRow: 'Commander du béton en ligne ? Cela vous semble impossible ? Plus maintenant !',
+    firstCardSecondRow: 'Qlikbeton est la première plateforme en Belgique à proposer ce service. Plus besoin de vous rendre en centrale ou d’attendre que la centrale ouvre pour passer un coup de fil ! Dorénavant, vous pouvez commander votre béton en soirée dans votre fauteuil ou en déplacement depuis votre smartphone.',
+    secondCardFirstRow: 'Même si vous ne connaissez rien au béton, Qlikbeton vous guide vers le béton adéquat pour votre projet en seulement 5 étapes. Répondez aux différentes questions et nous nous chargeons du reste ! Au contraire le béton n’a pas de secrets pour vous ? Qlikbeton vous propose alors une commande rapide pour aller plus vite !',
+    secondCardSecondRow: '',
+    thirdCardFirstRow: 'Après votre commande, nos spécialistes vous contactent par téléphone pour vérifier tous les détails. Ils prennent alors contact avec la centrale partenaire sélectionnée pour organiser votre livraison ! Vous n’avez rien à faire !'
   },
 
   aboutBranding: {
-    title: 'Branding Section',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+    title: 'Des prix flexibles',
+    text: '<p>Qlikbeton vous propose de planifier vos livraisons pendant les heures creuses à des prix plus intéressants. C’est à vous de choisir le prix qui correspond le mieux à vos besoins !</p>'
   },
 
   aboutTeam: {
-    title: 'Team Section',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue.',
+    title: 'Qui est Qlikbeton ?',
+    subtitle: 'L’équipe Qlikbeton est constituée de 5 personnes basées dans leur bureau de Nivelles.',
+    details: '',
     jann: {
-      title: 'Fondateur et administrateur',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      title: '',
+      description: 'Jann est le fondateur et l’administrateur de Qlikbeton. Originaire de Suisse, il a travaillé de nombreuses années dans une société internationale de matériaux de construction avant de se lancer dans l’aventure Qlikbeton.',
     },
     eric: {
-      title: 'Fondateur et administrateur',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      title: '',
+      description: 'Eric est le responsable du site web. Fort de son expérience en e-commerce et en marketing, il met tout en œuvre pour améliorer le site et faciliter la prise de commande en ligne.',
     },
     jeanMarie: {
-      title: 'Fondateur et administrateur',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      title: '',
+      description: 'Jean-Marie s’occupe pour sa part des relations avec nos différents partenaires.',
     },
     michelJessica: {
-      title: 'Fondateur et administrateur',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      title: '',
+      description: 'Michel et Jessica font partie du service client. Ils travaillent en étroite collaboration avec le planning des centrales partenaires pour mener vos commandes à bon terme. Ils sont également des spécialistes du béton et répondent dès lors à toutes vos questions. N’hésitez pas à les contacter via le chat, par téléphone au 0800/214 245 ou par email à l’adresse : sales@qlikbeton.be !',
     }
   },
 
@@ -285,7 +285,7 @@ const translationsFr = {
 
   locationsIntro: {
     title: 'Intro Section',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar. In pulvinar eros ut lacus rhoncus, ac porttitor metus malesuada. Donec quis venenatis nulla. Integer mattis orci at placerat porttitor.'
+    text: '<p>Chez Qlikbeton.be, nous cherchons à pouvoir vous livrer où que vous habitiez en Belgique ! Voilà pourquoi nous avons développé un réseau de centrales à béton partenaires à travers tout le pays. Découvrez les sur la carte interactive ci-dessous. Cette carte n&#39;est pas figée car nous travaillons constamment à l&#39;ajout de nouveaux partenaires.</p>'
   },
 
   locationsCTA: {
@@ -314,10 +314,10 @@ const translationsFr = {
                   dites conditions.</p>
           <p>1.3. Aucune convention entre le Client et sa propre Clientèle ou un tiers n’est opposable au Vendeur.</p>
           <p>1.4. A défaut de contrat spécifique, le contrat de vente est constitué par la confirmation d'une
-                  commande par le Vendeur via un message de confirmation ("bon de livraison"). </p>  
+                  commande par le Vendeur via un message de confirmation ("bon de livraison"). </p>
           <p>1.5. La nullité d’une clause, même partielle, n’entraîne pas la nullité de la partie de clause subsistante.</p>
           <p>1.6. En passant une commande, le Client reconnait avoir pris connaissance de la politique de protection
-                  de la vie privée du Vendeur qui est consultable sur le Site Internet ou en cliquant ici. </p>      
+                  de la vie privée du Vendeur qui est consultable sur le Site Internet ou en cliquant ici. </p>
           <h2>Article 2 - Commandes:</h2>
           <p>2.1. Lors de commandes effectuées en ligne, les informations fournies par le Client, lors de la commande,
                   engagent le Client. En aucun cas, le Vendeur ne peut être tenu responsable des erreurs commises par le
@@ -405,7 +405,7 @@ const translationsFr = {
                   l’arrivée des produits. La confirmation par écrit doit se faire par courrier recommandé à Qlikbeton SPRL,
                   Avenue Robert Schuman 71, 1401 Nivelles.</p>
           <p>5.2. Les quantités reprises sur le bon de livraison font foi, sauf contestation écrite du Client notifiée dans
-                  les 24 heures de la livraison.</p>       
+                  les 24 heures de la livraison.</p>
           <h2>Article 6 - Garantie des Produits:</h2>
           <p>6.1. A défaut de contrat spécifique, la garantie des produits se limite aux caractéristiques reprises sur le
                   bon de livraison. Après la livraison des marchandises, le Vendeur sera exclusivement tenu des garanties
@@ -431,10 +431,10 @@ const translationsFr = {
           <p>6.5. Les résultats de contrôle effectués à la demande du Client ne peuvent être opposés au Vendeur que
                   s’ils portent sur des prélèvements contradictoires effectués au moment de la livraison et exécutés avec
                   son accord avant tout ajout. Pour les bétons normalisés, les prélèvements se feront conformément aux
-                  prescriptions de la Norme NBN EN 206 et la NBN B15-001.</p> 
+                  prescriptions de la Norme NBN EN 206 et la NBN B15-001.</p>
           <p>6.6. La responsabilité du Vendeur ne saurait être engagée si le Client passe commande d’un produit dont
                   les caractéristiques sont différentes de celles qui lui sont prescrites ou imposées par un cahier des
-                  charges public ou privé ou tout autre document auquel le Client est soumis dans le cadre du chantier.</p> 
+                  charges public ou privé ou tout autre document auquel le Client est soumis dans le cadre du chantier.</p>
           <p>6.7. Les produits normalisés du Vendeur sont conformes aux spécifications telles que définies par la
                   Norme NBN EN 206 et la NBN B15-001.</p>
           <p>6.8. Le Vendeur agit uniquement en tant que fournisseur de produit, avec la responsabilité limitée de
@@ -450,13 +450,13 @@ const translationsFr = {
                   par le Vendeur, sont de simples conseils de précautions tant sur le produit que sur son domaine
                   d’utilisation et ne sauraient s’analyser en une garantie de résultat. La mise en oeuvre des produits
                   relèvera de la seule responsabilité du Client.</p>
-          <p>6.10. Le Vendeur ne peut être tenu responsable des produits entreposés sur ses sites pour le Client.</p> 
+          <p>6.10. Le Vendeur ne peut être tenu responsable des produits entreposés sur ses sites pour le Client.</p>
           <p>6.11. Sauf en cas de faute grave du Vendeur, la responsabilité tant contractuelle qu’extracontractuelle
                    du Vendeur sera en tout état de cause limitée au montant le moins élevé des deux montants suivants : (i)
                    50.000 EUR ou (ii) le prix de vente. Le Vendeur ne sera en aucun cas responsable pour un quelconque
                    manque à gagner du Client, l’interruption des activités du Client, pertes d’activités, pertes de clientèle,
                    coûts financiers, pertes d’intérêts financiers ni pour tout dommage indirect ou immatériel que le Client
-                   viendrait à subir et ce indépendamment du fondement de la demande indemnitaire.</p>                                                         
+                   viendrait à subir et ce indépendamment du fondement de la demande indemnitaire.</p>
           <h2>Article 7 - Précautions d’emploi:</h2>
           <p>Le Vendeur met en garde les non-professionnels sur le fait que certains constituants du béton peuvent
              provoquer des désagréments, tels que brûlures, rougeurs ou allergies en cas de contact prolongé avec la
@@ -474,14 +474,14 @@ const translationsFr = {
              volume ci-avant stipulé. Les prix ne comprennent pas les frais d’essais et contrôles particuliers exécutés à
              la demande du Client, ni les coûts liés aux bétons d’étude et de convenance sauf conditions particulières.</p>
           <p>Le prix convenu pour une commande ne lie pas le Vendeur pour les commandes ultérieures, même si
-             elles sont destinées au même site de livraison.</p>  
+             elles sont destinées au même site de livraison.</p>
           <h2>Article 9 - Modalités de règlement:</h2>
           <p>9.1. A chaque livraison correspond un bon de livraison dont les principaux éléments (prix et quantité)
                   seront repris sur une facture récapitulative. Seuls les éléments mentionnés sur ce bon de livraison
                   (qualité, quantité,...) seront retenus en cas de réclamation.</p>
           <p>9.2. Sauf disposition contraire écrite, les factures sont payables comptant sur le Site Internet au moment
-                  de la commande.</p> 
-          <p>9.3. Le Vendeur n’accorde aucun escompte en cas de paiement anticipé.</p>               
+                  de la commande.</p>
+          <p>9.3. Le Vendeur n’accorde aucun escompte en cas de paiement anticipé.</p>
           <h2>Article 10 - Force majeure:</h2>
           <p>Le Vendeur ne pourra être tenu pour responsable de l’inexécution totale ou partielle de ses obligations
              résultant des présentes, si une telle inexécution résulte du cas dit de force majeure ou à des causes
@@ -532,55 +532,55 @@ const translationsNl = {
   },
 
   aboutHero: {
-    title: 'Wie zijn wij?',
-    text: 'Ontdek op deze pagina de geschiedenis en de missie van Qlikbeton.be en maak kennis met het hele team!'
+    title: 'Over ons',
+    text: '<p>Ontdek op deze pagina onze historiek en de missie van Qlikbeton.be Maak kennis met het Qlikbeton team.</p>'
   },
 
   aboutIntro: {
-    title: 'Intro Sectie',
-    text: 'Ontdek op deze pagina de geschiedenis en de missie van Qlik Beton.be en maak kennis met het hele team!'
+    title: 'Onze Missie',
+    text: '<p>Particulier of professioneel, u kunt vanaf nu online beton bestellen op Qlikbeton.beLevering over heel Belgie mogelijk.</p>'
   },
 
   aboutHistory: {
-    title: 'Historie Sectie',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue.',
-    firstRow: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar. In pulvinar eros ut lacus rhoncus, ac porttitor metus malesuada. Donec quis venenatis nulla. Integer mattis orci at placerat porttitor.',
-    secondRow: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar. In pulvinar eros ut lacus rhoncus, ac porttitor metus malesuada. Donec quis venenatis nulla. Integer mattis orci at placerat porttitor.'
+    title: 'Historiek',
+    subtitle: 'Qlikbeton is een ‘’start up’’ die ontstaan is in 2017 na een ontmoeting tussen web- en bouwprofessionelen.',
+    firstRow: '<p>Als gevolg van deze samenwerking neemt het bestellingsprocess een nieuwe dimensie aan. Qlikbeton is een Belgisch platform van verschillende partners voor online bestellingen van beton. Zo kan u een bestelling op een snelle en gemakkelijk wijze plaatsen. Van eenders waar kan u in slechts 5 stappen uw bestelling plaatsten voor waar u deze wenst en dit met een veilige betalingsmethode. Onze interressante prijzen variëren volgens de dal- en piekuren.</p>',
+    secondRow: '<p>Na onze éérste test versie , volgde een V2 in oktober 2017 met meerdere mogelijkheden. In April 2018 gingen wij van start met onze acruele V3, dankzij deze is het nog gemakkelijker online beton te bestellen. Ons platform rekent nu 9 partners met een landoverdekking van 30 centralen.</p>'
   },
 
   aboutBenefits: {
-    title: 'Voordelen Sectie',
-    firstCardFirstRow: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    firstCardSecondRow: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar.',
-    secondCardFirstRow: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar.',
-    secondCardSecondRow: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue.',
-    thirdCardFirstRow: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar.'
+    title: 'Waarom op Qlikbeton bestellen ? Online ? Blijkt dit onmogelijk ?',
+    firstCardFirstRow: 'Nu niet meer!',
+    firstCardSecondRow: 'Dankzij Qlikbeton bestaat er nu een platform die deze besteldienst aanbied. Onnodige verplaatsingen alsook enkel binnen de kantooruren bestellen verdwijnen hierdoor helemaal daar alles gewoon online via uw computer of smartphone kan geregeld worden.',
+    secondCardFirstRow: 'Zelfs indien u een leek bent van beton zal Qlikbeton u stap per stap begeleiden. Beantwoord(t) enkel de vragen en wij zorgen voor de rest! Integendeel , weet u precies wat u nodig hebt ? Dan kan u op Qlikbeton een express bestelling plaatsen.',
+    secondCardSecondRow: '',
+    thirdCardFirstRow: 'Van zodra u een bestelling geplaats heeft zullen onze specialisten met u contact opnemen om alles nog eens te overlopen. Nadien nemen zij contact met onze parnters om uw levering in te plannen. U zelf hoeft hier niets voor te doen!'
   },
 
   aboutBranding: {
-    title: 'Branding Sectie',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+    title: 'Flexible prijzen !',
+    text: '<p>Op qlikbeton vindt u interessante prijzen gedurende de daluren . Aan u te kiezen wat het beste past.</p>'
   },
 
   aboutTeam: {
-    title: 'Team Sectie',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue.',
+    title: 'Wie is Qlikbeton ?',
+    subtitle: 'Qlikbeton bestaat uit een team van 5 personen gelegen in Nijvel.',
+    details: '',
     jann: {
-      title: 'Oprichter en beheerder',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      title: 'oprichter en directeur',
+      description: 'Afkomstig uit Zwitserland , vooralheer hij met Qlikbeton starte heeft hij jarenlang voor een internationale bedrijf gespecialiseerd in bouwmaterialen gewerkt.',
     },
     eric: {
-      title: 'Oprichter en beheerder',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      title: 'Verantwoordelijk van onze website',
+      description: 'Sterk van een E-commerce-en marketing ervaring doet hij er alles aan om de site te verbeteren en de bestel-opname te vereenvoudigen.',
     },
     jeanMarie: {
-      title: 'Oprichter en beheerder',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      title: 'Verantwoordelijk partners',
+      description: 'Jean Marie verantwoordelijk voor prospectie en relaties met het volledige netwerk van onze Qlikbeton partners.',
     },
     michelJessica: {
-      title: 'Oprichter en beheerder',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      title: 'Klantendienst',
+      description: 'Ze werken samen en hebben rechtstreeks contact met onze partners om uw bestelling tot goede einde uit te voeren. Ze zijn beton specialisten en beantwoorden alle uw vragen.',
     }
   },
 
@@ -796,11 +796,11 @@ const translationsNl = {
           <p>1.3. Geen enkele overeenkomst gesloten tussen de Klant en zijn eigen cliënteel of een derde is
                   tegenstelbaar aan de Verkoper.</p>
           <p>1.4. Bij gebreke aan een specifieke overeenkomst, bestaat de verkoopsovereenkomst uit de
-                  bevestiging van een bestelling door de Verkoper via een bevestigingsbericht (&quot;Leveringsbon&quot;). </p>  
+                  bevestiging van een bestelling door de Verkoper via een bevestigingsbericht (&quot;Leveringsbon&quot;). </p>
           <p>1.5. De nietigheid van een beding, zelfs gedeeltelijk, brengt niet de nietigheid van het resterende
                   deel van het beding mee.</p>
           <p>1.6. Door het plaatsen van een bestelling erkent de Klant kennis te hebben genomen van het
-                  privacybeleid van de Verkoper. </p>      
+                  privacybeleid van de Verkoper. </p>
           <h2>Artikel 2 - Bestellingen:</h2>
           <p>2.1. De door Klant verstrekte gegevens bij de online bestelling verbinden de Klant. In geen geval
                   kan de Verkoper aansprakelijk worden gesteld voor fouten gemaakt door de Klant tijdens de
@@ -842,7 +842,7 @@ const translationsNl = {
           <p>3.1. De tijd en datum van levering hangt af van de beschikbaarheid van materialen. De levering
                   zal worden gedaan in overeenstemming met de datum en tijd die door de Klant werd gekozen bij
                   het plaatsen van de bestelling op de Website.</p>
-          <p>3.2. Modaliteiten.</p> 
+          <p>3.2. Modaliteiten.</p>
           <p>a) Voor leveringen op de werf, moet de losplaats duidelijk aangeduid zijn en toegankelijk zijn via
                 de openbare weg of via een door de Klant ter beschikking gestelde voor voertuigen berijdbare weg. </p>
           <p>b) De Klant moet de leiding en verantwoordelijkheid voor toegang tot en circulatie op de werf
@@ -898,7 +898,7 @@ const translationsNl = {
                   de producten. De schriftelijke bevestiging moet aangetekend opgestuurd worden naar Qlikbeton, Avenue
                   Robert Schuman 71, 1401 Nivelles.</p>
           <p>5.2. De hoeveelheden opgenomen in de leveringsbon verbinden de Klant, behoudens
-                  schriftelijke betwisting door de Klant binnen 24 uur na aankomst van de producten.</p>       
+                  schriftelijke betwisting door de Klant binnen 24 uur na aankomst van de producten.</p>
           <h2>Artikel 6 – Waarborg van de producten:</h2>
           <p>6.1. Bij gebreke aan een specifieke overeenkomst is de productgarantie beperkt tot de
                   karakteristieken opgenomen in de leveringsbon. Nadat de verkochte goederen zijn geleverd, is
@@ -930,11 +930,11 @@ const translationsNl = {
                   Verkoper tegenstelbaar indien zij betrekking hebben op tegensprekelijke monsternemingen
                   uitgevoerd met zijn instemming en op het ogenblik van de leveringen, voorafgaand aan iedere
                   toevoeging. Voor genormaliseerd beton, dienen de monsternemingen te geschieden
-                  overeenkomstig de voorschriften van de normen NBN EN 206 en NBN B15-001.</p> 
+                  overeenkomstig de voorschriften van de normen NBN EN 206 en NBN B15-001.</p>
           <p>6.6. De Verkoper kan in geen geval aansprakelijk gesteld worden indien de Klant producten
                   bestelt waarvan de karakteristieken verschillen van deze die hem zijn voorgeschreven of
                   opgelegd door een publiek of privaat uitvoeringsbestek of enig ander document waaraan de
-                  Klant onderworpen is in het kader van de werf.</p> 
+                  Klant onderworpen is in het kader van de werf.</p>
           <p>6.7. De genormaliseerde producten van de Verkoper zijn conform aan de eigenschappen
                   gedefinieerd in de NBN EN 206 en NBN B15-001 normen.</p>
           <p>6.8. De Verkoper treedt enkel op als productleverancier, met de beperkte aansprakelijkheid om
@@ -953,14 +953,14 @@ const translationsNl = {
                   met enige garantie inzake resultaat. De verwerking van de producten geschiedt onder
                   exclusieve verantwoordelijkheid van de Klant.</p>
           <p>6.10. De Verkoper kan niet aansprakelijk worden gehouden voor producten die opgeslagen
-                   worden op zijn sites voor de Klant.</p> 
+                   worden op zijn sites voor de Klant.</p>
           <p>6.11. Behalve in het geval van grove fout of nalatigheid, is de totale contractuele en
                    buitencontractuele aansprakelijkheid van de Verkoper in alle gevallen beperkt tot het laagste van
                    volgende twee bedragen : (i) 50.000 EUR of (ii) het bedrag van de verkoopprijs. De Verkoper zal
                    in geen geval aansprakelijk zijn voor winstderving of onderbreking van de activiteiten van de
                    Klant, verlies van contracten, verlies van activiteiten, verlies van cliënteel, financiële kosten,
                    verlies van financiële interest, noch voor elke onrechtstreekse of immateriële schade, ongeacht
-                   de grondslag waarop de vordering tot schadevergoeding is gebaseerd.</p>                                                         
+                   de grondslag waarop de vordering tot schadevergoeding is gebaseerd.</p>
           <h2>Artikel 7 – Voorzorgen bij gebruik:</h2>
           <p>De Verkoper waarschuwt niet-professionelen ervoor dat bepaalde bestanddelen van beton in
              geval van langdurig contact met de huid of contact met de ogen irritaties kan veroorzaken, zoals
@@ -982,14 +982,14 @@ const translationsNl = {
              onderzoek en overeenkomstigheid in verband met het beton, behoudens bijzondere
              voorwaarden.
              De prijs overeengekomen voor een bestelling verbindt de Verkoper niet voor daaropvolgende
-             bestellingen, zelfs indien zij bestemd zijn voor dezelfde plaats van levering.</p> 
+             bestellingen, zelfs indien zij bestemd zijn voor dezelfde plaats van levering.</p>
           <h2>Artikel 9 – Betalingsmodaliteiten:</h2>
           <p>9.1. Elke levering stemt overeen met een leveringsbon waarvan de voornaamste elementen
                   (prijs en hoeveelheden) worden opgenomen in een samenvattende factuur. Enkel de gegevens
                   vermeld op de leveringsbon (kwaliteit, hoeveelheid, ...) worden weerhouden in geval van klacht.</p>
           <p>9.2. Behoudens andersluidende schriftelijke bepaling, zijn de facturen contant betaalbaar op de
-                  Website bij het plaatsen van de bestelling.</p> 
-          <p>9.3. De Verkoper kent geen disconto toe in geval van vroegtijdige betaling.</p>               
+                  Website bij het plaatsen van de bestelling.</p>
+          <p>9.3. De Verkoper kent geen disconto toe in geval van vroegtijdige betaling.</p>
           <h2>Artikel 10 – Overmacht:</h2>
           <p>De Verkoper kan niet aansprakelijk worden gehouden voor gehele of gedeeltelijke niet-
              uitvoering van zijn verbintenissen die hieruit voortvloeien, indien deze niet-uitvoering te wijten is

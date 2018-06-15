@@ -53,12 +53,12 @@ const translationsFr = {
 
   aboutHero: {
     title: 'Qui sommes nous?',
-    text: 'Découvrez sur cette page l\'historie et la mission de Qlikbeton.be, et faites connaissance avec toute l\'équipe!'
+    text: '<p>Découvrez sur cette page l\'historie et la mission de Qlikbeton.be, et faites connaissance avec toute l\'équipe!</p>'
   },
 
   aboutIntro: {
     title: 'Intro Section',
-    text: 'Découvrez sur cette page l\'historie et la mission de Qlikbeton.be, et faites connaissance avec toute l\'équipe!'
+    text: '<p>Découvrez sur cette page l\'historie et la mission de Qlikbeton.be, et faites connaissance avec toute l\'équipe!</p>'
   },
 
   aboutHistory: {
@@ -110,15 +110,15 @@ const translationsFr = {
 
   projectHero: {
     title: 'Fondation en béton',
-    text: '<p<p>>Découvrez sur cette page l\'historie et la mission de Qlikbeton.be, et faites connaissance avec toute l\'équipe!</p></p>',
+    text: '<p>Découvrez sur cette page l\'historie et la mission de Qlikbeton.be, et faites connaissance avec toute l\'équipe!</p>',
     cta: 'Call To Action Fr'
   },
 
   projectIntro: {
     title: 'Votre fondation, solide comme le béton',
     text: `
-    <p>Maison, garage, annexe, abri ou remise de jardin, terrasse, clôtures de jardin… Vous comptez vous lancer dans un projet de construction ? Le coulage de votre fondation figure forcément tout en haut de votre liste de priorités !</p>
-<p>Pourquoi ? Tout simplement parce que c’est la qualité de cette fondation qui garantira la <b>résistance</b> et la <b>durabilité</b> de votre bâtiment. Pas question donc de sauter cette étape.</p>
+    <p>Maison, garage, annexe, abri ou remise de jardin, terrasse, clôtures de jardin… Vous comptez vous lancer dans un projet de construction? Le coulage de votre fondation figure forcément tout en haut de votre liste de priorités !</p>
+<p>Pourquoi? Tout simplement parce que c’est la qualité de cette fondation qui garantira la <b>résistance</b> et la <b>durabilité</b> de votre bâtiment. Pas question donc de sauter cette étape.</p>
 <p>Et comme couler une dalle en béton… ne coule pas nécessairement de source, on vous explique ici comment faire !</p>
     `
   },
@@ -129,27 +129,27 @@ const translationsFr = {
 
   projectStages: {
     title: 'Le coulage de votre fondation béton en 5 étapes',
-    subtitle: 'Prêt à gérer vous-même votre projet de fondation ? Voici les étapes à suivre !',
+    subtitle: 'Prêt à gérer vous-même votre projet de fondation? Voici les étapes à suivre !',
     stage01: {
       title: 'Evaluez la qualité du sol pour choisir les caractéristiques de votre fondation',
       text: `<p>Profondeur de la fondation, dimensions, types de fondation, semelle de fondation filante ou plus robuste… Il y a fondations et fondations, avec, à la clé, des <b>différences de coût</b> significatives.</p>
-<p>La première question à vous poser est… quelle est la nature du sol ? Car ce sont les qualités de votre terrain, comme sa stabilité et sa résistance, qui définiront les caractéristiques de votre fondation en béton.</p>
+<p>La première question à vous poser est… quelle est la nature du sol? Car ce sont les qualités de votre terrain, comme sa stabilité et sa résistance, qui définiront les caractéristiques de votre fondation en béton.</p>
 `,
       gallery: {
         first: 'Bon a savoir',
         second: 'DIY indice: 2/10',
-        third: '<p>Avec un sol suffisamment robuste, vous pourrez par exemple  choisir une fondation superficielle (ou en semelle filante). Votre sol est moins costaud ? Vous aurez besoin de fondations plus profondes, avec pour objectif d’atteindre des sols plus résistants, et donc mieux adaptés aux charges exercées par votre bâtiment sur la fondation.</p>'
+        third: '<p>Avec un sol suffisamment robuste, vous pourrez par exemple  choisir une fondation superficielle (ou en semelle filante). Votre sol est moins costaud? Vous aurez besoin de fondations plus profondes, avec pour objectif d’atteindre des sols plus résistants, et donc mieux adaptés aux charges exercées par votre bâtiment sur la fondation.</p>'
       },
       card: '<p><b>Vous aurez besoin d’un bureau d’études géotechniques pour réaliser une telle étude. Vérifiez qu’elle n’a pas déjà été faite, par exemple lors de la construction de votre maison.</b></p>'
     },
     stage02: {
       title: 'Préparez le travail de terrassement et placez un béton de propreté',
-      text: '<p>Vous avez défini les dimensions exactes de vos futures fondations en béton ? Bravo : maintenant, vous allez pouvoir creuser !</p>',
+      text: '<p>Vous avez défini les dimensions exactes de vos futures fondations en béton? Bravo : maintenant, vous allez pouvoir creuser !</p>',
       step01: '<p>Commencez tout d’abord par délimiter la superficie de votre fond de fouille. Vous le ferez en plaçant des <b>chaises d’implantation</b> sur lesquelles vous attacherez le <b>fil servant de guide</b> aux axes de votre fondation.</p>',
       step02: '<p>Creusez suivant la profondeur définie. Puis utilisez un fil à plomb pour dessiner les axes dans votre fouille.</p>',
       step03: '<p><b>Nivelez le sol</b> de votre fouille et <b>damez-le</b> avec une dameuse.</p>',
       info01: {
-        text: `<p>Pour un résultat parfaitement propre et plane et si votre sol le permet, <b>prévoyez un béton de propreté.</b> L’objectif ? Eviter que les armatures de votre ferraillage ne trempent dans la boue. Commandez-le maintenant en ligne et recevez-le dans les 48 heures sur votre chantier, au moment qui vous convient, prêt à être coulé et avec le dosage adapté à vos besoins.</p>`,
+        text: `<p>Pour un résultat parfaitement propre et plane et si votre sol le permet, <b>prévoyez un béton de propreté.</b> L’objectif? Eviter que les armatures de votre ferraillage ne trempent dans la boue. Commandez-le maintenant en ligne et recevez-le dans les 48 heures sur votre chantier, au moment qui vous convient, prêt à être coulé et avec le dosage adapté à vos besoins.</p>`,
         cta: 'Commande'
       },
       tips: {
@@ -178,7 +178,7 @@ const translationsFr = {
     stage03: {
       title: 'Placez la ferraille de fondation',
       text: `
-      <p>Pas envie de ferrailler avec votre fondation ? En optant pour du béton fibré, vous pourrez couler votre fondation sans passer par l’étape ferraillage. De quoi s’agit-il ? Tout simplement d’un béton auquel on a ajouté des fibres dans la liste des composants. Et grâce à ces fibres, ce béton sera plus solide, avec en prime une meilleure résistance à la fissuration… et bien sûr une mise en œuvre et une application plus faciles, sans devoir découper ni manipuler des treillis métalliques.</p>
+      <p>Pas envie de ferrailler avec votre fondation? En optant pour du béton fibré, vous pourrez couler votre fondation sans passer par l’étape ferraillage. De quoi s’agit-il? Tout simplement d’un béton auquel on a ajouté des fibres dans la liste des composants. Et grâce à ces fibres, ce béton sera plus solide, avec en prime une meilleure résistance à la fissuration… et bien sûr une mise en œuvre et une application plus faciles, sans devoir découper ni manipuler des treillis métalliques.</p>
       `,
       card01: '<p>Pour des fondations suffisamment solides, pensez <b>béton armé.</b>  Et prévoyez donc du <b>ferraillage</b> pour votre fondation.</p>',
       card02: '<p>Le ferraillage, ce sont des grilles en fer placées dans votre béton. Elles vont lui donner la robustesse nécessaire pour supporter les charges de votre bâtiment.</p>',
@@ -186,7 +186,7 @@ const translationsFr = {
       card04: '<p>Utilisez du <b>fil à ligaturer</b> et des <b>équerres de liaison</b> pour que vos armatures ne bougent pas lors du coulage et pour relier l’ensemble des éléments de votre armature.</p>',
       tips: {
         title: 'Nos conseils en un Qlik',
-        text: `<p>Les côtés de votre fouille risquent de s’effriter ? Prévoyez un coffrage latéral pour solidifier le tout.</p>`,
+        text: `<p>Les côtés de votre fouille risquent de s’effriter? Prévoyez un coffrage latéral pour solidifier le tout.</p>`,
         subtitle: 'Votre matériel',
         material01: 'Cales en bois, plastique ou béton',
         material02: 'Armatures de ferrailles',
@@ -200,7 +200,7 @@ const translationsFr = {
     },
     stage04: {
       title: 'Commandez le béton pour votre fondation',
-      text: `<p>Tous ces préparatifs sont derrière vous ? Vous pouvez donc passer à l’étape de <b>coulage</b> du béton ! Ne tardez pas pour lancer les opérations pour éviter que votre fouille ne se modifie. Prévoyez donc le coulage de votre béton <b>dans les 24 heures</b> suivant la fin de vos travaux de terrassement.</p>`,
+      text: `<p>Tous ces préparatifs sont derrière vous? Vous pouvez donc passer à l’étape de <b>coulage</b> du béton ! Ne tardez pas pour lancer les opérations pour éviter que votre fouille ne se modifie. Prévoyez donc le coulage de votre béton <b>dans les 24 heures</b> suivant la fin de vos travaux de terrassement.</p>`,
       card: {
         text: '<p>Commandez votre béton en ligne qui vous sera livré prêt à être coulé dans un délai de 48 heures.  Votre commande s’effectue tout simplement et en cinq étapes, y compris le calcul du volume et  le choix du mélange qui s’effectue automatiquement.</p>',
         cta: 'Je commande mon béton'
@@ -209,7 +209,7 @@ const translationsFr = {
         first: 'Bon a savoir',
         second: 'DIY indice: 10/10',
         third: {
-          text: `<p>De quel volume avez-vous besoin pour votre fondation ? Vous aurez la réponse en quelques secondes grâce à notre module de calcul. Même chose pour le choix votre béton : vous obtiendrez immédiatement la référence du béton adaptée à votre projet. </p>`,
+          text: `<p>De quel volume avez-vous besoin pour votre fondation? Vous aurez la réponse en quelques secondes grâce à notre module de calcul. Même chose pour le choix votre béton : vous obtiendrez immédiatement la référence du béton adaptée à votre projet. </p>`,
           cta: 'Calculator'
         }
       }
@@ -248,7 +248,7 @@ const translationsFr = {
 
   contactHero: {
     title: 'Qui sommes nous?',
-    text: 'Découvrez sur cette page l\'historie et la mission de Qlikbeton.be, et faites connaissance avec toute l\'équipe!'
+    text: '<p>Découvrez sur cette page l\'historie et la mission de Qlikbeton.be, et faites connaissance avec toute l\'équipe!</p>'
   },
 
   contactDetails: {
@@ -279,7 +279,7 @@ const translationsFr = {
 
   locationsHero: {
     title: 'Concrete Foundation',
-    text: 'Découvrez sur cette page l\'historie et la mission de Qlikbeton.be, et faites connaissance avec toute l\'équipe!',
+    text: '<p>Découvrez sur cette page l\'historie et la mission de Qlikbeton.be, et faites connaissance avec toute l\'équipe!</p>',
     cta: 'Call To Action En'
   },
 
@@ -294,7 +294,7 @@ const translationsFr = {
 
   termsHero: {
     title: 'Concrete Foundation',
-    text: 'Découvrez sur cette page l\'historie et la mission de Qlikbeton.be, et faites connaissance avec toute l\'équipe!'
+    text: '<p>Découvrez sur cette page l\'historie et la mission de Qlikbeton.be, et faites connaissance avec toute l\'équipe!</p>'
   },
 
   termsArticle: {
@@ -590,7 +590,7 @@ const translationsNl = {
 
     projectHero: {
         title: 'Fondation en béton',
-        text: '<p>Découvrez sur cette page l\'historie et la mission de Qlikbeton.be, et faites connaissance avec toute l\'équipe!</p>',
+        text: `<p>Découvrez sur cette page l\'historie et la mission de Qlikbeton.be, et faites connaissance avec toute l\'équipe!</p>`,
         cta: 'Call To Action Fr'
     },
 
@@ -658,7 +658,7 @@ const translationsNl = {
         stage03: {
             title: 'Plaats de funderingswapening',
             text: `
-      <p>Pas envie de ferrailler avec votre fondation ? En optant pour du béton fibré, vous pourrez couler votre fondation sans passer par l’étape ferraillage. De quoi s’agit-il ? Tout simplement d’un béton auquel on a ajouté des fibres dans la liste des composants. Et grâce à ces fibres, ce béton sera plus solide, avec en prime une meilleure résistance à la fissuration… et bien sûr une mise en œuvre et une application plus faciles, sans devoir découper ni manipuler des treillis métalliques.</p>
+      <p>Pas envie de ferrailler avec votre fondation? En optant pour du béton fibré, vous pourrez couler votre fondation sans passer par l’étape ferraillage. De quoi s’agit-il? Tout simplement d’un béton auquel on a ajouté des fibres dans la liste des composants. Et grâce à ces fibres, ce béton sera plus solide, avec en prime une meilleure résistance à la fissuration… et bien sûr une mise en œuvre et une application plus faciles, sans devoir découper ni manipuler des treillis métalliques.</p>
       `,
             card01: '<p>Wilt u een fundering die sterk genoeg is? Denk aan <b>gewapend beton</b>. En voorzie uw fundering dus van wapening.</p>',
             card02: '<p>Wapening bestaat uit ijzeren netten die u in uw beton plaatst. Ze geven uw beton de nodige robuustheid om de krachten van uw gebouw te ondersteunen.</p>',
@@ -728,7 +728,7 @@ const translationsNl = {
 
   contactHero: {
     title: 'Wie zijn wij?',
-    text: 'Découvrez sur cette page l\'historie et la mission de Qlikbeton.be, et faites connaissance avec toute l\'équipe!'
+    text: '<p>Découvrez sur cette page l\'historie et la mission de Qlikbeton.be, et faites connaissance avec toute l\'équipe!</p>'
   },
 
   contactDetails: {
@@ -759,7 +759,7 @@ const translationsNl = {
 
   locationsHero: {
     title: 'Concrete Foundation',
-    text: 'Découvrez sur cette page l\'historie et la mission de Qlikbeton.be, et faites connaissance avec toute l\'équipe!',
+    text: '<p>Découvrez sur cette page l\'historie et la mission de Qlikbeton.be, et faites connaissance avec toute l\'équipe!</p>',
     cta: 'Call To Action En'
   },
 
@@ -774,7 +774,7 @@ const translationsNl = {
 
   termsHero: {
     title: 'Concrete Foundation',
-    text: 'Découvrez sur cette page l\'historie et la mission de Qlikbeton.be, et faites connaissance avec toute l\'équipe!'
+    text: '<p>Découvrez sur cette page l\'historie et la mission de Qlikbeton.be, et faites connaissance avec toute l\'équipe!</p>'
   },
 
   termsArticle: {
@@ -1036,7 +1036,7 @@ export const configFile = {
       dateTime: {},
     },
   },
-  defaultLocale: 'nl-NL',
+  defaultLocale: 'fr-FR',
   currency: 'USD',
 };
 

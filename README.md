@@ -11,8 +11,8 @@
 ## Installation Instructions
 
 1.  `npm install`
-2.  npm install registry=http://5.196.72.106:4873 @qlibbeton/header
-3.  npm install registry=http://5.196.72.106:4873 @qlibbeton/footer
+2.  npm install --registry http://5.196.72.106:4873 @qlibbeton/icons@1.2.0 @qlibbeton/logos@1.0.0 @qlibbeton/modal@1.4.0 @qlibbeton/styled-svg@1.0.0 @qlibbeton/themes@1.1.0 @qlibbeton/util@1.3.0 @qlibbeton/burger-menu@1.0.0 @qlibbeton/buttons@1.0.0 @qlib
+    beton/clickarea@1.0.0 @qlibbeton/colors@1.2.0 @qlibbeton/locale-switcher@1.2.0 @qlibbeton/header@1.1.0 @qlibbeton/footer@1.3.0 @qlibbeton/mixins@1.1.0 @qlibbeton/logos@1.0.0 @qlibbeton/dividers@1.2.0 @qlibbeton/config@1.0.0
 
 ## Available Scripts
 

@@ -572,7 +572,243 @@ const translationsNl = {
   },
 
   termsArticle: {
-    text: '<h2>Article 1 - General</h2><p>Lorem ipsum dolor sit amet, <b>consectetur adipiscing elit</b>. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar. In pulvinar eros ut lacus rhoncus, ac porttitor metus malesuada. Donec quis venenatis nulla. Integer mattis orci at placerat porttitor.</p><p>Lorem ipsum dolor sit amet, <b>consectetur adipiscing elit</b>. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar. In pulvinar eros ut lacus rhoncus, ac porttitor metus malesuada. Donec quis venenatis nulla. Integer mattis orci at placerat porttitor.</p><h2>Article 2 - General</h2><p>Lorem ipsum dolor sit amet, <b>consectetur adipiscing elit</b>. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar. In pulvinar eros ut lacus rhoncus, ac porttitor metus malesuada. Donec quis venenatis nulla. Integer mattis orci at placerat porttitor.</p><p>Lorem ipsum dolor sit amet, <b>consectetur adipiscing elit</b>. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar. In pulvinar eros ut lacus rhoncus, ac porttitor metus malesuada. Donec quis venenatis nulla. Integer mattis orci at placerat porttitor.</p>'
+    text: `<h2>Artikel 1 – Algemene bepalingen:</h2>
+          <p>1.1. Onderhavige algemene voorwaarden zijn van toepassing op elke online verkoop via de
+                  website www.qlikbeton.be (de &quot;Website&quot;) van beton, mortel, funderingsproducten en hulpstoffen
+                  en meer algemeen op alle gecommercialiseerde producten, met in begrip van dienstverleningen
+                  van alle aard Qlikbeton SPRL., met maatschappelijke zetel te 1401 Nijvel, Robert
+                  Schumanlaan 71, ingeschreven in de Kruispuntbank van Ondernemingen (KBO) met het
+                  nummer 678938236 en hebbende als BTW nummer BE0678938236 (hierna : “de Verkoper”).</p>
+          <p>1.2. Elke bestelling geplaatst bij onze firma impliceert de onvoorwaardelijke aanvaarding door de
+                  Klant van het geheel van huidige algemene verkoopsvoorwaarden en elke hiermee strijdige
+                  bepaling opgelegd door de Klant o.m. op basis van zijn algemene aankoopvoorwaarden is dus
+                  niet tegenstelbaar, behoudens uitdrukkelijke en schriftelijke aanvaarding door de Verkoper,
+                  ongeacht op welk tijdstip zij hem ter kennis wordt gebracht. Het feit dat de Verkoper op een
+                  gegeven ogenblik nalaat zich te beroepen op één van de onderhavige algemene voorwaarden,
+                  kan in geen geval geïnterpreteerd worden als een afstand van het recht om zich er op een later
+                  tijdstip op te beroepen.</p>
+          <p>1.3. Geen enkele overeenkomst gesloten tussen de Klant en zijn eigen cliënteel of een derde is
+                  tegenstelbaar aan de Verkoper.</p>
+          <p>1.4. Bij gebreke aan een specifieke overeenkomst, bestaat de verkoopsovereenkomst uit de
+                  bevestiging van een bestelling door de Verkoper via een bevestigingsbericht (&quot;Leveringsbon&quot;). </p>  
+          <p>1.5. De nietigheid van een beding, zelfs gedeeltelijk, brengt niet de nietigheid van het resterende
+                  deel van het beding mee.</p>
+          <p>1.6. Door het plaatsen van een bestelling erkent de Klant kennis te hebben genomen van het
+                  privacybeleid van de Verkoper. </p>      
+          <h2>Artikel 2 - Bestellingen:</h2>
+          <p>2.1. De door Klant verstrekte gegevens bij de online bestelling verbinden de Klant. In geen geval
+                  kan de Verkoper aansprakelijk worden gesteld voor fouten gemaakt door de Klant tijdens de
+                  invoering van de ontvangstgegevens voor de bestelling.
+                  De Verkoper is eveneens niet aansprakelijk voor vertragingen van levering als gevolg van fouten van de
+                  Klant of de onmogelijkheid tot leveren als gevolg van fouten van de Klant.</p>
+          <p>2.2. Op elk moment vóór het plaatsen van de bestelling kan de Klant de gegevens die hij
+                  verstrekt aan de Verkoper herzien en wijzigen. Bestellingen die door de Klant geplaatst worden
+                  vormen een bindend aanbod om een koopovereenkomst te sluiten. Bestellingen kunnen echter
+                  maar geplaatst en verstuurd worden als de Klant deze algemene voorwaarden heeft aanvaard.</p>
+          <p>2.3. Van zodra de Klant zijn bestelling heeft geplaatst bij de Verkoper, zal hij een e-mailbericht
+                  ontvangen met daarin de bevestiging van ontvangst van de bestelling en de details ervan (de
+                  Leveringsbon). Een koopovereenkomst is pas gesloten wanneer de Klant zijn bestelling op de
+                  Website bevestigd heeft en hiervoor een Leveringsbon heeft ontvangen. De Verkoper behoudt
+                  zich het recht voor om een bestelling te weigeren in geval er reeds een geschil bestaat met de
+                  Klant, de Klant een eerdere bestelling slechts gedeeltelijk of geheel niet betaald heeft of de
+                  betrokken bank de betaling weigert.</p>
+          <p>2.4. De gekochte beton zal worden geleverd na ontvangst van de betaling van het totale bedrag.
+                  De Klant ontvangt een bevestingsemail met een overzicht van zijn bestelling, de proforma
+                  factuur, alsook een aantal gezondheids- en veiligheidsmaatregelen. De klantendienst van
+                  Qlikbeton bevestigt in een tweede fase de bestelling ook nog eens telefonisch. In een derde fase
+                  nemen we ook nog contact op met de klant de dag van de bestelling om het leveringstijdstip te
+                  bevestigen.</p>
+          <p>2.5. Met betrekking tot de opvolging van de bestelling kan de Klant contact opnemen met de
+                  klantendienst van Qlikbeton via volgend e-mailadres: info@qlikbeton.be.</p>
+          <p>2.6. Wijziging of annulering van de bestelling: Elke door de Klant gevraagde wijziging (geheel of
+                  gedeeltelijk) van de bestelling is slechts aan de Verkoper tegenstelbaar mits schriftelijke
+                  bevestiging door hem. Desalniettemin kan de Klant een wijziging van de hoeveelheid van een
+                  bestellingssaldo vragen dat maximaal met een vrachtwagen overeenkomt, zonder voorafgaande
+                  schriftelijke bevestiging door de Verkoper, voor zover deze wijziging hem wordt meegedeeld
+                  voordat de betrokken hoeveelheid in productie wordt gebracht. De kosten verbonden aan de
+                  wijziging of annulering zullen alleszins volledig en van rechtswege op de Klant worden verhaald.</p>
+          <p>2.7. Niet-toepasselijkheid van het herroepingsrecht: aangezien de producten van de Verkoper
+                  van die aard zijn snel te vervallen en/of door hun aard onlosmakelijk met andere goederen
+                  vermengd zijn en/of conform specifieke instructies van de Klant vervaardigd werden, zal de
+                  Klant zich niet kunnen beroepen op het herroepingsrecht ten aanzien van de producten van de
+                  Verkoper.</p>
+          <h3>Artikel 3 – Leveringen:</h3>
+          <p>3.1. De tijd en datum van levering hangt af van de beschikbaarheid van materialen. De levering
+                  zal worden gedaan in overeenstemming met de datum en tijd die door de Klant werd gekozen bij
+                  het plaatsen van de bestelling op de Website.</p>
+          <p>3.2. Modaliteiten.</p> 
+          <p>a) Voor leveringen op de werf, moet de losplaats duidelijk aangeduid zijn en toegankelijk zijn via
+                de openbare weg of via een door de Klant ter beschikking gestelde voor voertuigen berijdbare weg. </p>
+          <p>b) De Klant moet de leiding en verantwoordelijkheid voor toegang tot en circulatie op de werf
+                voor zijn rekening nemen. Het komt aan de Klant toe alle nodige maatregelen te treffen opdat de
+                voertuigen van de Verkoper kunnen circuleren en onmiddellijk gelost kunnen worden zonder
+                risico voor het personeel, het materieel en de installaties, alsook voor derden, ongeacht of hun
+                aanwezigheid op de werf gerechtvaardigd is of niet. De Verkoper wijst elke aansprakelijkheid af
+                ingeval van materiële schade veroorzaakt door één van zijn voertuigen ingevolge manoeuvers
+                op ongeschikte toegangswegen en/of losplaatsen, of ingeval van gebruik van het voertuig door
+                een persoon die vreemd is aan zijn firma. Ingeval van aanwezigheid van elektrische leidingen of
+                elektrische kabels, is de Klant ertoe gehouden aan de lokale diensten van de
+                elektriciteitsdistributeur te verklaren dat hij voornemens is werken aan te vangen in de nabijheid
+                van elektrische voorzieningen. Indien het pompen of storten is voorzien in de nabijheid van
+                elektrische luchtleidingen, moet de Klant de buitenspanningstelling verzekeren en het attest van
+                buitenspanningstelling overhandigen. De Verkoper kan niet aansprakelijk worden gesteld voor
+                eventuele incidenten met betrekking tot elektrische installaties die zich op of in de buurt van een
+                site van de Klant bevinden. Deze laatste draagt dienaangaande de exclusieve
+                verantwoordelijkheid. </p>
+          <p>c) De Verkoper moet zich verzekeren van de correcte voorbereiding en bescherming van de
+                oppervlakten die bestemd zijn voor de in ontvangst name van de levering en verzekert onder zijn
+                exclusieve verantwoordelijkheid iedere uitvoeringsoperatie, onder de volledige vrijstelling van de
+                Verkoper. De Klant moet ervoor zorgen dat aangrenzende goederen, de afvoer, de riolering
+                goed beschermd zijn om te vermijden dat zij zouden kunnen worden beschadigd en/of
+                geblokkeerd. De Klant duidt op de werf een plaats aan waar de mixers en pompen kunnen
+                worden schoongemaakt en waar het eventuele overtollige beton kan worden geloosd.</p>
+          <p>d) De Verkoper loopt geen enkele aansprakelijkheid op voor de handelingen van andere
+                eventuele tussenkomende partijen in het kader van de leveringsoperaties.</p>
+          <p>e) De normale aanwezigheidsduur van een voertuig op de werf, inclusief wachttijd en lostijd
+                wordt vastgesteld op 5 minuten per kubieke meter. Indien een voertuig langer dan deze vooraf
+                bepaalde tijd geblokkeerd is, behoudt de Verkoper zich het recht voor een
+                werkloosheidsvergoeding te factureren van 1,25 € per bijkomende minuut. Wanneer de levering
+                van beton met een pomp wordt uitgevoerd, wordt het pompen gefactureerd aan een uurtarief
+                van 85€ bovenop het forfait van de pomp.</p>
+          <p>f) De leveringen geschieden tijdens de normale openingstijden van de centrale, te weten van
+                maandag tot en met vrijdag van 6 uur (uur van begin van de lading) tot 17 uur (uur van einde
+                van de lossing). Buiten deze leveringsuren heeft de Verkoper het recht een supplement te
+                factureren. Het uur van levering wordt louter ter indicatieve titel door de Verkoper meegedeeld.</p>
+          <p>g) De Verkoper levert niet tijdens het bouwverlof. De klant kan dus geen bestellingen plaatsen
+                voor de verlofperiodes.</p>
+          <p>3.3.Iedere wijziging of annulering van een bestelling kan slechts door de Verkoper in
+                 aanmerking worden genomen indien het standaard producten betreft en dit aan de Verkoper ter
+                 kennis werd gebracht voorafgaand aan de vervaardiging van het product. In dat geval zal iedere
+                 wijziging of annulering van rechtswege de facturatie van een forfaitaire schadevergoeding van
+                 15% van het bedrag van de geannuleerde of gewijzigde bestelling met zich meebrengen.</p>
+          <h4>Artikel 4 – Risico- en eigendomsoverdracht:</h4>
+          <p>De overdracht van eigendom en risico geschiedt op het ogenblik van het lossen van het voertuig.</p>
+          <h5>Artikel 5 – In ontvangst name:</h5>
+          <p>5.1. De Klant dient zich op het ogenblik van de levering te vergewissen van de conformiteit van
+                  het geleverde product ten opzichte van zijn bestelling. Iedere klacht met betrekking tot de
+                  conformiteit van de producten of zichtbare gebreken zal slechts in aanmerking kunnen worden
+                  genomen indien zij geformuleerd werd op de leveringsbon in bijzijn van een vertegenwoordiger
+                  van onze firma en schriftelijk werd bevestigd binnen 24 uur te rekenen vanaf de aankomst van
+                  de producten. De schriftelijke bevestiging moet aangetekend opgestuurd worden naar Qlikbeton, Avenue
+                  Robert Schuman 71, 1401 Nivelles.</p>
+          <p>5.2. De hoeveelheden opgenomen in de leveringsbon verbinden de Klant, behoudens
+                  schriftelijke betwisting door de Klant binnen 24 uur na aankomst van de producten.</p>       
+          <h6>Artikel 6 – Waarborg van de producten:</h6>
+          <p>6.1. Bij gebreke aan een specifieke overeenkomst is de productgarantie beperkt tot de
+                  karakteristieken opgenomen in de leveringsbon. Nadat de verkochte goederen zijn geleverd, is
+                  de Verkoper uitsluitend gehouden tot de waarborgen zoals bepaald in de artikelen 1641 en
+                  volgende van het Burgerlijk Wetboek en overeenkomstig de hiernavolgende voorwaarden. Alle
+                  schade-eisen die gebaseerd zijn op verborgen gebreken moeten per aangetekende brief worden
+                  gemeld binnen de vijftien (15) dagen na de leveringsdatum. Na die periode zal geen gevolg
+                  meer worden gegeven aan enige schadevordering van welke aard ook die is gebaseerd op
+                  verborgen gebreken. Indien tijdens de toegestane periode op basis van de garantie een schade-
+                  eis wordt gesteld, mag de Klant naar keuze de betaling van de geleverde goederen die als
+                  gebrekkig worden erkend terugvragen, ofwel vragen dat de geleverde goederen die als gebrekkig worden
+                  erkend volledig of gedeeltelijk worden vervangen. Enkel indien het verborgen
+                  gebrek het onmogelijk maakt tot volledige of gedeeltelijke vervanging over te gaan, zal de
+                  verkoop worden ontbonden op verzoek van de Klant. Indien het gebrek echter door de Klant
+                  gekend was, zal de Klant geen aanspraak kunnen maken op enige andere schadeloosstelling
+                  dan diegene voorzien in dit artikel.</p>
+          <p>6.2. De Verkoper wordt van elke aansprakelijkheid ontslaan ingeval van wijziging van de
+                  producten op initiatief van de Klant en meer bepaald in geval van toevoeging van water of van
+                  enig ander product.</p>
+          <p>6.3  In de hypothese van toevoeging van welke aard dan ook door of op verzoek van de Klant,
+                  waarborgt de Verkoper in geen geval het genormaliseerd karakter van de producten.</p>
+          <p>6.4. Behoudens tegengesteld beding, garandeert de Verkoper de karakteristieken van het
+                  product niet in het kader van en vanaf de in ontvangst name van de levering of de uitvoering.
+                  Daaruit volgt meer bepaald dat de Verkoper de karakteristieken zoals het begin en einde van de
+                  in ontvangst name, het begin van de verharding, de afwezigheid van scheuren, de kleur niet
+                  garandeert en dat het aan de Klant is om onder de onmiddellijke bescherming te verzekeren
+                  tegen weersomstandigheden (wind, zond, regen, vorst, enz.) overeenkomstig de norm NBN EN 13670.</p>
+          <p>6.5. De resultaten van de op verzoek van de Klant uitgevoerde controles zijn slechts aan de
+                  Verkoper tegenstelbaar indien zij betrekking hebben op tegensprekelijke monsternemingen
+                  uitgevoerd met zijn instemming en op het ogenblik van de leveringen, voorafgaand aan iedere
+                  toevoeging. Voor genormaliseerd beton, dienen de monsternemingen te geschieden
+                  overeenkomstig de voorschriften van de normen NBN EN 206 en NBN B15-001.</p> 
+          <p>6.6. De Verkoper kan in geen geval aansprakelijk gesteld worden indien de Klant producten
+                  bestelt waarvan de karakteristieken verschillen van deze die hem zijn voorgeschreven of
+                  opgelegd door een publiek of privaat uitvoeringsbestek of enig ander document waaraan de
+                  Klant onderworpen is in het kader van de werf.</p> 
+          <p>6.7. De genormaliseerde producten van de Verkoper zijn conform aan de eigenschappen
+                  gedefinieerd in de NBN EN 206 en NBN B15-001 normen.</p>
+          <p>6.8. De Verkoper treedt enkel op als productleverancier, met de beperkte aansprakelijkheid om
+                  een product te leveren conform aan zijn beschrijving en informatie te verstrekken in verband met
+                  deze verplichting; hij komt in geen enkel geval tussen als bouw- of studieonderneming of in de
+                  hoedanigheid van onderaannemer in het kader van de werven waarop hij zijn leveringen
+                  uitvoert, zelfs indien bepaalde documenten met betrekking tot voormelde werven hem zouden
+                  zijn meegedeeld. De keuze van omgevingsklasse en betontype komt aan de Klant toe, de
+                  Verkoper kan niet aansprakelijk worden gehouden in geval van bestemming of gebruik van het
+                  product dat niet in overeenstemming is met bovengenoemde norm. Hetzelfde geldt ingeval van
+                  gebruik van een product welk conform is aan de overeengekomen karakteristieken doch
+                  ongeschikt voor het gebruik welk de Klant ervan maakt.</p>
+          <p>6.9. De mogelijks door de Verkoper verschafte inlichtingen, overhandigde productfiches of
+                  andere commerciële documenten, zijn slechts eenvoudige voorzorgsraadgevingen betreffende
+                  zowel het product als zijn gebruiksmogelijkheden en kunnen in geen geval gelijkgesteld worden
+                  met enige garantie inzake resultaat. De verwerking van de producten geschiedt onder
+                  exclusieve verantwoordelijkheid van de Klant.</p>
+          <p>6.10. De Verkoper kan niet aansprakelijk worden gehouden voor producten die opgeslagen
+                   worden op zijn sites voor de Klant.</p> 
+          <p>6.11. Behalve in het geval van grove fout of nalatigheid, is de totale contractuele en
+                   buitencontractuele aansprakelijkheid van de Verkoper in alle gevallen beperkt tot het laagste van
+                   volgende twee bedragen : (i) 50.000 EUR of (ii) het bedrag van de verkoopprijs. De Verkoper zal
+                   in geen geval aansprakelijk zijn voor winstderving of onderbreking van de activiteiten van de
+                   Klant, verlies van contracten, verlies van activiteiten, verlies van cliënteel, financiële kosten,
+                   verlies van financiële interest, noch voor elke onrechtstreekse of immateriële schade, ongeacht
+                   de grondslag waarop de vordering tot schadevergoeding is gebaseerd.</p>                                                         
+          <h7>Artikel 7 – Voorzorgen bij gebruik:</h7>
+          <p>De Verkoper waarschuwt niet-professionelen ervoor dat bepaalde bestanddelen van beton in
+             geval van langdurig contact met de huid of contact met de ogen irritaties kan veroorzaken, zoals
+             brandwonden, roodheid of allergieën kunnen veroorzaken. Het is derhalve onontbeerlijk om bij
+             de verwerking van de producten veiligheidsuitrustingen te dragen (handschoenen, bril, laarzen,
+             werkpak,...). In geval van irritatie, overvloedig met water spoelen en een geneesheer raadplegen.</p>
+          <h8>Artikel 8 - Prijs:</h8>
+          <p>Behoudens andersluidende bepaling worden de prijzen voor contante leveringen bepaald
+             overeenkomstig de op het ogenblik van de bestelling geldende tarieven. De toegepaste prijzen
+             die op de Website geraadpleegd kunnen worden, zijn onderhevig aan de evolutie van materiaal-
+             en transportkosten. Behoudens andersluidend beding, is de verkoopseenheid van beton en
+             mortel de verdichte kubieke meter, behoudens andersluidend beding. De hoeveelheid mortel
+             geleverd per leveringsronde wordt gemeten door storting in gekalibreerde bakken. De
+             hoeveelheid kubieke meters aangeduid op de leveringsbon geldt ter staving van het geleverde
+             en gefactureerde volume. Ingeval van franco levering van een volume welk kleiner is dan de
+             nominale capaciteit van de vrachtwagen (7m3), zal een transportsupplement gefactureerd
+             worden overeenkomstig het ontbrekend aantal kubieke meters. De prijzen zijn exclusief kosten
+             van proefnemingen en controles uitgevoerd op verzoek van de Klant en exclusief kosten van
+             onderzoek en overeenkomstigheid in verband met het beton, behoudens bijzondere
+             voorwaarden.
+             De prijs overeengekomen voor een bestelling verbindt de Verkoper niet voor daaropvolgende
+             bestellingen, zelfs indien zij bestemd zijn voor dezelfde plaats van levering.</p> 
+          <h9>Artikel 9 – Betalingsmodaliteiten:</h9>
+          <p>9.1. Elke levering stemt overeen met een leveringsbon waarvan de voornaamste elementen
+                  (prijs en hoeveelheden) worden opgenomen in een samenvattende factuur. Enkel de gegevens
+                  vermeld op de leveringsbon (kwaliteit, hoeveelheid, ...) worden weerhouden in geval van klacht.</p>
+          <p>9.2. Behoudens andersluidende schriftelijke bepaling, zijn de facturen contant betaalbaar op de
+                  Website bij het plaatsen van de bestelling.</p> 
+          <p>9.3. De Verkoper kent geen disconto toe in geval van vroegtijdige betaling.</p>               
+          <h10>Artikel 10 – Overmacht:</h10>
+          <p>De Verkoper kan niet aansprakelijk worden gehouden voor gehele of gedeeltelijke niet-
+             uitvoering van zijn verbintenissen die hieruit voortvloeien, indien deze niet-uitvoering te wijten is
+             aan overmacht of aan omstandigheden onafhankelijk van zijn wil zoals, onder meer, oproer,
+             brand, overstroming, staking, vriesweer, bijzondere verkeersmoeilijkheden, exploitatieverbod
+             uitgevaardigd door een openbare macht.</p>
+          <h11>Artikel 11 – Bevoegdheidsbeding en toepasselijk recht:</h11>
+          <p>De interpretatie en uitvoering van onderhavig algemene verkoopsvoorwaarden, alsook alle
+             handelingen die er het gevolg van zijn, zijn onderworpen aan het Belgisch recht, met uitsluiting
+             van het Weens Koopverdrag. Alle geschillen m.b.t. de totstandkoming, geldigheid, interpretatie
+             of uitvoering van deze overeenkomst tussen de Verkoper en een professionele Klant, zullen tot
+             de exclusieve bevoegdheid van de Rechtbank van Koophandel te Brussel behoren. Alle
+             geschillen m.b.t. de totstandkoming, geldigheid, interpretatie of uitvoering van deze
+             overeenkomst tussen de Verkoper en een niet-professionele Klant, zullen behoren tot de
+             bevoegdheid van de rechtbank van het gerechtelijk arrondissement van de woonplaats van de
+             niet-professionele Klant of, indien de niet-professionele Klant eisende partij is, eveneens tot de
+             bevoegdheid van de Rechtbank van Koophandel te Brussel indien door hem gewenst.</p>
+          <h12>Artikel 12 – Specifieke bepalingen:</h12>
+          <p>De algemene voorwaarden van 09-01-2017 van de Verkoper hebben voorrang op alle andere
+             algemene of bijzondere voorwaarden van de Klant. Zij hebben tevens voorrang op alle
+             voorgaande versies van de algemene voorwaarden van de Verkoper, zelfs deze die nog in
+             omloop zouden zijn op het ogenblik van of na de verspreiding van de algemene voorwaarden
+             van 09-01-2017.
+             De Klant kan steeds contact opnemen met de Verkoper op volgend adres: Qlikbeton SPRL, Avenue Robert
+             Schuman 71, 1401 Nivelles; of een mail sturen naar volgend adres: info@qlikbeton.be </p>`
   },
 
   termsCTA: {

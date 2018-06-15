@@ -96,8 +96,13 @@ const translationsFr = {
   },
 
   projectIntro: {
-    title: 'Intro Section',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar. In pulvinar eros ut lacus rhoncus, ac porttitor metus malesuada. Donec quis venenatis nulla. Integer mattis orci at placerat porttitor.'
+    title: 'Votre fondation, solide comme le béton',
+    text: `
+    <p>Maison, garage, annexe, abri ou remise de jardin, terrasse, clôtures de jardin… Vous comptez vous lancer dans un projet de construction ? Le coulage de votre fondation figure forcément tout en haut de votre liste de priorités !</p> 
+
+<p>Pourquoi ? Tout simplement parce que c’est la qualité de cette fondation qui garantira la résistance et la durabilité de votre bâtiment. Pas question donc de bâcler le travail. 
+Et comme couler une dalle en béton… ne coule pas nécessairement de source, on vous explique ici comment faire !</p>
+    `
   },
 
   projectCTA: {
@@ -272,7 +277,7 @@ const translationsFr = {
   }
 };
 
-const translationsEn = {
+const translationsNl = {
   header: {
     contactUs: 'Contact US',
     phoneNumber: '0800 14 245',
@@ -540,12 +545,12 @@ export const configFile = {
       messages: translationsFr,
       dateTime: {},
     },
-    'en-US': {
-      messages: translationsEn,
+    'nl-NL': {
+      messages: translationsNl,
       dateTime: {},
     },
   },
-  defaultLocale: 'en-US',
+  defaultLocale: 'fr-FR',
   currency: 'USD',
 };
 

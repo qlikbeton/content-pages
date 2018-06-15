@@ -351,7 +351,7 @@ const translationsFr = {
                    périmer rapidement, et/ou qui par leur nature sont mélangés de manière indissociable avec d'autres
                    articles et/ou qui sont confectionnés selon les spécifications du client-consommateur, le Client ne
                    bénéficie pas d'un droit de rétraction sur les produits du Vendeur.</p>
-          <h3>Article 3 - Livraisons:</h3>
+          <h2>Article 3 - Livraisons:</h2>
           <p>3.1. L'heure et la date de livraison dépendent de la disponibilité des matériaux. La livraison sera
                   effectuée conformément à la date et l'heure choisie par le Client lors de la commande sur le Site
                   Internet.</p>
@@ -395,9 +395,9 @@ const translationsFr = {
                   Vendeur que dans la mesure où elle concerne des produits standards et a été portée à la connaissance
                   du Vendeur avant la fabrication du produit. Dans ce cas, toute modification ou annulation entraînera, de
                   plein droit, une facturation d’une indemnité forfaitaire de 15% du montant de la commande annulée ou modifiée.</p>
-          <h4>Article 4 - Transfert de propriété et de risques:</h4>
+          <h2>Article 4 - Transfert de propriété et de risques:</h2>
           <p>Le transfert de propriété et des risques s’effectue au moment du déchargement du véhicule.</p>
-          <h5>Article 5 - Réception:</h5>
+          <h2>Article 5 - Réception:</h2>
           <p>5.1. Le Client devra s’assurer au moment de la livraison de la conformité du produit livré par rapport aux
                   termes de sa commande. Toutes réclamations portant sur la non-conformité des produits ou concernant
                   des vices apparents, ne pourront être prises en considération que si elles ont été formulées sur le bon de
@@ -406,7 +406,7 @@ const translationsFr = {
                   Avenue Robert Schuman 71, 1401 Nivelles.</p>
           <p>5.2. Les quantités reprises sur le bon de livraison font foi, sauf contestation écrite du Client notifiée dans
                   les 24 heures de la livraison.</p>       
-          <h6>Article 6 - Garantie des Produits:</h6>
+          <h2>Article 6 - Garantie des Produits:</h2>
           <p>6.1. A défaut de contrat spécifique, la garantie des produits se limite aux caractéristiques reprises sur le
                   bon de livraison. Après la livraison des marchandises, le Vendeur sera exclusivement tenu des garanties
                   résultant des articles 1641 et suivants du Code civil, sous les conditions et dans les limites déterminées
@@ -457,13 +457,13 @@ const translationsFr = {
                    manque à gagner du Client, l’interruption des activités du Client, pertes d’activités, pertes de clientèle,
                    coûts financiers, pertes d’intérêts financiers ni pour tout dommage indirect ou immatériel que le Client
                    viendrait à subir et ce indépendamment du fondement de la demande indemnitaire.</p>                                                         
-          <h7>Article 7 - Précautions d’emploi:</h7>
+          <h2>Article 7 - Précautions d’emploi:</h2>
           <p>Le Vendeur met en garde les non-professionnels sur le fait que certains constituants du béton peuvent
              provoquer des désagréments, tels que brûlures, rougeurs ou allergies en cas de contact prolongé avec la
              peau ou de projections dans les yeux. Il est donc indispensable de porter des équipements de protection
              pour la mise en oeuvre des produits (bottes, gants, vêtement de travail, lunettes,...). En cas d’irritation,
              rincer à l’eau abondamment et consulter un médecin.</p>
-          <h8>Article 8 - Prix:</h8>
+          <h2>Article 8 - Prix:</h2>
           <p>Le prix du béton pour une livraison comptant sera facturé et payé au tarif en vigueur au moment de la
              passation de la commande, sauf stipulation contraire. Les prix indiqués sur le Site Internet subiront les
              évolutions des coûts matières et transport. L’unité de vente des bétons et des mortiers est le mètre cube
@@ -475,20 +475,20 @@ const translationsFr = {
              la demande du Client, ni les coûts liés aux bétons d’étude et de convenance sauf conditions particulières.</p>
           <p>Le prix convenu pour une commande ne lie pas le Vendeur pour les commandes ultérieures, même si
              elles sont destinées au même site de livraison.</p>  
-          <h9>Article 9 - Modalités de règlement:</h9>
+          <h2>Article 9 - Modalités de règlement:</h2>
           <p>9.1. A chaque livraison correspond un bon de livraison dont les principaux éléments (prix et quantité)
                   seront repris sur une facture récapitulative. Seuls les éléments mentionnés sur ce bon de livraison
                   (qualité, quantité,...) seront retenus en cas de réclamation.</p>
           <p>9.2. Sauf disposition contraire écrite, les factures sont payables comptant sur le Site Internet au moment
                   de la commande.</p> 
           <p>9.3. Le Vendeur n’accorde aucun escompte en cas de paiement anticipé.</p>               
-          <h10>Article 10 - Force majeure:</h10>
+          <h2>Article 10 - Force majeure:</h2>
           <p>Le Vendeur ne pourra être tenu pour responsable de l’inexécution totale ou partielle de ses obligations
              résultant des présentes, si une telle inexécution résulte du cas dit de force majeure ou à des causes
              indépendantes de sa volonté tel que notamment, émeute, incendie, inondation, grève, gel, difficultés de
              circulation particulières, difficultés d’approvisionnement, interdiction d’exploiter édictée par une
              autorité publique.</p>
-          <h11>Article 11 - Clause attributive de juridiction et lois applicables:</h11>
+          <h2>Article 11 - Clause attributive de juridiction et lois applicables:</h2>
           <p>L’interprétation et l’exécution des présentes conditions générales de vente, ainsi que de tous actes qui
              en seront la conséquence, seront exclusivement soumis au droit belge, à l’exclusion de l’application de la
              Convention de Vienne. Si vous êtes un professionnel, tous les litiges en ce qui concerne l’établissement,
@@ -498,7 +498,7 @@ const translationsFr = {
              conditions générales de vente seront soumis à la compétence du tribunal de l'arrondissement judiciaire
              de votre lieu de résidence ou, si vous êtres la partie demanderesse, vous pouvez également choisir de
              soumettre le litige au Tribunal de Commerce de Bruxelles.</p>
-          <h12>Article 12 - Dispositions particulières:</h12>
+          <h2>Article 12 - Dispositions particulières:</h2>
           <p>Les conditions générales du Vendeur priment sur toutes autres conditions contractuelles générales ou
              particulières du Client. Elles priment également sur toutes versions précédentes des conditions générales
              du Vendeur, même celles qui seraient encore en circulation parallèlement ou postérieurement à la
@@ -838,7 +838,7 @@ const translationsNl = {
                   vermengd zijn en/of conform specifieke instructies van de Klant vervaardigd werden, zal de
                   Klant zich niet kunnen beroepen op het herroepingsrecht ten aanzien van de producten van de
                   Verkoper.</p>
-          <h3>Artikel 3 – Leveringen:</h3>
+          <h2>Artikel 3 – Leveringen:</h2>
           <p>3.1. De tijd en datum van levering hangt af van de beschikbaarheid van materialen. De levering
                   zal worden gedaan in overeenstemming met de datum en tijd die door de Klant werd gekozen bij
                   het plaatsen van de bestelling op de Website.</p>
@@ -887,9 +887,9 @@ const translationsNl = {
                  kennis werd gebracht voorafgaand aan de vervaardiging van het product. In dat geval zal iedere
                  wijziging of annulering van rechtswege de facturatie van een forfaitaire schadevergoeding van
                  15% van het bedrag van de geannuleerde of gewijzigde bestelling met zich meebrengen.</p>
-          <h4>Artikel 4 – Risico- en eigendomsoverdracht:</h4>
+          <h2>Artikel 4 – Risico- en eigendomsoverdracht:</h2>
           <p>De overdracht van eigendom en risico geschiedt op het ogenblik van het lossen van het voertuig.</p>
-          <h5>Artikel 5 – In ontvangst name:</h5>
+          <h2>Artikel 5 – In ontvangst name:</h2>
           <p>5.1. De Klant dient zich op het ogenblik van de levering te vergewissen van de conformiteit van
                   het geleverde product ten opzichte van zijn bestelling. Iedere klacht met betrekking tot de
                   conformiteit van de producten of zichtbare gebreken zal slechts in aanmerking kunnen worden
@@ -899,7 +899,7 @@ const translationsNl = {
                   Robert Schuman 71, 1401 Nivelles.</p>
           <p>5.2. De hoeveelheden opgenomen in de leveringsbon verbinden de Klant, behoudens
                   schriftelijke betwisting door de Klant binnen 24 uur na aankomst van de producten.</p>       
-          <h6>Artikel 6 – Waarborg van de producten:</h6>
+          <h2>Artikel 6 – Waarborg van de producten:</h2>
           <p>6.1. Bij gebreke aan een specifieke overeenkomst is de productgarantie beperkt tot de
                   karakteristieken opgenomen in de leveringsbon. Nadat de verkochte goederen zijn geleverd, is
                   de Verkoper uitsluitend gehouden tot de waarborgen zoals bepaald in de artikelen 1641 en
@@ -961,13 +961,13 @@ const translationsNl = {
                    Klant, verlies van contracten, verlies van activiteiten, verlies van cliënteel, financiële kosten,
                    verlies van financiële interest, noch voor elke onrechtstreekse of immateriële schade, ongeacht
                    de grondslag waarop de vordering tot schadevergoeding is gebaseerd.</p>                                                         
-          <h7>Artikel 7 – Voorzorgen bij gebruik:</h7>
+          <h2>Artikel 7 – Voorzorgen bij gebruik:</h2>
           <p>De Verkoper waarschuwt niet-professionelen ervoor dat bepaalde bestanddelen van beton in
              geval van langdurig contact met de huid of contact met de ogen irritaties kan veroorzaken, zoals
              brandwonden, roodheid of allergieën kunnen veroorzaken. Het is derhalve onontbeerlijk om bij
              de verwerking van de producten veiligheidsuitrustingen te dragen (handschoenen, bril, laarzen,
              werkpak,...). In geval van irritatie, overvloedig met water spoelen en een geneesheer raadplegen.</p>
-          <h8>Artikel 8 - Prijs:</h8>
+          <h2>Artikel 8 - Prijs:</h2>
           <p>Behoudens andersluidende bepaling worden de prijzen voor contante leveringen bepaald
              overeenkomstig de op het ogenblik van de bestelling geldende tarieven. De toegepaste prijzen
              die op de Website geraadpleegd kunnen worden, zijn onderhevig aan de evolutie van materiaal-
@@ -983,20 +983,20 @@ const translationsNl = {
              voorwaarden.
              De prijs overeengekomen voor een bestelling verbindt de Verkoper niet voor daaropvolgende
              bestellingen, zelfs indien zij bestemd zijn voor dezelfde plaats van levering.</p> 
-          <h9>Artikel 9 – Betalingsmodaliteiten:</h9>
+          <h2>Artikel 9 – Betalingsmodaliteiten:</h2>
           <p>9.1. Elke levering stemt overeen met een leveringsbon waarvan de voornaamste elementen
                   (prijs en hoeveelheden) worden opgenomen in een samenvattende factuur. Enkel de gegevens
                   vermeld op de leveringsbon (kwaliteit, hoeveelheid, ...) worden weerhouden in geval van klacht.</p>
           <p>9.2. Behoudens andersluidende schriftelijke bepaling, zijn de facturen contant betaalbaar op de
                   Website bij het plaatsen van de bestelling.</p> 
           <p>9.3. De Verkoper kent geen disconto toe in geval van vroegtijdige betaling.</p>               
-          <h10>Artikel 10 – Overmacht:</h10>
+          <h2>Artikel 10 – Overmacht:</h2>
           <p>De Verkoper kan niet aansprakelijk worden gehouden voor gehele of gedeeltelijke niet-
              uitvoering van zijn verbintenissen die hieruit voortvloeien, indien deze niet-uitvoering te wijten is
              aan overmacht of aan omstandigheden onafhankelijk van zijn wil zoals, onder meer, oproer,
              brand, overstroming, staking, vriesweer, bijzondere verkeersmoeilijkheden, exploitatieverbod
              uitgevaardigd door een openbare macht.</p>
-          <h11>Artikel 11 – Bevoegdheidsbeding en toepasselijk recht:</h11>
+          <h2>Artikel 11 – Bevoegdheidsbeding en toepasselijk recht:</h2>
           <p>De interpretatie en uitvoering van onderhavig algemene verkoopsvoorwaarden, alsook alle
              handelingen die er het gevolg van zijn, zijn onderworpen aan het Belgisch recht, met uitsluiting
              van het Weens Koopverdrag. Alle geschillen m.b.t. de totstandkoming, geldigheid, interpretatie
@@ -1007,7 +1007,7 @@ const translationsNl = {
              bevoegdheid van de rechtbank van het gerechtelijk arrondissement van de woonplaats van de
              niet-professionele Klant of, indien de niet-professionele Klant eisende partij is, eveneens tot de
              bevoegdheid van de Rechtbank van Koophandel te Brussel indien door hem gewenst.</p>
-          <h12>Artikel 12 – Specifieke bepalingen:</h12>
+          <h2>Artikel 12 – Specifieke bepalingen:</h2>
           <p>De algemene voorwaarden van 09-01-2017 van de Verkoper hebben voorrang op alle andere
              algemene of bijzondere voorwaarden van de Klant. Zij hebben tevens voorrang op alle
              voorgaande versies van de algemene voorwaarden van de Verkoper, zelfs deze die nog in

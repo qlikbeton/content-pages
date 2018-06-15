@@ -188,6 +188,7 @@ const SectionStages = ({ config, ...props }) => (
 
         <Card center moreSpacing>
           <RichText text={config.translate(props.name)('stage04.card.text')} />
+          <br />
           <Button label={config.translate(props.name)('stage04.card.cta')} to="/" icon="arrow-right" primary small />
         </Card>
 
@@ -205,6 +206,7 @@ const SectionStages = ({ config, ...props }) => (
             text: (
               <div>
                 <RichText spacingBottom text={config.translate(props.name)('stage04.gallery.third.text')} />
+                <br />
                 <Button label={config.translate(props.name)('stage04.gallery.third.cta')} to="/" primary small />
               </div>                
             ),

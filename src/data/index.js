@@ -110,7 +110,7 @@ const translationsFr = {
 
   projectHero: {
     title: 'Fondation en béton',
-    text: 'Découvrez sur cette page l\'historie et la mission de Qlikbeton.be, et faites connaissance avec toute l\'équipe!',
+    text: '<p<p>>Découvrez sur cette page l\'historie et la mission de Qlikbeton.be, et faites connaissance avec toute l\'équipe!</p></p>',
     cta: 'Call To Action Fr'
   },
 
@@ -144,7 +144,7 @@ const translationsFr = {
     },
     stage02: {
       title: 'Préparez le travail de terrassement et placez un béton de propreté',
-      text: 'Vous avez défini les dimensions exactes de vos futures fondations en béton ? Bravo : maintenant, vous allez pouvoir creuser !',
+      text: '<p>Vous avez défini les dimensions exactes de vos futures fondations en béton ? Bravo : maintenant, vous allez pouvoir creuser !</p>',
       step01: '<p>Commencez tout d’abord par délimiter la superficie de votre fond de fouille. Vous le ferez en plaçant des <b>chaises d’implantation</b> sur lesquelles vous attacherez le <b>fil servant de guide</b> aux axes de votre fondation.</p>',
       step02: '<p>Creusez suivant la profondeur définie. Puis utilisez un fil à plomb pour dessiner les axes dans votre fouille.</p>',
       step03: '<p><b>Nivelez le sol</b> de votre fouille et <b>damez-le</b> avec une dameuse.</p>',
@@ -216,7 +216,7 @@ const translationsFr = {
     },
     stage05: {
       title: 'Finalisez le coulage du béton de votre fondation',
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar. In pulvinar eros ut lacus rhoncus, ac porttitor metus malesuada. Donec quis venenatis nulla. Integer mattis orci at placerat porttitor.',
+      text: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar. In pulvinar eros ut lacus rhoncus, ac porttitor metus malesuada. Donec quis venenatis nulla. Integer mattis orci at placerat porttitor.</p>',
       step01: `<p>Le camion-toupie qui livre votre béton prêt à l’emploi est là : il ne vous reste donc plus qu’à couler le béton de votre fondation. Lors du coulage, assurez-vous que toutes les <b>armatures</b> sont bien <b>recouvertes</b> de béton.</p>`,
       step02: `<p><b>Evacuez les bulles</b> d’air contenues dans le béton à l’aide d’un vibreur, puis <b>égalisez</b> à la règle et passez la surface à la lisseuse.</p>`,
       step03: `<p>Laissez durcir votre béton pendant quelques jours… et votre fondation est prête !</p>`,
@@ -384,7 +384,7 @@ const translationsNl = {
 
     projectHero: {
         title: 'Fondation en béton',
-        text: 'Découvrez sur cette page l\'historie et la mission de Qlikbeton.be, et faites connaissance avec toute l\'équipe!',
+        text: '<p>Découvrez sur cette page l\'historie et la mission de Qlikbeton.be, et faites connaissance avec toute l\'équipe!</p>',
         cta: 'Call To Action Fr'
     },
 
@@ -418,7 +418,7 @@ const translationsNl = {
         },
         stage02: {
             title: 'Bereid de grondwerken voor en plaats een zuiverheidsbeton',
-            text: 'Hebt u de exacte afmetingen van uw toekomstige betonfunderingen vastgelegd? Bravo: nu kunt u beginnen te graven!',
+            text: '<p>Hebt u de exacte afmetingen van uw toekomstige betonfunderingen vastgelegd? Bravo: nu kunt u beginnen te graven!</p>',
             step01: '<p>Begin met de oppervlakte van uw bouwput af te bakenen. U doet dit door <b>bouwjukken of brugjes</b> te plaatsen waaraan u de draad bevestigt die als gids dient om de assen van uw fundering aan te duiden.</p>',
             step02: '<p>Graaf de vastgelegde diepte uit. Gebruik daarna een schietlood om de assen loodrecht onder de koorden in uw bouwput te tekenen.</p>',
             step03: '<p>Nivelleer de grond van uw bouwput en stamp hem aan met een trilplaat.</p>',
@@ -490,7 +490,7 @@ const translationsNl = {
         },
         stage05: {
             title: 'Voltooi het gieten van het beton voor uw fundering',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar. In pulvinar eros ut lacus rhoncus, ac porttitor metus malesuada. Donec quis venenatis nulla. Integer mattis orci at placerat porttitor.',
+            text: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar. In pulvinar eros ut lacus rhoncus, ac porttitor metus malesuada. Donec quis venenatis nulla. Integer mattis orci at placerat porttitor.</p>',
             step01: `<p>De betonmixer die uw stortklaar beton levert, is er: u hoeft het beton voor uw fundering alleen nog maar te gieten. Zorg er tijdens het gieten voor dat alle <b>wapening</b> goed met beton <b>bedekt</b> wordt.</p>`,
             step02: `<p><b>Verwijder</b> met een trilnaald <b>de luchtbellen</b> uit het beton, <b>egaliseer</b> daarna met een regel en ga met een afwerkspaan over het oppervlak.</p>`,
             step03: `<p>Laat uw beton een paar dagen uitharden ... en uw fundering is klaar!</p>`,

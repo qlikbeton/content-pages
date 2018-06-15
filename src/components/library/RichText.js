@@ -13,6 +13,7 @@ const RichText = props => {
   if(props.noSpacing) classNames.push('has-no-spacing');
   if(props.spacingBottom) classNames.push('has-spacing-bottom');
   if(props.center) classNames.push('has-text-center');
+  if(props.textLeft) classNames.push('has-text-left');
   if(props.subtitle) classNames.push('is-subtitle');
   if(props.bold) classNames.push('is-bold');
   if(props.light) classNames.push('is-light');

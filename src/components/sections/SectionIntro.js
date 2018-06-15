@@ -1,7 +1,7 @@
 import React from 'react';
 import { withConfig } from '../config';
 import Section, { SectionWrapper } from './';
-import { Text, Image, Heading } from '../library';
+import { RichText, Image, Heading } from '../library';
 import { Gradient } from '../styles';
 
 const SectionIntro = ({ config, ...props }) => (
@@ -18,7 +18,7 @@ const SectionIntro = ({ config, ...props }) => (
       <div className="Intro-right">
         <SectionWrapper hasWidthFixed>
           <Heading h2 title={config.translate(props.name)('title')} />
-          <Text noSpacing>{config.translate(props.name)('text')}</Text>
+          <RichText text={config.translate(props.name)('text')} />
         </SectionWrapper>
       </div>
     </div>

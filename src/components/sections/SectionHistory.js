@@ -1,7 +1,7 @@
 import React from 'react';
 import { withConfig } from '../config';
 import Section, { SectionContent } from './';
-import { Heading, Text, Feature } from '../library';
+import { Heading, Text, RichText, Feature } from '../library';
 
 const SectionHistory = ({ config, ...props }) => (
   <Section name="History">
@@ -11,7 +11,7 @@ const SectionHistory = ({ config, ...props }) => (
 
       {props.rows && props.rows.map((row, idx) => (
         <Feature image={row.image} key={idx} inversed={idx % 2 === 1}>
-          <Text>{config.translate(props.name)(row.key)}</Text>
+          <RichText text={config.translate(props.name)(row.key)} />
         </Feature>
       ))}
     </SectionContent>

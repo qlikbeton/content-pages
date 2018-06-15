@@ -1,7 +1,7 @@
 import React from 'react';
 import { withConfig } from '../config';
 import Section, { SectionContent } from './';
-import { Heading, Text, Feature, List, ListItem, Gallery, Branding, Cards, Card, CardCol, CardStep, Button, Info, InfoCol } from '../library';
+import { Heading, RichText, Text, Feature, List, ListItem, Gallery, Branding, Cards, Card, CardCol, CardStep, Button, Info, InfoCol } from '../library';
 import img from '../../assets/img/img-feature.jpg';
 import coverImg from '../../assets/img/bg-hero.jpg';
 import galleryImg from '../../assets/img/img-gallery.jpg';
@@ -15,7 +15,7 @@ const SectionStages = ({ config, ...props }) => (
 
         <Feature image={img} symbol="01" inversed full>
           <Heading h2 title={config.translate(props.name)('stage01.title')} />
-          <Text>{config.translate(props.name)('stage01.text')}</Text>
+          <RichText text={config.translate(props.name)('stage01.text')} />
         </Feature>
 
         <Gallery images={{
@@ -29,12 +29,12 @@ const SectionStages = ({ config, ...props }) => (
           },
           third: {
             image: galleryImg,
-            text: <Text>{config.translate(props.name)('stage01.gallery.third')}</Text>
+            text: <RichText text={config.translate(props.name)('stage01.gallery.third')} />
           }
         }} />
 
         <Card center>
-          <Text>{config.translate(props.name)('stage01.card')}</Text>
+          <RichText text={config.translate(props.name)('stage01.card')} />
         </Card>
       </SectionContent>
     </Section>
@@ -43,24 +43,24 @@ const SectionStages = ({ config, ...props }) => (
       <SectionContent container background="gray">
         <Feature image={img} symbol="02" full>
           <Heading h2 title={config.translate(props.name)('stage02.title')} />
-          <Text>{config.translate(props.name)('stage02.text')}</Text>
+          <RichText text={config.translate(props.name)('stage02.text')} />
         </Feature>
 
         <Cards>
           <CardStep number="1">
-            <Text>{config.translate(props.name)('stage02.step01')}</Text>
+            <RichText text={config.translate(props.name)('stage02.step01')} />
           </CardStep>
           <CardStep number="2">
-            <Text>{config.translate(props.name)('stage02.step02')}</Text>
+            <RichText text={config.translate(props.name)('stage02.step02')} />
           </CardStep>
           <CardStep number="3">
-            <Text>{config.translate(props.name)('stage02.step03')}</Text>
+            <RichText text={config.translate(props.name)('stage02.step03')} />
           </CardStep>
         </Cards>
 
         <Info vcenter>
           <InfoCol cols={8}>
-            <Text>{config.translate(props.name)('stage02.info01.text')}</Text>
+            <RichText text={config.translate(props.name)('stage02.info01.text')} />
           </InfoCol>
           <InfoCol cols={4}>
             <Button label={config.translate(props.name)('stage02.info01.cta')} icon="arrow-right" to="/" primary small />
@@ -68,40 +68,40 @@ const SectionStages = ({ config, ...props }) => (
         </Info>
 
         <Branding cover={coverImg} title={config.translate(props.name)('stage02.tips.title')}>
-          <Text>{config.translate(props.name)('stage02.tips.text')}</Text>
+          <RichText text={config.translate(props.name)('stage02.tips.text')} />
           
           <Heading h2 title={config.translate(props.name)('stage02.tips.subtitle')} spacingTop inherit capitalize />
           <List>
             <ListItem>
               <div className="List-item-image"></div>
-              <div className="List-item-title">{config.translate(props.name)('stage02.tips.material01')}</div>
+              <div className="List-item-title"><RichText text={config.translate(props.name)('stage02.tips.material01')} /></div>
             </ListItem>
             <ListItem>
               <div className="List-item-image"></div>
-              <div className="List-item-title">{config.translate(props.name)('stage02.tips.material02')}</div>
+              <div className="List-item-title"><RichText text={config.translate(props.name)('stage02.tips.material02')} /></div>
             </ListItem>
             <ListItem>
               <div className="List-item-image"></div>
-              <div className="List-item-title">{config.translate(props.name)('stage02.tips.material03')}</div>
+              <div className="List-item-title"><RichText text={config.translate(props.name)('stage02.tips.material03')} /></div>
             </ListItem>
             <ListItem>
               <div className="List-item-image"></div>
-              <div className="List-item-title">{config.translate(props.name)('stage02.tips.material04')}</div>
+              <div className="List-item-title"><RichText text={config.translate(props.name)('stage02.tips.material04')} /></div>
             </ListItem>
             <ListItem>
               <div className="List-item-image"></div>
-              <div className="List-item-title">{config.translate(props.name)('stage02.tips.material05')}</div>
+              <div className="List-item-title"><RichText text={config.translate(props.name)('stage02.tips.material05')} /></div>
             </ListItem>
             <ListItem>
               <div className="List-item-image"></div>
-              <div className="List-item-title">{config.translate(props.name)('stage02.tips.material06')}</div>
+              <div className="List-item-title"><RichText text={config.translate(props.name)('stage02.tips.material06')} /></div>
             </ListItem>
           </List>
         </Branding>
 
         <Card center>
           <Heading h2 title={config.translate(props.name)('stage02.card.title')} capitalize />
-          <Text>{config.translate(props.name)('stage02.card.text')}</Text>
+          <RichText text={config.translate(props.name)('stage02.card.text')} />
         </Card>
 
         <Info>
@@ -109,7 +109,7 @@ const SectionStages = ({ config, ...props }) => (
             <Heading h2 title={config.translate(props.name)('stage02.info02.title')} capitalize />
           </InfoCol>
           <InfoCol cols={8}>
-            <Text noSpacing>{config.translate(props.name)('stage02.info02.text')}</Text>
+            <RichText text={config.translate(props.name)('stage02.info02.text')} />
           </InfoCol>
         </Info>
       </SectionContent>
@@ -119,52 +119,52 @@ const SectionStages = ({ config, ...props }) => (
       <SectionContent container>
         <Feature image={img} symbol="03" inversed full>
           <Heading h2 title={config.translate(props.name)('stage03.title')} />
-          <Text>{config.translate(props.name)('stage03.text')}</Text>
+          <RichText text={config.translate(props.name)('stage03.text')} />
         </Feature>
 
         <Cards cols={2}>
           <CardCol>        
             <Card>
-              <Text center>{config.translate(props.name)('stage03.card01')}</Text>
+              <RichText center text={config.translate(props.name)('stage03.card01')} />
             </Card>
           </CardCol>
           <CardCol>          
             <Card>
-              <Text center>{config.translate(props.name)('stage03.card02')}</Text>
+              <RichText center text={config.translate(props.name)('stage03.card02')} />
             </Card>
           </CardCol>
           <CardCol>          
             <Card>
-              <Text center>{config.translate(props.name)('stage03.card03')}</Text>
+              <RichText center text={config.translate(props.name)('stage03.card03')} />
             </Card>
           </CardCol>
           <CardCol>          
             <Card>
-              <Text center>{config.translate(props.name)('stage03.card04')}</Text>
+              <RichText center text={config.translate(props.name)('stage03.card04')} />
             </Card>
           </CardCol>
         </Cards>
 
         <Branding cover={coverImg} title={config.translate(props.name)('stage03.tips.title')}>
-          <Text>{config.translate(props.name)('stage03.tips.text')}</Text>
+          <RichText text={config.translate(props.name)('stage03.tips.text')} />
           
           <Heading h2 title={config.translate(props.name)('stage03.tips.subtitle')} spacingTop inherit capitalize />
           <List>
             <ListItem>
               <div className="List-item-image"></div>
-              <div className="List-item-title">{config.translate(props.name)('stage03.tips.material01')}</div>
+              <div className="List-item-title"><RichText text={config.translate(props.name)('stage03.tips.material01')} /></div>
             </ListItem>
             <ListItem>
               <div className="List-item-image"></div>
-              <div className="List-item-title">{config.translate(props.name)('stage03.tips.material02')}</div>
+              <div className="List-item-title"><RichText text={config.translate(props.name)('stage03.tips.material02')} /></div>
             </ListItem>
             <ListItem>
               <div className="List-item-image"></div>
-              <div className="List-item-title">{config.translate(props.name)('stage03.tips.material03')}</div>
+              <div className="List-item-title"><RichText text={config.translate(props.name)('stage03.tips.material03')} /></div>
             </ListItem>
             <ListItem>
               <div className="List-item-image"></div>
-              <div className="List-item-title">{config.translate(props.name)('stage03.tips.material04')}</div>
+              <div className="List-item-title"><RichText text={config.translate(props.name)('stage03.tips.material04')} /></div>
             </ListItem>
           </List>
         </Branding>
@@ -174,7 +174,7 @@ const SectionStages = ({ config, ...props }) => (
             <Heading h2 title={config.translate(props.name)('stage03.info.title')} capitalize />
           </InfoCol>
           <InfoCol cols={8}>
-            <Text noSpacing>{config.translate(props.name)('stage03.info.text')}</Text>
+            <RichText text={config.translate(props.name)('stage03.info.text')} />
           </InfoCol>
         </Info>
       </SectionContent>
@@ -184,11 +184,11 @@ const SectionStages = ({ config, ...props }) => (
       <SectionContent container background="gray">
         <Feature image={img} symbol="04" full>
           <Heading h2 title={config.translate(props.name)('stage04.title')} />
-          <Text>{config.translate(props.name)('stage04.text')}</Text>
+          <RichText text={config.translate(props.name)('stage04.text')} />
         </Feature>
 
         <Card center>
-          <Text>{config.translate(props.name)('stage04.card.text')}</Text>
+          <RichText text={config.translate(props.name)('stage04.card.text')} />
           <Button label={config.translate(props.name)('stage04.card.cta')} to="/" icon="arrow-right" primary small />
         </Card>
 
@@ -205,7 +205,7 @@ const SectionStages = ({ config, ...props }) => (
             image: galleryImg,
             text: (
               <div>
-                <Text spacingBottom>{config.translate(props.name)('stage04.gallery.third.text')}</Text>
+                <RichText spacingBottom text={config.translate(props.name)('stage04.gallery.third.text')} />
                 <Button label={config.translate(props.name)('stage04.gallery.third.cta')} to="/" primary small />
               </div>                
             ),
@@ -218,41 +218,41 @@ const SectionStages = ({ config, ...props }) => (
       <SectionContent container>
         <Feature image={img} symbol="05" inversed full>
           <Heading h2 title={config.translate(props.name)('stage05.title')} />
-          <Text>{config.translate(props.name)('stage05.text')}</Text>
+          <RichText text={config.translate(props.name)('stage05.text')} />
         </Feature>
 
         <Cards>
           <CardStep number="1">
-            <Text>{config.translate(props.name)('stage05.step01')}</Text>
+            <RichText text={config.translate(props.name)('stage05.step01')} />
           </CardStep>
           <CardStep number="2">
-            <Text>{config.translate(props.name)('stage05.step02')}</Text>
+            <RichText text={config.translate(props.name)('stage05.step02')} />
           </CardStep>
           <CardStep number="3">
-            <Text>{config.translate(props.name)('stage05.step03')}</Text>
+            <RichText text={config.translate(props.name)('stage05.step03')} />
           </CardStep>
         </Cards>
 
         <Branding cover={coverImg} title={config.translate(props.name)('stage05.tips.title')}>
-          <Text>{config.translate(props.name)('stage05.tips.text')}</Text>
+          <RichText text={config.translate(props.name)('stage05.tips.text')} />
           <Heading h1 title={config.translate(props.name)('stage05.tips.indice')} inherit spacing capitalize />
           <Heading h2 title={config.translate(props.name)('stage05.tips.subtitle')} inherit capitalize />
           <List>
             <ListItem>
               <div className="List-item-image"></div>
-              <div className="List-item-title">{config.translate(props.name)('stage05.tips.material01')}</div>
+              <div className="List-item-title"><RichText text={config.translate(props.name)('stage05.tips.material01')} /></div>
             </ListItem>
             <ListItem>
               <div className="List-item-image"></div>
-              <div className="List-item-title">{config.translate(props.name)('stage05.tips.material02')}</div>
+              <div className="List-item-title"><RichText text={config.translate(props.name)('stage05.tips.material02')} /></div>
             </ListItem>
             <ListItem>
               <div className="List-item-image"></div>
-              <div className="List-item-title">{config.translate(props.name)('stage05.tips.material03')}</div>
+              <div className="List-item-title"><RichText text={config.translate(props.name)('stage05.tips.material03')} /></div>
             </ListItem>
             <ListItem>
               <div className="List-item-image"></div>
-              <div className="List-item-title">{config.translate(props.name)('stage05.tips.material04')}</div>
+              <div className="List-item-title"><RichText text={config.translate(props.name)('stage05.tips.material04')} /></div>
             </ListItem>
           </List>
         </Branding>
@@ -262,7 +262,7 @@ const SectionStages = ({ config, ...props }) => (
             <Heading h2 title={config.translate(props.name)('stage05.info.title')} capitalize />
           </InfoCol>
           <InfoCol cols={8}>
-            <Text noSpacing>{config.translate(props.name)('stage05.info.text')}</Text>
+            <RichText text={config.translate(props.name)('stage05.info.text')} />
           </InfoCol>
         </Info>
       </SectionContent>

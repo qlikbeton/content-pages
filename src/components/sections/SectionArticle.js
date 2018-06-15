@@ -7,7 +7,7 @@ const SectionArticle = ({config, ...props}) => (
   <Section name="Article" background="gray">
     <SectionContent container>
       <Card>
-        <RichText text={config.translate(props.name)('text')} />
+        <RichText textLeft text={config.translate(props.name)('text')} />
       </Card>
     </SectionContent>
   </Section>

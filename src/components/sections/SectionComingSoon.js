@@ -8,7 +8,7 @@ const SectionComingSoon = ({ config, ...props }) => (
     <SectionContent container fullHeight>
       <Heading h1 title={config.translate(props.name)('title')} />
       <Heading h2 title={config.translate(props.name)('subtitle')} />
-      <RichText noSpacing wrapper text={config.translate(props.name)('text')} />
+      <RichText wrapper text={config.translate(props.name)('text')} />
 
       <SubscribeForm
         onSubmit={() => console.log('submit')}

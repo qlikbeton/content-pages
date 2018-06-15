@@ -1,7 +1,7 @@
 import React from 'react';
 import { withConfig } from '../config';
 import Section, { SectionContent } from './';
-import { Person, Cards, Card, Heading, Text } from '../library';
+import { Person, Cards, Card, Heading, Text, RichText } from '../library';
 
 const SectionTeam = ({ config, ...props }) => (
   <Section name="Team">
@@ -23,7 +23,7 @@ const SectionTeam = ({ config, ...props }) => (
         </Cards>
       }
 
-      <Text center subtitle noSpacing>{config.translate(props.name)('details')}</Text>
+      <RichText center subtitle text={config.translate(props.name)('details')} />
     </SectionContent>
   </Section>
 );

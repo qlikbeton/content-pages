@@ -2,7 +2,7 @@ import React from 'react';
 import { withConfig } from '../config';
 import Section, { SectionContent } from './';
 import { Heading, RichText, Gallery } from '../library';
-import galleryImg from '../../assets/img/img-gallery.jpg';
+import { galleryImg } from '../../data';
 
 const SectionAdvantages = ({ config, ...props }) => (
   <Section name="Advantages" center background="gray">

@@ -6,6 +6,7 @@ const Card = props => {
   const classNames = ['Card'];
 
   if(props.center) classNames.push('is-text-center');
+  if(props.moreSpacing) classNames.push('has-more-spacing');
   if(props.name) classNames.push(`Card-${props.name}`);
 
   return (

@@ -2,15 +2,34 @@ import teamImg01 from '../assets/img/img-team-01.jpg';
 import teamImg02 from '../assets/img/img-team-02.jpg';
 import teamImg03 from '../assets/img/img-team-03.jpg';
 import teamImg04 from '../assets/img/img-team-04.jpg';
-import historyImg from '../assets/img/img-feature.jpg';
+import historyImg01 from '../assets/img/img-feature.jpg';
+import historyImg02 from '../assets/img/img-feature-02.jpg';
 import coverImg from '../assets/img/bg-hero.jpg';
-import introImg from '../assets/img/img-intro.jpg';
+import brandingImg from '../assets/img/bg-branding.jpg';
+import introAboutImg from '../assets/img/img-intro.jpg';
 import introProjectImg from '../assets/img/img-intro-project.png';
+import introLocationsImg from '../assets/img/img-intro-02.jpg';
+import galleryImg from '../assets/img/img-gallery.jpg';
+import stage01Img from '../assets/img/img-feature-03.jpg';
+import stage02Img from '../assets/img/img-feature-04.jpg';
+import stage03Img from '../assets/img/img-feature-04.jpg';
+import stage04Img from '../assets/img/img-feature-05.jpg';
+import stage05Img from '../assets/img/img-feature-03.jpg';
+import materialImg from '../assets/img/img-feature-03.jpg';
 
 export {
   coverImg,
-  introImg,
-  introProjectImg
+  introAboutImg,
+  introProjectImg,
+  introLocationsImg,
+  galleryImg,
+  brandingImg,
+  stage01Img,
+  stage02Img,
+  stage03Img,
+  stage04Img,
+  stage05Img,
+  materialImg
 };
 
 const translationsFr = {
@@ -557,11 +576,11 @@ export const configFile = {
 export const historyRows = [
   {
     key: 'firstRow',
-    image: historyImg
+    image: historyImg01
   },
   {
     key: 'secondRow',
-    image: historyImg
+    image: historyImg02
   }
 ];
 

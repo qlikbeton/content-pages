@@ -8,7 +8,7 @@ import {
   SectionCTA
 } from '../sections';
 
-import { coverImg, introImg } from '../../data';
+import { coverImg, introLocationsImg } from '../../data';
 
 const LocationsPage = props => (
   <Page name="Locations">
@@ -23,7 +23,7 @@ const LocationsPage = props => (
 
     <SectionIntro
       name="locationsIntro"
-      image={introImg} />
+      image={introLocationsImg} />
 
     <SectionLocations />
 

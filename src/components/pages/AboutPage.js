@@ -11,7 +11,7 @@ import {
   SectionCTA
 } from '../sections';
 
-import { teamMembers, historyRows, coverImg, introImg } from '../../data';
+import { teamMembers, historyRows, coverImg, introAboutImg, brandingImg } from '../../data';
 
 const AboutPage = props => (
   <Page name="About">
@@ -26,7 +26,7 @@ const AboutPage = props => (
 
     <SectionIntro
       name="aboutIntro"
-      image={introImg} />
+      image={introAboutImg} />
 
     <SectionHistory
       name="aboutHistory"
@@ -37,7 +37,7 @@ const AboutPage = props => (
 
     <SectionBranding
       name="aboutBranding"
-      cover={coverImg} />
+      cover={brandingImg} />
 
     <SectionTeam
       name="aboutTeam"

@@ -298,7 +298,213 @@ const translationsFr = {
   },
 
   termsArticle: {
-    text: '<h2>Article 1 - General</h2><p>Lorem ipsum dolor sit amet, <b>consectetur adipiscing elit</b>. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar. In pulvinar eros ut lacus rhoncus, ac porttitor metus malesuada. Donec quis venenatis nulla. Integer mattis orci at placerat porttitor.</p><p>Lorem ipsum dolor sit amet, <b>consectetur adipiscing elit</b>. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar. In pulvinar eros ut lacus rhoncus, ac porttitor metus malesuada. Donec quis venenatis nulla. Integer mattis orci at placerat porttitor.</p><h2>Article 2 - General</h2><p>Lorem ipsum dolor sit amet, <b>consectetur adipiscing elit</b>. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar. In pulvinar eros ut lacus rhoncus, ac porttitor metus malesuada. Donec quis venenatis nulla. Integer mattis orci at placerat porttitor.</p><p>Lorem ipsum dolor sit amet, <b>consectetur adipiscing elit</b>. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar. In pulvinar eros ut lacus rhoncus, ac porttitor metus malesuada. Donec quis venenatis nulla. Integer mattis orci at placerat porttitor.</p>'
+    text: `<h2>Article 1 - Dispositions générales :</h2>
+          <p>1.1. Les présentes conditions générales s’appliquent à toutes les ventes de béton, mortiers, adjuvants et
+                d’une manière générale à tous les produits commercialisés via le site www.qlikbeton.be (le « Site
+                Internet ») par Qlikbeton SPRL, ayant son siège social Avenue Robert Schuman 71, 1401 Nivelles et
+                enregistrée auprès de la Banque-Carrefour des Entreprises (RPM Nivelles) sous le numéro 678.938.236
+                et avec comme numéro de TVA BE0678938236 (ci-après « le Vendeur ») en ce compris les prestations de
+                services de toute nature.</p>
+          <p>1.2. Toute commande passée à notre société implique l’acceptation entière et sans réserve du Client des
+                  présentes conditions générales de vente et toute condition contraire posée par le Client, notamment
+                  dans ses conditions générales d’achat, sera donc inopposable, à défaut d’acceptation expresse et écrite
+                  du Vendeur, quel que soit le moment où elle sera portée à sa connaissance. Le fait que le Vendeur ne se
+                  prévale pas, à un moment donné, de l’une quelconque des présentes conditions générales de vente, ne
+                  peut être interprété comme valant renonciation à se prévaloir ultérieurement de l’une quelconque des
+                  dites conditions.</p>
+          <p>1.3. Aucune convention entre le Client et sa propre Clientèle ou un tiers n’est opposable au Vendeur.</p>
+          <p>1.4. A défaut de contrat spécifique, le contrat de vente est constitué par la confirmation d'une
+                  commande par le Vendeur via un message de confirmation ("bon de livraison"). </p>  
+          <p>1.5. La nullité d’une clause, même partielle, n’entraîne pas la nullité de la partie de clause subsistante.</p>
+          <p>1.6. En passant une commande, le Client reconnait avoir pris connaissance de la politique de protection
+                  de la vie privée du Vendeur qui est consultable sur le Site Internet ou en cliquant ici. </p>      
+          <h2>Article 2 - Commandes:</h2>
+          <p>2.1. Lors de commandes effectuées en ligne, les informations fournies par le Client, lors de la commande,
+                  engagent le Client. En aucun cas, le Vendeur ne peut être tenu responsable des erreurs commises par le
+                  Client lors de l'encodage des coordonnées du destinataire de la commande. Le Vendeur ne peut pas non
+                  plus être responsable des retards ou de l'impossibilité de livraison suites aux erreurs du Client.</p>
+          <p>2.2. Le Client peut revoir et modifier les données qu'il a fournies au Vendeur, à tout moment, avant de
+                  passer la commande. Les commandes passées par le Client constituent une offre irrévocable de conclure
+                  un contrat de vente. Les commandes ne peuvent, toutefois, être passées et envoyées que si le Client
+                  accepte les présentes conditions.</p>
+           <p>2.3. Quand le Client aura passé sa commande auprès du Vendeur, il recevra un message électronique
+                   accusant réception de la commande et spécifiant ses détails (le bon de livraison). Un contrat de vente
+                   n’est conclu que lorsque le Client a validé sa commande sur le Site Internet et aura reçu un bon de
+                   livraison. Le Vendeur se réserve le droit de refuser une commande en cas de litige pré-existant avec le
+                   Client, de non-paiement total ou partiel d'une commande précédente ou de refus d'autorisation de
+                   paiement par l'organisme bancaire concerné.</p>
+           <p>2.4. Le béton acheté sera livré après réception du paiement du montant total. Le client reçoit un e-mail
+                   de confirmation avec le récapitulatif de la commande, la facture pro forma, ainsi que quelques conseils
+                   d’utilisation pour le béton. Dans un second temps, le service clientèle Qlikbeton confirmera également la
+                   prise de commande téléphoniquement. Une troisième prise de contact suivra le jour de la livraison pour
+                   confirmer l’heure de livraison.</p>
+           <p>2.5. Pour ce qui est du suivi de la commande, le Client peut prendre contact avec le service Qlikbeton par
+                   e-mail à l’adresse: info@qlikbeton.be.</p>
+           <p>2.6. Modification ou annulation de la commande : Toute modification (partielle ou totale), de la
+                   commande demandée par le Client ne peut être opposable au Vendeur qu’après confirmation écrite de
+                   sa part. Le Client pourra néanmoins demander une modification de quantité portant sur un solde de
+                   commande correspondant au maximum à un camion, ce sans confirmation écrite préalable du Vendeur,
+                   pour autant que cette modification lui soit communiquée avant la mise en production de la quantité
+                   concernée. Les frais pouvant être occasionnés par la modification ou l’annulation d’une commande
+                   seront intégralement et de plein droit répercutés sur le Client.</p>
+           <p>2.7. Pas d'application du droit de rétractation: les produits du Vendeur étant des biens susceptibles de se
+                   périmer rapidement, et/ou qui par leur nature sont mélangés de manière indissociable avec d'autres
+                   articles et/ou qui sont confectionnés selon les spécifications du client-consommateur, le Client ne
+                   bénéficie pas d'un droit de rétraction sur les produits du Vendeur.</p>
+          <h3>Article 3 - Livraisons:</h3>
+          <p>3.1. L'heure et la date de livraison dépendent de la disponibilité des matériaux. La livraison sera
+                  effectuée conformément à la date et l'heure choisie par le Client lors de la commande sur le Site
+                  Internet.</p>
+          <p>3.2. Modalités. a) Pour les ventes rendues sur chantier, le lieu de déchargement devra être clairement
+                  signalé et accessible par la voie publique, ou par une voie carrossable mise à disposition par le Client. </p>
+          <p>b) Le Client doit prendre en charge la direction et la responsabilité des manœuvres d’accès et de
+                circulation sur le chantier. Il appartiendra au Client de prendre toutes les dispositions afin que les
+                véhicules du Vendeur puissent circuler et être déchargés immédiatement sans risque pour le personnel,
+                le matériel et les installations ainsi que pour les tiers dont la présence sur le chantier est justifiée ou non.
+                Le Vendeur décline toute responsabilité en cas de dommages matériels causés par un de ses véhicules
+                lors des manœuvres sur une voie d’accès et/ou du lieu de déchargement non approprié ou en cas
+                d’utilisation du véhicule par une personne étrangère à sa société. Le Client doit en outre demander
+                auprès des autorités compétentes toutes les autorisations de circulation, stationnement et occupation
+                de voirie nécessaires pour permettre l’accès au chantier et la livraison des produits. En cas de présence
+                de lignes électriques, le Client est tenu de faire une déclaration d’intention de commencement de
+                travaux à proximité d’ouvrages électriques auprès des services locaux de distributeurs d’électricité. Si un
+                déchargement par tapis ou par pompe à béton est prévu à proximité de lignes électriques aériennes, le
+                Client doit garantir la mise hors tension et obtenir une attestation de mise hors tension. Le Vendeur ne
+                peut être tenu responsable d’un quelconque incident en lien avec les installations électriques se
+                trouvant sur ou à proximité du site du Client, ce dernier assumant une responsabilité exclusive à cet régard. </p>
+          <p>c) Le Client doit s'assurer de la préparation et de la protection correcte des surfaces destinées à accueillir
+                la livraison, et assure sous sa responsabilité exclusive toutes les opérations de mise en oeuvre, à l'entière
+                décharge du Vendeur. Le Client doit veiller à ce que les biens avoisinants, les écoulements, les égouts
+                soient bien protégés afin d'éviter qu'ils ne puissent être endommagés et/ou bouchés. Le Client indique
+                sur le chantier un endroit où les mixeurs et les pompes peuvent être nettoyés et où l'éventuel excédent
+                de béton peut être déversé.</p>
+          <p>d) Le Vendeur n'encourt aucune responsabilité pour le fait d'autres intervenants éventuels dans le cadre
+                des opérations de livraison.</p>
+          <p>e) La durée de présence normale d’un camion sur chantier, comprenant le temps d’attente et le temps
+                de déchargement est fixée à 5 minutes par mètre cube. En cas d’immobilisation du véhicule au-delà de
+                ces temps prédéfinis, le Vendeur se réserve le droit de facturer une indemnité de chômage de 1,25 € par
+                minute supplémentaire. Dans le cas où la livraison de béton se réalise avec une pompe, le débit
+                minimum a été calculé à raison de 17 m3/heure. Dans le cas contraire, le pompage sera facturé au taux
+                horaire de 85 € en sus du forfait de la pompe.</p>
+          <p>f) Les livraisons se feront pendant l’horaire normal d’ouverture de la centrale du lundi au vendredi de 7
+                heures (heure de début de chargement) à 17 heures (heure de fin de déchargement). En dehors de ces
+                heures de livraison, le Vendeur est en droit de facturer un supplément. L’heure de livraison est
+                communiquée par le Vendeur à titre purement indicatif.</p>
+          <p>g) Le Vendeur ne livre pas pendant les périodes de congés du bâtiment.</p>
+          <p>3.3. Toute modification ou annulation d'une commande ne pourra être prise en considération par le
+                  Vendeur que dans la mesure où elle concerne des produits standards et a été portée à la connaissance
+                  du Vendeur avant la fabrication du produit. Dans ce cas, toute modification ou annulation entraînera, de
+                  plein droit, une facturation d’une indemnité forfaitaire de 15% du montant de la commande annulée ou modifiée.</p>
+          <h4>Article 4 - Transfert de propriété et de risques:</h4>
+          <p>Le transfert de propriété et des risques s’effectue au moment du déchargement du véhicule.</p>
+          <h5>Article 5 - Réception:</h5>
+          <p>5.1. Le Client devra s’assurer au moment de la livraison de la conformité du produit livré par rapport aux
+                  termes de sa commande. Toutes réclamations portant sur la non-conformité des produits ou concernant
+                  des vices apparents, ne pourront être prises en considération que si elles ont été formulées sur le bon de
+                  livraison en présence d’un représentant de notre société et confirmées par écrit dans les 24 heures de
+                  l’arrivée des produits. La confirmation par écrit doit se faire par courrier recommandé à Qlikbeton SPRL,
+                  Avenue Robert Schuman 71, 1401 Nivelles.</p>
+          <p>5.2. Les quantités reprises sur le bon de livraison font foi, sauf contestation écrite du Client notifiée dans
+                  les 24 heures de la livraison.</p>       
+          <h6>Article 6 - Garantie des Produits:</h6>
+          <p>6.1. A défaut de contrat spécifique, la garantie des produits se limite aux caractéristiques reprises sur le
+                  bon de livraison. Après la livraison des marchandises, le Vendeur sera exclusivement tenu des garanties
+                  résultant des articles 1641 et suivants du Code civil, sous les conditions et dans les limites déterminées
+                  ci-après. Les demandes d’indemnisation basées sur l’existence de vices cachés doivent être signalées par
+                  courrier recommandé dans une période de quinze (15) jours suivant la date de livraison. Passé cette
+                  période, il ne sera plus donné de suites à toute demande indemnitaire généralement quelconque basée
+                  sur l’existence de vices cachés. Si la demande est introduite sur base des garanties légales pendant la
+                  période autorisée, le Client pourra demander le remboursement du prix ou demander de procéder au
+                  remplacement partiel ou intégral des produits défectueux. La vente pourra seulement être résolue à la
+                  demande du Client si le(s) vice(s) caché(s) ou le défaut de conformité rend(ent) un remplacement partiel
+                  ou complet impossible. Sauf si le Vendeur connaissait les vices, dans l’hypothèse où la vente est résolue,
+                  le Client ne pourra prétendre à une indemnité quelconque autre que l'indemnité prévue par le présent article.</p>
+          <p>6.2. Le Vendeur ne pourra pas être tenu responsable en cas de modification de ses produits à l’initiative
+                  du Client notamment par ajout d’eau ou incorporation d’autres produits.</p>
+          <p>6.3 Le Vendeur ne garantit pas le caractère normalisé de ses produits dans l’hypothèse d’un ajout de
+                 quelque nature que ce soit effectué par ou à la demande du Client.</p>
+          <p>6.4. Sauf stipulation contraire, le Vendeur ne garantit pas les caractéristiques du produit dans le cadre et
+                  à partir de la prise de livraison ou de la mise en oeuvre. Il en résulte notamment que le Vendeur ne
+                  garantit pas des caractéristiques telles que le début et la fin de la prise, le début du durcissement,
+                  l'absence de fissuration, la couleur, et qu’il appartient entre autres au Client d’assurer la protection
+                  immédiate contre les conditions atmosphériques (vent, soleil, pluie, gel, etc.) conformément à la norme NBN EN 13670.</p>
+          <p>6.5. Les résultats de contrôle effectués à la demande du Client ne peuvent être opposés au Vendeur que
+                  s’ils portent sur des prélèvements contradictoires effectués au moment de la livraison et exécutés avec
+                  son accord avant tout ajout. Pour les bétons normalisés, les prélèvements se feront conformément aux
+                  prescriptions de la Norme NBN EN 206 et la NBN B15-001.</p> 
+          <p>6.6. La responsabilité du Vendeur ne saurait être engagée si le Client passe commande d’un produit dont
+                  les caractéristiques sont différentes de celles qui lui sont prescrites ou imposées par un cahier des
+                  charges public ou privé ou tout autre document auquel le Client est soumis dans le cadre du chantier.</p> 
+          <p>6.7. Les produits normalisés du Vendeur sont conformes aux spécifications telles que définies par la
+                  Norme NBN EN 206 et la NBN B15-001.</p>
+          <p>6.8. Le Vendeur agit uniquement en tant que fournisseur de produit, avec la responsabilité limitée de
+                  livrer un produit conforme à sa description et à fournir une information en lien avec cette obligation ; il
+                  n’intervient en aucun cas en tant qu’entreprise de construction ou d’étude ou en qualité de sous-traitant
+                  dans le cadre des chantiers sur lesquels il effectue ses livraisons quand bien même certains documents
+                  afférents auxdits chantiers lui auraient été communiqués. Le choix de la classe d’environnement et du
+                  type de béton incombant au Client, la responsabilité du Vendeur ne pourrait être recherchée en cas de
+                  destination ou d’utilisation du produit commandé non conforme à la règle susvisée. Il en serait de même
+                  dans le cas de l’utilisation d’un produit conforme aux caractéristiques convenues mais impropre à l’usage
+                  qui en est fait par le Client.</p>
+          <p>6.9. Les renseignements, fiches produits ou autres documents commerciaux, susceptibles d’être fournis
+                  par le Vendeur, sont de simples conseils de précautions tant sur le produit que sur son domaine
+                  d’utilisation et ne sauraient s’analyser en une garantie de résultat. La mise en oeuvre des produits
+                  relèvera de la seule responsabilité du Client.</p>
+          <p>6.10. Le Vendeur ne peut être tenu responsable des produits entreposés sur ses sites pour le Client.</p> 
+          <p>6.11. Sauf en cas de faute grave du Vendeur, la responsabilité tant contractuelle qu’extracontractuelle
+                   du Vendeur sera en tout état de cause limitée au montant le moins élevé des deux montants suivants : (i)
+                   50.000 EUR ou (ii) le prix de vente. Le Vendeur ne sera en aucun cas responsable pour un quelconque
+                   manque à gagner du Client, l’interruption des activités du Client, pertes d’activités, pertes de clientèle,
+                   coûts financiers, pertes d’intérêts financiers ni pour tout dommage indirect ou immatériel que le Client
+                   viendrait à subir et ce indépendamment du fondement de la demande indemnitaire.</p>                                                         
+          <h7>Article 7 - Précautions d’emploi:</h7>
+          <p>Le Vendeur met en garde les non-professionnels sur le fait que certains constituants du béton peuvent
+             provoquer des désagréments, tels que brûlures, rougeurs ou allergies en cas de contact prolongé avec la
+             peau ou de projections dans les yeux. Il est donc indispensable de porter des équipements de protection
+             pour la mise en oeuvre des produits (bottes, gants, vêtement de travail, lunettes,...). En cas d’irritation,
+             rincer à l’eau abondamment et consulter un médecin.</p>
+          <h8>Article 8 - Prix:</h8>
+          <p>Le prix du béton pour une livraison comptant sera facturé et payé au tarif en vigueur au moment de la
+             passation de la commande, sauf stipulation contraire. Les prix indiqués sur le Site Internet subiront les
+             évolutions des coûts matières et transport. L’unité de vente des bétons et des mortiers est le mètre cube
+             (m3) compacté à refus, sauf stipulation contraire. Les quantités de mortier livrées par tournée sont
+             mesurées par déversement dans des bacs calibrés. Le nombre de mètres cubes inscrit sur les bons de
+             livraison constitue la justification du volume livré et facturé. En cas de vente franco d’un volume inférieur
+             à 7m3, il sera facturé un complément de transport correspondant aux m3 manquants par rapport au
+             volume ci-avant stipulé. Les prix ne comprennent pas les frais d’essais et contrôles particuliers exécutés à
+             la demande du Client, ni les coûts liés aux bétons d’étude et de convenance sauf conditions particulières.</p>
+          <p>Le prix convenu pour une commande ne lie pas le Vendeur pour les commandes ultérieures, même si
+             elles sont destinées au même site de livraison.</p>  
+          <h9>Article 9 - Modalités de règlement:</h9>
+          <p>9.1. A chaque livraison correspond un bon de livraison dont les principaux éléments (prix et quantité)
+                  seront repris sur une facture récapitulative. Seuls les éléments mentionnés sur ce bon de livraison
+                  (qualité, quantité,...) seront retenus en cas de réclamation.</p>
+          <p>9.2. Sauf disposition contraire écrite, les factures sont payables comptant sur le Site Internet au moment
+                  de la commande.</p> 
+          <p>9.3. Le Vendeur n’accorde aucun escompte en cas de paiement anticipé.</p>               
+          <h10>Article 10 - Force majeure:</h10>
+          <p>Le Vendeur ne pourra être tenu pour responsable de l’inexécution totale ou partielle de ses obligations
+             résultant des présentes, si une telle inexécution résulte du cas dit de force majeure ou à des causes
+             indépendantes de sa volonté tel que notamment, émeute, incendie, inondation, grève, gel, difficultés de
+             circulation particulières, difficultés d’approvisionnement, interdiction d’exploiter édictée par une
+             autorité publique.</p>
+          <h11>Article 11 - Clause attributive de juridiction et lois applicables:</h11>
+          <p>L’interprétation et l’exécution des présentes conditions générales de vente, ainsi que de tous actes qui
+             en seront la conséquence, seront exclusivement soumis au droit belge, à l’exclusion de l’application de la
+             Convention de Vienne. Si vous êtes un professionnel, tous les litiges en ce qui concerne l’établissement,
+             la validité, l’interprétation ou l’exécution des présentes conditions générales de vente seront soumis à la
+             compétence exclusive du Tribunal de Commerce de Bruxelles. Si vous êtes un consommateur, tous les
+             litiges en ce qui concerne l’établissement, la validité, l’interprétation ou l’exécution des présentes
+             conditions générales de vente seront soumis à la compétence du tribunal de l'arrondissement judiciaire
+             de votre lieu de résidence ou, si vous êtres la partie demanderesse, vous pouvez également choisir de
+             soumettre le litige au Tribunal de Commerce de Bruxelles.</p>
+          <h12>Article 12 - Dispositions particulières:</h12>
+          <p>Les conditions générales du Vendeur priment sur toutes autres conditions contractuelles générales ou
+             particulières du Client. Elles priment également sur toutes versions précédentes des conditions générales
+             du Vendeur, même celles qui seraient encore en circulation parallèlement ou postérieurement à la
+             diffusion des présentes conditions générales (du 18.04.2018). Si vous désirez nous contacter, veuillez
+             nous écrire à l'adresse suivante: Qlikbeton SPRL, Avenue Robert Schuman 71, 1401 Nivelles, ou nous
+             envoyer un email à l'adresse: [info@qlikbeton.be] </p>`
   },
 
   termsCTA: {
@@ -308,9 +514,9 @@ const translationsFr = {
 
 const translationsNl = {
   header: {
-    contactUs: 'Contact US',
+    contactUs: 'Neem contact met ons',
     phoneNumber: '0800 14 245',
-    openingDays: 'Mon-Fri',
+    openingDays: 'MAAN-VRIJ',
     openingHours: '9:00-17:00',
     calculator: 'Calc',
     faq: 'FAQ',
@@ -321,29 +527,29 @@ const translationsNl = {
     title: 'Coming Soon',
     subtitle: 'Deze pagina komt binnenkort!',
     text: 'We doen er alles aan, om u in nabije toekomst, u van een hoogwaarde inhoud te voorzien.<br>Deze zal binnenkort beschikbaar zijn.',
-    placeholder: 'Your Email',
-    submit: 'Notify Me'
+    placeholder: 'Jouw email',
+    submit: 'Verwittigen mij'
   },
 
   aboutHero: {
-    title: 'Who we are?',
-    text: 'Discover on this page the history and the mission of Qlikbeton.be, and get to know the whole team!'
+    title: 'Wie zijn wij?',
+    text: 'Ontdek op deze pagina de geschiedenis en de missie van Qlikbeton.be en maak kennis met het hele team!'
   },
 
   aboutIntro: {
-    title: 'Intro Section',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar. In pulvinar eros ut lacus rhoncus, ac porttitor metus malesuada. Donec quis venenatis nulla. Integer mattis orci at placerat porttitor.'
+    title: 'Intro Sectie',
+    text: 'Ontdek op deze pagina de geschiedenis en de missie van Qlik Beton.be en maak kennis met het hele team!'
   },
 
   aboutHistory: {
-    title: 'History Section',
+    title: 'Historie Sectie',
     subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue.',
     firstRow: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar. In pulvinar eros ut lacus rhoncus, ac porttitor metus malesuada. Donec quis venenatis nulla. Integer mattis orci at placerat porttitor.',
     secondRow: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar. In pulvinar eros ut lacus rhoncus, ac porttitor metus malesuada. Donec quis venenatis nulla. Integer mattis orci at placerat porttitor.'
   },
 
   aboutBenefits: {
-    title: 'Benefits Section',
+    title: 'Voordelen Sectie',
     firstCardFirstRow: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
     firstCardSecondRow: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar.',
     secondCardFirstRow: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar.',
@@ -352,28 +558,28 @@ const translationsNl = {
   },
 
   aboutBranding: {
-    title: 'Branding Section',
+    title: 'Branding Sectie',
     text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
   },
 
   aboutTeam: {
-    title: 'Team Section',
+    title: 'Team Sectie',
     subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
     details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue.',
     jann: {
-      title: 'Fondateur et administrateur',
+      title: 'Oprichter en beheerder',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
     },
     eric: {
-      title: 'Fondateur et administrateur',
+      title: 'Oprichter en beheerder',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
     },
     jeanMarie: {
-      title: 'Fondateur et administrateur',
+      title: 'Oprichter en beheerder',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
     },
     michelJessica: {
-      title: 'Fondateur et administrateur',
+      title: 'Oprichter en beheerder',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
     }
   },
@@ -521,8 +727,8 @@ const translationsNl = {
     },
 
   contactHero: {
-    title: 'Qui sommes nous?',
-    text: 'Découvrez sur cette page l\'historie et la mission\n\n de Qlikbeton.be, et faites connaissance avec toute l\'équipe!'
+    title: 'Wie zijn wij?',
+    text: 'Découvrez sur cette page l\'historie et la mission de Qlikbeton.be, et faites connaissance avec toute l\'équipe!'
   },
 
   contactDetails: {

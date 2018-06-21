@@ -58,23 +58,23 @@ const translationsFr = {
 
   aboutIntro: {
     title: 'Notre mission',
-    text: '<p>Que vous soyiez particulier ou professionnel, vous pouvez désormais commander votre béton en ligne sur Qlikbeton ! Vous pouvez donc vous faire livrer du béton directement sur votre chantier partout en Belgique !</p>'
+    text: '<p>Que vous soyez particulier ou professionnel, vous pouvez désormais commander votre béton en ligne sur Qlikbeton.be ! Vous pouvez donc vous faire livrer du béton directement sur votre chantier partout en Belgique !</p>'
   },
 
   aboutHistory: {
     title: 'Historique',
     subtitle: 'Qlikbeton est une start-up née en janvier 2017 suite à une rencontre entre des professionnels du web et des professionnels du bâtiment.',
-    firstRow: '<p>Suite à cette collaboration la commande de béton prend une nouvelle dimension. Qlikbeton est une plateforme belge de vente de béton en ligne qui regroupe différentes centrales à béton sur la même plateforme. Cela vous permet de placer votre commande rapidement et facilement, en 5 étapes, ou que vous soyez, en payant de manière sécurisée. Tout cela à des prix variables en fonction des heures de livraison !</p>',
+    firstRow: '<p>Suite à cette collaboration la commande de béton prend une nouvelle dimension. Qlikbeton.be est site e-commerce belge de vente de béton en ligne qui regroupe différentes centrales à béton sur la même plateforme. Cela vous permet de placer votre commande rapidement et facilement, en 5 étapes, ou que vous soyez, en payant de manière sécurisée. Tout cela à des prix variables en fonction des heures de livraison !</p>',
     secondRow: '<p>Après une première version test, une V2 est mise en ligne au mois d’octobre 2017, proposant plus de fonctionnalités. En avril 2018, la V3 est lancée. Grâce à cette version, il est encore plus facile de commander son béton en ligne. La plateforme compte désormais 9 partenaires couvrant une grande partie de la Belgique avec plus de 30 centrales à béton au total !</p>'
   },
 
   aboutBenefits: {
     title: 'Pourquoi commander sur Qlikbeton ?',
     firstCardFirstRow: 'Commander du béton en ligne ? Cela vous semble impossible ? Plus maintenant !',
-    firstCardSecondRow: 'Qlikbeton est la première plateforme en Belgique à proposer ce service. Plus besoin de vous rendre en centrale ou d’attendre que la centrale ouvre pour passer un coup de fil ! Dorénavant, vous pouvez commander votre béton en soirée dans votre fauteuil ou en déplacement depuis votre smartphone.',
-    secondCardFirstRow: 'Même si vous ne connaissez rien au béton, Qlikbeton vous guide vers le béton adéquat pour votre projet en seulement 5 étapes. Répondez aux différentes questions et nous nous chargeons du reste ! Au contraire le béton n’a pas de secrets pour vous ? Qlikbeton vous propose alors une commande rapide pour aller plus vite !',
+    firstCardSecondRow: 'Qlikbeton.be est la première plateforme en Belgique à proposer ce service. Plus besoin de vous rendre en centrale ou d’attendre que la centrale ouvre pour passer un coup de fil ! Dorénavant, vous pouvez commander votre béton en soirée dans votre fauteuil ou en déplacement depuis votre smartphone.',
+    secondCardFirstRow: 'Même si vous ne connaissez rien au béton, Qlikbeton.be vous guide vers le béton adéquat pour votre projet en seulement 5 étapes. Répondez aux différentes questions et nous nous chargeons du reste ! Au contraire le béton n’a pas de secrets pour vous ? Qlikbeton.be vous propose alors de choisir votre référence de béton pour aller plus vite !',
     secondCardSecondRow: '',
-    thirdCardFirstRow: 'Après votre commande, nos spécialistes vous contactent par téléphone pour vérifier tous les détails. Ils prennent alors contact avec la centrale partenaire sélectionnée pour organiser votre livraison ! Vous n’avez rien à faire !'
+    thirdCardFirstRow: 'Après avoir passé commande, nos spécialistes vous contactent directement par téléphone pour vérifier avec vous tous les détails. Ils organisent alors la livraison avec la centrale à béton partenaire sélectionnée et vous confirment l heure exacte ! Vous n’avez rien à faire !'
   },
 
   aboutBranding: {
@@ -92,7 +92,7 @@ const translationsFr = {
     },
     eric: {
       title: '',
-      description: 'Eric est le responsable du site web. Fort de son expérience en e-commerce et en marketing, il met tout en œuvre pour améliorer le site et faciliter la prise de commande en ligne.',
+      description: 'Eric est le responsable du site web. Fort de son expérience en e-commerce et en marketing, il met tout en œuvre pour améliorer et faire connaitre le site, mais aussi faciliter la prise de commande en ligne.',
     },
     jeanMarie: {
       title: '',
@@ -105,13 +105,13 @@ const translationsFr = {
   },
 
   aboutCTA: {
-    cta: 'Call To Action'
+    cta: 'Contactez nous'
   },
 
   projectHero: {
     title: 'Fondation en béton',
-    text: '<p>Découvrez sur cette page l\'historie et la mission de Qlikbeton.be, et faites connaissance avec toute l\'équipe!</p>',
-    cta: 'Call To Action Fr'
+    text: '<p>Vous avez un projet de fondation en béton ? Lisez dès à présent nos conseils !</p>',
+    cta: 'Je commande mon béton'
   },
 
   projectIntro: {
@@ -150,7 +150,7 @@ const translationsFr = {
       step03: '<p><b>Nivelez le sol</b> de votre fouille et <b>damez-le</b> avec une dameuse.</p>',
       info01: {
         text: `<p>Pour un résultat parfaitement propre et plane et si votre sol le permet, <b>prévoyez un béton de propreté.</b> L’objectif? Eviter que les armatures de votre ferraillage ne trempent dans la boue. Commandez-le maintenant en ligne et recevez-le dans les 48 heures sur votre chantier, au moment qui vous convient, prêt à être coulé et avec le dosage adapté à vos besoins.</p>`,
-        cta: 'Commande'
+        cta: 'Je commande'
       },
       tips: {
         title: 'Nos conseils en un Qlik',
@@ -210,7 +210,7 @@ const translationsFr = {
         second: 'DIY indice: 10/10',
         third: {
           text: `<p>De quel volume avez-vous besoin pour votre fondation? Vous aurez la réponse en quelques secondes grâce à notre module de calcul. Même chose pour le choix votre béton : vous obtiendrez immédiatement la référence du béton adaptée à votre projet. </p>`,
-          cta: 'Calculator'
+          cta: 'Calculateur'
         }
       }
     },
@@ -247,44 +247,44 @@ const translationsFr = {
   },
 
   contactHero: {
-    title: 'Qui sommes nous?',
-    text: '<p>Découvrez sur cette page l\'historie et la mission de Qlikbeton.be, et faites connaissance avec toute l\'équipe!</p>'
+    title: 'Contactez nous !',
+    text: '<p>Comment nous contacter facilement et rapidement ? Par téléphone, par email, via le chat en ligne ou grâce au formulaire ci-dessous !</p>'
   },
 
   contactDetails: {
-    contactUs: 'Contact Us',
-    opening: 'MON - FRI (9:00-17:00)',
-    phoneNumber: '0800-14-245',
+    contactUs: 'Chat en ligne',
+    opening: 'LUN - VEN (9:00-17:00)',
+    phoneNumber: '0800/14 245',
     freeCall: 'Appel gratuit',
     callSupport: 'Appeler Maintenant'
   },
 
   contactForm: {
-    title: 'Contact Us',
-    formName: 'First / Last Name',
-    placeholderName: 'Your First / Last Name',
+    title: 'Formulaire de contact',
+    formName: 'Nom/Prénom',
+    placeholderName: 'Votre nom',
     formEmail: 'Email',
-    placeholderEmail: 'Your Email',
-    formSubject: 'Subject',
-    placeholderSubject: 'Your Subject',
+    placeholderEmail: 'Votre adresse email',
+    formSubject: 'Sujet',
+    placeholderSubject: 'Sujet',
     formMessage: 'Message',
-    attachFile: 'Attach file',
-    placeholderMessage: 'Your Message',
-    formSubmit: 'Send Message'
+    attachFile: 'Attacher un fichier',
+    placeholderMessage: 'Votre message',
+    formSubmit: 'Envoyer'
   },
 
   contactCTA: {
-    cta: 'Call To Action'
+    cta: 'Contactez nous'
   },
 
   locationsHero: {
-    title: 'Concrete Foundation',
-    text: '<p>Découvrez sur cette page l\'historie et la mission de Qlikbeton.be, et faites connaissance avec toute l\'équipe!</p>',
+    title: 'Les centrales partenaires',
+    text: '<p>Retrouvez sur cette page toutes les centrales à béton partenaires de la plateforme Qlikbeton.be</p>',
     cta: 'Call To Action En'
   },
 
   locationsIntro: {
-    title: 'Intro Section',
+    title: 'Il y a toujours un partenaire près de chez vous',
     text: '<p>Chez Qlikbeton.be, nous cherchons à pouvoir vous livrer où que vous habitiez en Belgique ! Voilà pourquoi nous avons développé un réseau de centrales à béton partenaires à travers tout le pays. Découvrez les sur la carte interactive ci-dessous. Cette carte n&#39;est pas figée car nous travaillons constamment à l&#39;ajout de nouveaux partenaires.</p>'
   },
 
@@ -293,8 +293,8 @@ const translationsFr = {
   },
 
   termsHero: {
-    title: 'Concrete Foundation',
-    text: '<p>Découvrez sur cette page l\'historie et la mission de Qlikbeton.be, et faites connaissance avec toute l\'équipe!</p>'
+    title: 'Conditions générales de vente',
+    text: '<p>Vous trouverez ci-dessous les conditions générales de vente de Qlikbeton.be!</p>'
   },
 
   termsArticle: {
@@ -526,7 +526,7 @@ const translationsNl = {
   homeComingSoon: {
     title: 'Coming Soon',
     subtitle: 'Deze pagina komt binnenkort!',
-    text: 'We doen er alles aan, om u in nabije toekomst, u van een hoogwaarde inhoud te voorzien.<br>Deze zal binnenkort beschikbaar zijn.',
+    text: 'We doen er alles aan, om u in nabije toekomst, u van een hoogwaarde inhoud te voorzien. Deze zal binnenkort beschikbaar zijn.',
     placeholder: 'Jouw email',
     submit: 'Verwittigen mij'
   },
@@ -567,7 +567,7 @@ const translationsNl = {
     subtitle: 'Qlikbeton bestaat uit een team van 5 personen gelegen in Nijvel.',
     details: '',
     jann: {
-      title: 'oprichter en directeur',
+      title: 'Oprichter en directeur',
       description: 'Afkomstig uit Zwitserland , vooralheer hij met Qlikbeton starte heeft hij jarenlang voor een internationale bedrijf gespecialiseerd in bouwmaterialen gewerkt.',
     },
     eric: {
@@ -585,13 +585,13 @@ const translationsNl = {
   },
 
   aboutCTA: {
-    cta: 'Call To Action'
+    cta: 'Contacteer Ons'
   },
 
     projectHero: {
-        title: 'Fondation en béton',
-        text: `<p>Découvrez sur cette page l\'historie et la mission de Qlikbeton.be, et faites connaissance avec toute l\'équipe!</p>`,
-        cta: 'Call To Action Fr'
+        title: 'Betonfundering',
+        text: `<p>U hebt een funderingsproject ? Lees nu onze tips !</p>`,
+        cta: 'Beton bestellen'
     },
 
     projectIntro: {
@@ -630,7 +630,7 @@ const translationsNl = {
             step03: '<p>Nivelleer de grond van uw bouwput en stamp hem aan met een trilplaat.</p>',
             info01: {
                 text: `<p>Als uw bodem het toelaat, <b>voorzie dan een zuiverheidsbeton</b> om een perfect schoon en vlak resultaat te bekomen. Het doel van zo’n beton? Voorkomen dat uw wapening in de modder komt te zitten. Bestel uw zuiverheidsbeton nu online en ontvang het binnen 48 uur op uw werf. Stortklaar, op het moment dat u het beste past,  en met een op uw bouwproject afgestemde samenstelling.</p>`,
-                cta: 'Bestel'
+                cta: 'Bestellen'
             },
             tips: {
                 title: 'Ons advies in een Qlik',
@@ -727,30 +727,30 @@ const translationsNl = {
     },
 
   contactHero: {
-    title: 'Wie zijn wij?',
-    text: '<p>Découvrez sur cette page l\'historie et la mission de Qlikbeton.be, et faites connaissance avec toute l\'équipe!</p>'
+    title: 'Contact',
+    text: '<p>Verschillende manieren om ons te bereiken</p>'
   },
 
   contactDetails: {
-    contactUs: 'Contact Us',
-    opening: 'MON - FRI (9:00-17:00)',
-    phoneNumber: '0800-14-245',
-    freeCall: 'Appel gratuit',
-    callSupport: 'Appeler Maintenant'
+    contactUs: 'Webchat',
+    opening: 'MAAN - VRIJ (9:00-17:00)',
+    phoneNumber: '0800/14 245',
+    freeCall: 'Gratisnummer',
+    callSupport: 'Bel ons maar!'
   },
 
   contactForm: {
-    title: 'Contact Us',
-    formName: 'First / Last Name',
-    placeholderName: 'Your First / Last Name',
+    title: 'Contact formulier',
+    formName: 'Naam/Voornaam',
+    placeholderName: 'Naam/Voornaam',
     formEmail: 'Email',
-    placeholderEmail: 'Your Email',
-    formSubject: 'Subject',
-    placeholderSubject: 'Your Subject',
-    formMessage: 'Message',
+    placeholderEmail: 'Uw Email',
+    formSubject: 'Onderwerp',
+    placeholderSubject: 'Onderwerp',
+    formMessage: 'Inhoud',
     attachFile: 'Attach file',
-    placeholderMessage: 'Your Message',
-    formSubmit: 'Send Message'
+    placeholderMessage: 'Inhoud',
+    formSubmit: 'Sturr door'
   },
 
   contactCTA: {
@@ -758,14 +758,14 @@ const translationsNl = {
   },
 
   locationsHero: {
-    title: 'Concrete Foundation',
-    text: '<p>Découvrez sur cette page l\'historie et la mission de Qlikbeton.be, et faites connaissance avec toute l\'équipe!</p>',
+    title: 'Onze betoncentralen partners',
+    text: '<p>Op deze pagina vindt u alle beton partners van het platform Qlikbeton.be</p>',
     cta: 'Call To Action En'
   },
 
   locationsIntro: {
-    title: 'Intro Section',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien elit, tempus et turpis sed, dictum fermentum augue. Nam interdum leo finibus, pulvinar nibh vel, sodales metus. Sed imperdiet a diam quis pulvinar. In pulvinar eros ut lacus rhoncus, ac porttitor metus malesuada. Donec quis venenatis nulla. Integer mattis orci at placerat porttitor.'
+    title: 'Er is altijd een partner in u buurt',
+    text: 'Qlikbeton.be probeert u over heel belgie te leveren. Daarom hebben we een grote netwerk over het hele land ontwikkeld. Ontdek ze op de interactive kaart hieronder. Deze kaart staat niet vast omdat we constant bezig zijn met het toevoegen van nieuwe partners.'
   },
 
   locationsCTA: {
@@ -773,8 +773,8 @@ const translationsNl = {
   },
 
   termsHero: {
-    title: 'Concrete Foundation',
-    text: '<p>Découvrez sur cette page l\'historie et la mission de Qlikbeton.be, et faites connaissance avec toute l\'équipe!</p>'
+    title: 'Verkoopsvoorwaarden',
+    text: '<p>Qlikbeton.be verkoopsvoorwaarden</p>'
   },
 
   termsArticle: {

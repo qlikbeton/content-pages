@@ -24,12 +24,8 @@ const ContactPage = props => (
     <SectionContactDetails
       name="contactDetails" />
 
-    <SectionContactForm 
+    <SectionContactForm
       name="contactForm" />
-      
-    <SectionCTA
-      name="contactCTA"
-      to="/" />
   </Page>
 );
 

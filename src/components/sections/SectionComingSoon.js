@@ -10,11 +10,6 @@ const SectionComingSoon = ({ config, ...props }) => (
       <Heading h2 title={config.translate(props.name)('subtitle')} />
       <RichText wrapper text={config.translate(props.name)('text')} />
 
-      <SubscribeForm
-        onSubmit={() => console.log('submit')}
-        input="email"
-        placeholder={config.translate(props.name)('placeholder')}
-        submit={config.translate(props.name)('submit')} />
     </SectionContent>
   </Section>
 );

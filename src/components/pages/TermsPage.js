@@ -17,10 +17,6 @@ const TermsPage = props => (
 
     <SectionArticle
       name="termsArticle" />
-
-    <SectionCTA
-      name="termsCTA"
-      to="/" />
   </Page>
 );
 
